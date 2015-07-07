@@ -1,0 +1,3 @@
+<exec command="gradle">
+    <arg>clean</arg>
+</exec>

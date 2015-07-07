@@ -1,0 +1,4 @@
+<exec command="snippet3">
+    <arg>arg1_for_snippet3</arg>
+    <arg>arg2_for_snippet3</arg>
+</exec>

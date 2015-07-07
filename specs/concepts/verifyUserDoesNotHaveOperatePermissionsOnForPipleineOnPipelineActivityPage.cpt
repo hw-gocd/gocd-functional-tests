@@ -1,0 +1,6 @@
+#verify user does not have operate permissions on <defaultStage> for pipleine <P1> on pipeline activity page
+*Looking at pipeline "P1"
+*Click on pipeline name
+*Looking at pipeline with label "1"
+*Verify stage "defaultStage" of pipeline cannot be rerun
+*Verify pipeline cannot be paused

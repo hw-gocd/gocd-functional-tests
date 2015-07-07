@@ -1,0 +1,6 @@
+#Navigate to environment variable tab of stage <stage_1> of pipeline <different_variable_at_environment_pipeline_stage_job>
+*Open "Pipelines" tab
+*Edit pipeline "different_variable_at_environment_pipeline_stage_job"
+*Open stage listing page
+*Open stage "stage_1"
+*Go to environment variables page

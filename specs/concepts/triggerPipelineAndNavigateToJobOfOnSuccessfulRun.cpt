@@ -1,0 +1,5 @@
+#trigger pipeline <different_variable_at_environment_pipeline_stage_job> and navigate to job <job_1> of <stage_1> on successful run <1>
+*Looking at pipeline "different_variable_at_environment_pipeline_stage_job"
+*Trigger pipelines "different_variable_at_environment_pipeline_stage_job" and wait for labels "1" to pass
+*Navigate to stage "stage_1" of run "1"
+*Navigate to job "job_1"

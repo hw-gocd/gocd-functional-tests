@@ -1,0 +1,6 @@
+#verify user can operate stage <defaultStage> for pipeline <P8> from stage details page
+*Looking at pipeline "P8"
+*Navigate to stage "defaultStage" of run "1"
+*Verify rerun is enabled for stage "defaultStage"
+*Go to jobs tab
+*Verify rerun button is enabled

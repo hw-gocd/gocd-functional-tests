@@ -1,0 +1,10 @@
+--- AlreadyOnPackageDetailsPage.java
++++ AlreadyOnPackageDetailsPage.java
+@@ -81,7 +81,7 @@
+ 	}
+ 
+ 	public void verifyMessageIsShown(String message) throws Exception {
+		assertThat(browser.div("form").containsText(message), is(true));
+ 	}
+ 
+ 	public void verifyPipelineWithGroupOnRow(String pipelineName, String groupName, Integer rowNumber) {

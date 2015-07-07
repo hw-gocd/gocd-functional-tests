@@ -1,0 +1,4 @@
+#verify material of type <Package> with name <repo-1:P-1> for pipeline <A1> with counter <5> and modification <0> has unchanged revision <go-server-13.2.0-124-noarch>
+*Looking at material of type "Package" named "repo-1:P-1" for pipeline "A1" with counter "5"
+*Verify modification "0" has revision "go-server-13.2.0-124-noarch"
+*Verify material has not changed

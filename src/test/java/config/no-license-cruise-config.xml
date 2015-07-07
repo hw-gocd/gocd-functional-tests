@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="75">
+  <server artifactsdir="artifacts" secureSiteUrl="https://localhost:8254" serverId="twist"/>
+  <pipelines group="first">
+    <pipeline name="pipeline-ls">
+      <materials>
+        <hg url="$hgurl-up" dest="hg-folder" autoUpdate="false" materialName="hg-material"/>
+      </materials>
+      <stage name="ls-stage">
+        <jobs>
+          <job name="ls-job">
+            <tasks>
+              <exec command="echo" args="'hello'"/>
+            </tasks>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+  </pipelines>
+  <agents>
+    <agent hostname="missing-agent" ipaddress="127.0.0.1" uuid="missing">
+      <resources>
+        <resource>missing</resource>
+      </resources>
+    </agent>
+  </agents>
+</cruise>

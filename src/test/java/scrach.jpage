@@ -1,0 +1,1 @@
+java.util.regex.Matcher m = java.util.regex.Pattern.compile("^(.+)/\\d+/with/(\\d+)\\??.*$").matcher("http://localhost:8153/go/compare/5/6/with/7?autoRefresh=false#");m.matches();m.group(1);m.group(2);

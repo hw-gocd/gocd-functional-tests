@@ -1,0 +1,3 @@
+<exec command="ls">
+  <foo>-l</foo>
+</exec>
