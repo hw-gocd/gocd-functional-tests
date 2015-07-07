@@ -1,0 +1,8 @@
+target/
+logs/
+*.swp
+nohup.out
+
+reports
+gauge_bin
+sahi
