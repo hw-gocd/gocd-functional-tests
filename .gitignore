@@ -2,7 +2,7 @@ target/
 logs/
 *.swp
 nohup.out
-
+.idea/
 reports
 gauge_bin
 sahi
