@@ -1,11 +1,11 @@
 #!/bin/bash
 
 HERE=$PWD
-CRUISE=$HERE/../../..
+CRUISE=$HERE/../
 
 export MANUAL_SETTING="y"
 export PRODUCTION_MODE=N
-export DAEMON=Y
+export DAEMON=N
 export JVM_DEBUG=Y
 if [ -z "$GO_SERVER_PORT" ]; then
     export GO_SERVER_PORT=8253
@@ -48,7 +48,7 @@ echo "Starting server..."
 cd $SERVER_DIR
 rm -rf db
 rm -rf config
-bash server.sh > server.log &
+bash server.sh 
 
 echo "Waiting for server to start ..."
 

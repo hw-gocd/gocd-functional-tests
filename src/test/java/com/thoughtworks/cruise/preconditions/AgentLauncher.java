@@ -121,7 +121,7 @@ public class AgentLauncher extends ProcessIsRunning {
 
 	private static void copyAgentLog4jProperties(File dir) throws IOException {
 		File agentLog4j = new File(dir, "log4j.properties");
-		FileUtils.copyFile(new File(RuntimePath.pathFor("../cruise-twist-new/properties"), "agent-log4j.properties"), agentLog4j);
+		FileUtils.copyFile(new File(RuntimePath.pathFor("properties"), "agent-log4j.properties"), agentLog4j);
 	}
 	
 	public AgentLauncher(File dir) {

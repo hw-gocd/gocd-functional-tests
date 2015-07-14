@@ -5,22 +5,14 @@ import static com.thoughtworks.cruise.util.CruiseConstants.CURRENT_REVISION;
 import java.io.File;
 
 public class RuntimePath {
-	private static final String SERVER_ROOT = "../target/go-server-" + CURRENT_REVISION;
-	private static final String SERVER_CONFIG_PATH = "../target/go-server-" + CURRENT_REVISION + "/config"; //  use this path if you want to run tests against Development Twist Server "../../cruise/server/config";
-	private static final String AGENT_ROOT = "../target/go-agent-" + CURRENT_REVISION;
+	private static final String SERVER_ROOT = "target/go-server-" + CURRENT_REVISION;
+	private static final String SERVER_CONFIG_PATH = "target/go-server-" + CURRENT_REVISION + "/config"; //  use this path if you want to run tests against Development Twist Server "../../cruise/server/config";
+	private static final String AGENT_ROOT = "target/go-agent-" + CURRENT_REVISION;
 
-	private static Boolean runningFromCommandLine;
-
-	public static String pathFor(String path) {
-		return runningFromCommandLine() ? ("cruise-twist-new/" + path) : path;
+    public static String pathFor(String path) {
+		return path;
 	}
 
-	private static boolean runningFromCommandLine() {
-		if (runningFromCommandLine == null)
-			runningFromCommandLine = System.getProperty("twist.commandLine") != null;
-		return runningFromCommandLine;
-	}
-	
 	public static String absolutePathFor(String path){
 	    return new File(pathFor(path)).getAbsolutePath();
 	}
@@ -46,12 +38,12 @@ public class RuntimePath {
 	}
 
 	public static String getTwistAgentPath() {
-		String agentPath = System.getenv("TWIST_AGENT_PATH") != null ? System.getenv("TWIST_AGENT_PATH") : pathFor("../target/twist-agents");
+		String agentPath = System.getenv("TWIST_AGENT_PATH") != null ? System.getenv("TWIST_AGENT_PATH") : pathFor("target/twist-agents");
 		return agentPath;
 	}
 
     public static String getOldAgentPath() {
-        String agentPath = pathFor("../" + SetupAgents.AGENT_2_4);
+        String agentPath = pathFor(SetupAgents.AGENT_2_4);
         return agentPath;
     }
 }

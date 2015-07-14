@@ -24,7 +24,7 @@ public class UsingArtifactApi extends JobDetailApi {
 	
 	@com.thoughtworks.gauge.Step("Create artifact <artifactName>")
 	public void createArtifact(String artifactName) throws Exception {
-		File file = new File(RuntimePath.pathFor(String.format("../cruise-twist-new/material-files/%s", artifactName)));
+		File file = new File(RuntimePath.pathFor(String.format("material-files/%s", artifactName)));
 		upload(artifactName, file);
 	}
 

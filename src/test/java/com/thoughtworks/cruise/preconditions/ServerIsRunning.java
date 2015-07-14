@@ -43,7 +43,7 @@ public class ServerIsRunning extends ProcessIsRunning {
 
     private void copyLog4jProperties() throws IOException {
         File agentLog4j = new File(RuntimePath.getServerConfigPath(), "log4j.properties");
-        FileUtils.copyFile(new File(RuntimePath.pathFor("../cruise-twist-new/properties"), "server-log4j.properties"), agentLog4j);
+        FileUtils.copyFile(new File(RuntimePath.pathFor("properties"), "server-log4j.properties"), agentLog4j);
     }
 
     public void stop() throws Exception {
