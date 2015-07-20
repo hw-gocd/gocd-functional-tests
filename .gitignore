@@ -5,8 +5,9 @@ nohup.out
 .idea/
 reports
 gauge_bin
-sahi
 *~
 tags/
 libs/central/
 tags
+*.iml
+/sahi
