@@ -1,7 +1,7 @@
 ## Pre-Requisites
 * Maven
 * [Brew Cask](http://caskroom.io)
-* [Gauge][http://getgauge.io]
+* [Gauge](http://getgauge.io)
 
 ## Setup
 * ``` git clone``` as a sibling directory to
