@@ -7,3 +7,6 @@ reports
 gauge_bin
 sahi
 *~
+tags/
+libs/central/
+tags
