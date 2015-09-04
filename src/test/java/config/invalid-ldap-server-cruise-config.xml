@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="75">
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="76">
   <server artifactsdir="artifacts" serverId="twist">
       <security>
       <ldap uri="ldap://does_not_exist.com" managerDn="cn=Active Directory Ldap User,ou=InformationSystems,ou=SharedAccounts,ou=Principal,dc=corporate,dc=thoughtworks,dc=com" managerPassword="!@dus3r!" searchFilter="(sAMAccountName={0})">
