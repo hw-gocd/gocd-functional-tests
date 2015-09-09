@@ -1,7 +1,7 @@
 CCTrayFeed
 ==========
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline-for-cctray, admin-pipeline" - setup
@@ -97,7 +97,7 @@ verify cctray feed is not accessible
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CCTrayFeed" - teardown
 * With "1" live agents in directory "CCTrayFeed" - teardown
 * Using pipeline "basic-pipeline-for-cctray, admin-pipeline" - teardown

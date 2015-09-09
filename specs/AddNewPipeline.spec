@@ -1,7 +1,7 @@
 AddNewPipeline
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Setup command repo - setup
@@ -129,7 +129,7 @@ tags: 5041, Clicky Admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddNewPipeline" - teardown
 * Setup command repo - teardown
 * Login as "admin" - teardown

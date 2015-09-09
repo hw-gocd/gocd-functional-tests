@@ -1,7 +1,7 @@
 Dashboard-FilterFiles
 =====================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-with-filter" - setup
 * With "1" live agents in directory "Dashboard-FilterFiles" - setup
@@ -12,7 +12,7 @@ Dashboard-FilterFiles
 
 tags: 2482, pipeline-activity, manual-approval, rerun, 1646, force-build, automate, filter, linux, perforce, 6118, stage1
 
-This test should work once bug #3656 is fixed. 
+This test should work once bug #3656 is fixed.
 
 * Click on pipeline "basic-pipeline-with-filter" for editing
 
@@ -64,7 +64,7 @@ This test should work once bug #3656 is fixed.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "Dashboard-FilterFiles" - teardown
 * With "1" live agents in directory "Dashboard-FilterFiles" - teardown
 * Using pipeline "basic-pipeline-with-filter" - teardown

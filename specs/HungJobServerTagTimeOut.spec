@@ -1,7 +1,7 @@
 HungJobServerTagTimeOut
 =======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "hung-job-pipeline" - setup
 * With "1" live agents in directory "HungJobServerTagTimeOut" - setup
@@ -43,7 +43,7 @@ tags: #4584, admin-page
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "HungJobServerTagTimeOut" - teardown
 * With "1" live agents in directory "HungJobServerTagTimeOut" - teardown
 * Using pipeline "hung-job-pipeline" - teardown

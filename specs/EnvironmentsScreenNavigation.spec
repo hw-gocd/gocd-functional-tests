@@ -1,7 +1,7 @@
 EnvironmentsScreenNavigation
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "environment-pipeline" - setup
 * With "2" live agents in directory "UINavigationForEnvironments" - setup
@@ -44,7 +44,7 @@ Tests navigation from Environment page to different pages.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EnvironmentsScreenNavigation" - teardown
 * With "2" live agents in directory "UINavigationForEnvironments" - teardown
 * Using pipeline "environment-pipeline" - teardown

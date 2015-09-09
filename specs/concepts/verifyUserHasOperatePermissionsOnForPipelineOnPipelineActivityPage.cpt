@@ -1,10 +1,10 @@
 #verify user has operate permissions on <defaultStage> for pipeline <P8> on Pipeline Activity Page
-*Looking at pipeline "P8"
+*Looking at pipeline <P8>
 *Click on pipeline name
 *Looking at pipeline with label "1"
-*Verify stage "defaultStage" of pipeline can be rerun
-*Rerun stage "defaultStage" - Already On Pipeline History Page
-*Verify "defaultStage" stage can be cancelled
+*Verify stage <defaultStage> of pipeline can be rerun
+*Rerun stage <defaultStage> - Already On Pipeline History Page
+*Verify <defaultStage> stage can be cancelled
 *Cancel stage <defaultStage>
 *Pause pipeline on activity page
 *Verify pipeline is paused on pipeline activity page

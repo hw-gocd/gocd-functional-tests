@@ -1,7 +1,7 @@
 JobRerunRunMultipleInstance
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-for-job-rerun-run-multiple-instance" - setup
 * With "1" live agents in directory "JobRerunRunMultipleInstance" - setup
@@ -90,7 +90,7 @@ tags: stage-details, job-rerun, scheduling, rerun, run-multiple-instance, rails4
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobRerunRunOnAllAgents" - teardown
 * With "1" live agents in directory "JobRerunRunMultipleInstance" - teardown
 * Using pipeline "pipeline-for-job-rerun-run-multiple-instance" - teardown

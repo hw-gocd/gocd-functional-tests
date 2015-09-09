@@ -1,7 +1,7 @@
 FanInWithAllAutoPipelines
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "grandparent-fast, parent-fast, parent-slow, child-fast" - setup
 * With "4" live agents in directory "StageDetails" - setup
@@ -94,7 +94,7 @@ tags: diamond dependency, auto, fanin, flaky_fanin_test
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInWithAllAutoPipelines" - teardown
 * With "4" live agents in directory "StageDetails" - teardown
 * Using pipeline "grandparent-fast, parent-fast, parent-slow, child-fast" - teardown

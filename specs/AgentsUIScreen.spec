@@ -1,7 +1,7 @@
 AgentsUIScreen
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-run-till-file-exists,basic-pipeline-slow" - setup
 * With "4" live agents in directory "AgentsUIScreen" - setup
@@ -136,7 +136,7 @@ Delete agent
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentsUIScreen" - teardown
 * With "4" live agents in directory "AgentsUIScreen" - teardown
 * Using pipeline "basic-pipeline-run-till-file-exists,basic-pipeline-slow" - teardown

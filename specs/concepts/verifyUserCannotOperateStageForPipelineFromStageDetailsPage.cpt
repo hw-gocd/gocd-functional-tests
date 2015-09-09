@@ -1,6 +1,6 @@
 #verify user cannot operate stage <stage2> for pipeline <p4> from stage details page
-*Looking at pipeline "p4"
-*Navigate to stage "stage2" of run "1"
-*Verify rerun is disabled for stage "stage2"
+*Looking at pipeline <p4>
+*Navigate to stage <stage2> of run "1"
+*Verify rerun is disabled for stage <stage2>
 *Go to jobs tab
 *Verify rerun button is disabled

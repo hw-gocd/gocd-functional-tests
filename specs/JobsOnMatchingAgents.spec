@@ -1,7 +1,7 @@
 JobsOnMatchingAgents
 ====================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-run-till-file-exists" - setup
 * With "2" live agents in directory "JobsOnMatchingAgents" - setup
@@ -48,7 +48,7 @@ tags: 3102, job template, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobsOnMatchingAgents" - teardown
 * With "2" live agents in directory "JobsOnMatchingAgents" - teardown
 * Using pipeline "basic-pipeline-run-till-file-exists" - teardown

@@ -1,7 +1,7 @@
 AddNewTemplate
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-ls, simple-pipeline,template-params-pipeline-trunk" - setup
 * Capture go state "AddNewTemplate" - setup
@@ -81,7 +81,7 @@ Story: 5105 -  Create template from an existing pipeline
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddNewTemplate" - teardown
 * Using pipeline "pipeline-ls, simple-pipeline,template-params-pipeline-trunk" - teardown
 * Basic configuration - teardown

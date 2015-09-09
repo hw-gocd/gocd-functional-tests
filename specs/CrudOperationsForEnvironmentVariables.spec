@@ -1,7 +1,7 @@
 CrudOperationsForEnvironmentVariables
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "different_variable_at_environment_pipeline_stage_job" - setup
 * With "1" live agents in directory "CrudOperationsForEnvironmentVariables" - setup
@@ -102,7 +102,7 @@ variables page
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CrudOperationsForEnvironmentVariables" - teardown
 * With "1" live agents in directory "CrudOperationsForEnvironmentVariables" - teardown
 * Using pipeline "different_variable_at_environment_pipeline_stage_job" - teardown

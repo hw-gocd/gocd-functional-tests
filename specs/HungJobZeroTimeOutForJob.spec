@@ -1,7 +1,7 @@
 HungJobZeroTimeOutForJob
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "hung-job-zero-timeout-pipeline" - setup
 * With "1" live agents in directory "HungJobZeroTimeOutForJob" - setup
@@ -47,7 +47,7 @@ tags: #4584, Clicky Admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "HungJobZeroTimeOutForJob" - teardown
 * With "1" live agents in directory "HungJobZeroTimeOutForJob" - teardown
 * Using pipeline "hung-job-zero-timeout-pipeline" - teardown

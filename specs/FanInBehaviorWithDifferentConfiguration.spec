@@ -1,7 +1,7 @@
 FanInBehaviorWithDifferentConfiguration
 =======================================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "C1, c2, c3, c4-man, c5, c6-auto-s" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -95,7 +95,7 @@ tags: diamond dependency, fanin, auto, 6201
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInBehaviorWithDifferentConfiguration" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "C1, c2, c3, c4-man, c5, c6-auto-s" - teardown

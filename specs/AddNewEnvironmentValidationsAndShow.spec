@@ -1,7 +1,7 @@
 AddNewEnvironmentValidationsAndShow
 ===================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline, basic-pipeline-slow, pipeline-with-failing-stage" - setup
@@ -114,7 +114,7 @@ Verify non-admin cannot add environments
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddNewEnvironmentValidationsAndShow" - teardown
 * Using pipeline "basic-pipeline, basic-pipeline-slow, pipeline-with-failing-stage" - teardown
 * Login as "admin" - teardown

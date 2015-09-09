@@ -1,7 +1,7 @@
 EnableDisableUsers
 ==================
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup
@@ -44,7 +44,7 @@ tags: #3238, Admin, Security, stage1
 
 * Enable users "pavan,raghu"
 * Verify users "pavan,raghu" are enabled
- 
+
 * Making "pavan" an admin user
 
 * Open "User Summary" tab
@@ -56,7 +56,7 @@ tags: #3238, Admin, Security, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EnableDisableUsers" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

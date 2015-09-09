@@ -1,7 +1,7 @@
 ComparePipelineTimelineView
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "ComparePipelineTimelineView" - setup
@@ -47,7 +47,7 @@ Basic functionality
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipelineTimelineView" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

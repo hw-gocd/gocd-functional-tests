@@ -1,7 +1,7 @@
 CreatePipelineApiSecurity
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2" - setup
@@ -14,7 +14,7 @@ tags: 4141, group admin, api
 
 The users in the system
 
-Pipeline Groups - group 1 
+Pipeline Groups - group 1
 						  group 2
 
 Role: group1AdminRole
@@ -53,7 +53,7 @@ response should return code "401" (currently returning "403")
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CreatePipelineApiSecurity" - teardown
 * Using pipeline "pipeline1, pipeline2" - teardown
 * Login as "admin" - teardown

@@ -1,7 +1,7 @@
 ComparePipelinesWithDifferentPermissions
 ========================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "first-pipeline,down-pipeline" - setup
@@ -106,7 +106,7 @@ tags: 4643, automate, compare_pipeline, dependency_walk, 4687, 6786
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipelinesWithDifferentPermissions" - teardown
 * With "1" live agents in directory "compare_pipelines" - teardown
 * Using pipeline "first-pipeline,down-pipeline" - teardown

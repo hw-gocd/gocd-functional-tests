@@ -87,11 +87,6 @@ Validations
 * Verify validation failed for "task[src](text_field): Should provide either srcdir or srcfile"
 
 
-
-
-
-
-
 Teardown of contexts 
 * Capture go state "FetchArtifactTask" - teardown
 * Using pipeline "downstream-pipeline,basic-pipeline-fast" - teardown

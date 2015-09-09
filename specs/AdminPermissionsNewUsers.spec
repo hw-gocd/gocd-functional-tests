@@ -1,7 +1,7 @@
 AdminPermissionsNewUsers
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Logout on exit - setup
 * Capture go state "AdminPermissionsNewUsers" - setup
@@ -15,11 +15,12 @@ tags: 6785, Admin
 * Add security with password file only
 
 Verify if user is admin
-* VerifyIfUserIsAdmin
-| login as user | admin | 
-| pavan | true | 
-| raghu | true | 
-| admin | true | 
+* VerifyIfUserIsAdmin 
+     |login as user|admin|
+     |-------------|-----|
+     |pavan        |true |
+     |raghu        |true |
+     |admin        |true |
 
 
 * Logout - On Any Page
@@ -38,7 +39,7 @@ Verify if user is admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AdminPermissionsNewUsers" - teardown
 * Logout on exit - teardown
 * Basic configuration - teardown

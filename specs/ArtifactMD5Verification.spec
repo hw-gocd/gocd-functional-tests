@@ -1,7 +1,7 @@
 ArtifactMD5Verification
 =======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "artifact-md5-up" - setup
 * Capture go state "ArtifactMD5Verification" - setup
@@ -50,7 +50,7 @@ tags: #2408, Agent, Artifacts, MD5, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * With "1" live agents in directory "ArtifactsMD5" - teardown
 * Capture go state "ArtifactMD5Verification" - teardown
 * Using pipeline "artifact-md5-up" - teardown

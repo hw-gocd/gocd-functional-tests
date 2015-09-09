@@ -1,7 +1,7 @@
 ClickyAdminDirtyPageCheck
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "ClickyAdminDirtyPageCheck" - setup
@@ -39,7 +39,7 @@ Checking for radio group
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ClickyAdminDirtyPageCheck" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

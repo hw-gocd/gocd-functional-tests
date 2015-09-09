@@ -1,7 +1,7 @@
 GoServerBaseURLConfig
 =====================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast" - setup
 * Capture go state "GoServerBaseURLConfig" - setup
@@ -69,7 +69,7 @@ Test that the links in the feeds use the siteUrl when set. It will use siteUrl e
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "GoServerBaseURLConfig" - teardown
 * Using pipeline "basic-pipeline-fast" - teardown
 * Basic configuration - teardown

@@ -1,7 +1,7 @@
 AgentResources
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-with-job-resources" - setup
 * With "1" live agents in directory "AgentsResources" - setup
@@ -24,7 +24,7 @@ tags: agent management, svn support, scheduling, agent auto-discover, agents, au
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentResources" - teardown
 * With "1" live agents in directory "AgentsResources" - teardown
 * Using pipeline "basic-pipeline-with-job-resources" - teardown

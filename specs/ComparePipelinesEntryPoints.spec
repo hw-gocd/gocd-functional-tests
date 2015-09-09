@@ -1,7 +1,7 @@
 ComparePipelinesEntryPoints
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-environment-pipeline" - setup
 * With "1" live agents in directory "card_activity" - setup
@@ -45,7 +45,7 @@ Simple case of comparison
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipelinesEntryPoints" - teardown
 * With "1" live agents in directory "card_activity" - teardown
 * Using pipeline "basic-environment-pipeline" - teardown

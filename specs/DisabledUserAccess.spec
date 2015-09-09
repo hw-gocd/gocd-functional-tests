@@ -1,7 +1,7 @@
 DisabledUserAccess
 ==================
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup
@@ -47,7 +47,7 @@ tags: #3238, Admin, Security
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "DisabledUserAccess" - teardown
 * With "1" live agents in directory "disabled_users" - teardown
 * Using pipeline "basic-pipeline" - teardown

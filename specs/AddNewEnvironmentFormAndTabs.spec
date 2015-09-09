@@ -1,7 +1,7 @@
 AddNewEnvironmentFormAndTabs
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline, basic-pipeline-slow, pipeline-with-failing-stage" - setup
@@ -76,9 +76,9 @@ cancel button action
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddNewEnvironmentFormAndTabs" - teardown
-* Using "basic-pipeline, basic-pipeline-slow, pipeline-with-failing-stage" pipeline - teardown
+* Using pipeline "basic-pipeline, basic-pipeline-slow, pipeline-with-failing-stage" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown
 

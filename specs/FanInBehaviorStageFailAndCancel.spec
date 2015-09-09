@@ -1,7 +1,7 @@
 FanInBehaviorStageFailAndCancel
 ===============================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "FS1, fS2, fS3" - setup
 * With "2" live agents in directory "FanInBehaviorStageFailAndCancel" - setup
@@ -110,7 +110,7 @@ tags: diamond dependency, fanin, auto, 6437, 6368
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInBehaviorStageFailAndCancel" - teardown
 * With "2" live agents in directory "FanInBehaviorStageFailAndCancel" - teardown
 * Using pipeline "FS1, fS2, fS3" - teardown

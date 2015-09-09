@@ -1,7 +1,7 @@
 JobProperties
 =============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast-with-job-properties" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -32,23 +32,24 @@ tags: job properties, 2251, 2512, automate
 * Open properties tab
 
 On Properties Tab
-* OnPropertiesTab
-| property name | exists? | 
-| cruise_agent | true | 
-| cruise_job_duration | true | 
-| cruise_job_id | true | 
-| cruise_job_result | true | 
-| cruise_pipeline_counter | true | 
-| cruise_pipeline_label | true | 
-| cruise_stage_counter | true | 
-| suite.time | true | 
+* OnPropertiesTab 
+     |property name          |exists?|
+     |-----------------------|-------|
+     |cruise_agent           |true   |
+     |cruise_job_duration    |true   |
+     |cruise_job_id          |true   |
+     |cruise_job_result      |true   |
+     |cruise_pipeline_counter|true   |
+     |cruise_pipeline_label  |true   |
+     |cruise_stage_counter   |true   |
+     |suite.time             |true   |
 
 
 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobProperties" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "basic-pipeline-fast-with-job-properties" - teardown

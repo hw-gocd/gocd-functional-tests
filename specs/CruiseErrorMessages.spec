@@ -1,7 +1,7 @@
 CruiseErrorMessages
 ===================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline-with-all-materials" - setup
@@ -167,7 +167,7 @@ tags: 1996, svn support, diagnostics messages, timer, 2272, automate, failing, l
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CruiseErrorMessages" - teardown
 * With "1" live agents in directory "CruiseErrorMessages" - teardown
 * Using pipeline "basic-pipeline-with-all-materials" - teardown

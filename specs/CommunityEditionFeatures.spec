@@ -1,7 +1,7 @@
 CommunityEditionFeatures
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Community configuration - setup
 * Using pipeline "pipeline1" - setup
 * Logout on exit - setup
@@ -78,7 +78,7 @@ tags: community, 6316, 6321
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CommunityEditionFeatures" - teardown
 * Logout on exit - teardown
 * Using pipeline "pipeline1" - teardown

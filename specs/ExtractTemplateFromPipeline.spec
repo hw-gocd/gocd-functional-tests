@@ -1,7 +1,7 @@
 ExtractTemplateFromPipeline
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "simple-pipeline,template-params-pipeline-trunk" - setup
 * Capture go state "ExtractTemplateFromPipeline" - setup
@@ -69,7 +69,7 @@ tags: Clicky Admin, template, #5785, 6821
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ExtractTemplateFromPipeline" - teardown
 * Using pipeline "simple-pipeline,template-params-pipeline-trunk" - teardown
 * Basic configuration - teardown

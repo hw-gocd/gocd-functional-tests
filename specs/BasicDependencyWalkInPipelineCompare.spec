@@ -1,7 +1,7 @@
 BasicDependencyWalkInPipelineCompare
 ====================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "up, down,child-of-down" - setup
 * With "1" live agents in directory "dependency_walk" - setup
@@ -49,7 +49,7 @@ Verify dependency chaining after scm triggers autoFirst pipeline
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "BasicDependencyWalkInPipelineCompare" - teardown
 * With "1" live agents in directory "dependency_walk" - teardown
 * Using pipeline "up, down,child-of-down" - teardown

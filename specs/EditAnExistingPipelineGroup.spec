@@ -1,7 +1,7 @@
 EditAnExistingPipelineGroup
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1,pipeline5" - setup
@@ -83,7 +83,7 @@ tags: 4369, Clicky Admin, pipeline group
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditPipelineGroups" - teardown
 * Using pipeline "pipeline1,pipeline5" - teardown
 * Login as "admin" - teardown

@@ -1,7 +1,7 @@
 EnvironmentsScreenNoMaterialName
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "multiple-same-materials" - setup
 * With "1" live agents in directory "UIAutoRefreshForEnvironments" - setup
@@ -62,7 +62,7 @@ Verify that all materials can be deployed.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EnvironmentsScreenNoMaterialName" - teardown
 * With "1" live agents in directory "UIAutoRefreshForEnvironments" - teardown
 * Using pipeline "multiple-same-materials" - teardown

@@ -1,8 +1,8 @@
 #verify user does not have stage <firstStage> operate permissions for pipleine <P7> on pipeline activity page
-*Looking at pipeline "P7"
+*Looking at pipeline <P7>
 *Click on pipeline name
 *Looking at pipeline with label "1"
-*Verify stage "firstStage" of pipeline cannot be rerun
+*Verify stage <firstStage> of pipeline cannot be rerun
 *Pause pipeline on activity page
 *Verify pipeline is paused on pipeline activity page
 *Unpause pipeline on pipeline activity page

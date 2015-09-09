@@ -1,7 +1,7 @@
 GitAndHgPostCommitHook
 ======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "hg-postcommithook-pipeline, another-hg-postcommithook-pipeline, git-postcommithook-pipeline, another-git-postcommithook-pipeline" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -144,7 +144,7 @@ Verify hg post commit hook
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "GitAndHgPostCommitHook" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "hg-postcommithook-pipeline, another-hg-postcommithook-pipeline, git-postcommithook-pipeline, another-git-postcommithook-pipeline" - teardown

@@ -1,7 +1,7 @@
 CreateAndDeletePipelineGroups
 =============================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1,pipeline2,pipeline4,pipeline-with-group-and-stage-security,pipeline-down" - setup
@@ -38,7 +38,7 @@ tags: Clicky Admin, pipeline group, 4944, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CreateAndDeletePipelineGroups" - teardown
 * Using pipeline "pipeline1,pipeline2,pipeline4,pipeline-with-group-and-stage-security,pipeline-down" - teardown
 * Login as "admin" - teardown

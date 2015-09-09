@@ -117,12 +117,6 @@ AutoComplete and Save
 * Verify that material "${runtime_name:uppest_pipeline}" can be deleted
 
 
-
-
-
-
-
-
 Teardown of contexts 
 * Capture go state "FetchMaterialFromAncestorUI" - teardown
 * Using pipeline "uppest_pipeline, upper_pipeline, upper_peer_pipeline, up_pipeline, down_pipeline" - teardown

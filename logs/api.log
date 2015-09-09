@@ -1,0 +1,1015 @@
+11:29:05.761 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:34:01.580 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:38:34.740 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:42:40.621 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:43:35.569 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:46:01.734 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:51:29.726 [ERRO] Error response from runner on getStepNamesRequest: Connection closed [127.0.0.1:49749] cause: read tcp 127.0.0.1:49749: connection reset by peer
+11:54:07.489 [ERRO] Error response from runner on getStepNamesRequest: Connection closed [127.0.0.1:42178] cause: read tcp 127.0.0.1:42178: connection reset by peer
+12:20:47.975 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+12:20:47.975 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+13:54:45.910 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+13:54:45.910 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:11:48.414 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:11:48.414 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+15:12:47.858 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+15:12:47.858 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+10:56:55.290 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+10:56:56.183 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+10:56:56.183 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:56:56.183 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+10:56:56.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+10:56:56.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+10:56:56.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+10:56:56.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+10:56:56.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+10:56:56.208 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+10:56:56.208 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+10:56:56.208 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:00:47.284 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+11:00:47.285 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+11:00:47.309 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:00:47.309 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:00:47.309 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+13:16:45.500 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+13:16:45.501 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+13:16:45.551 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+13:16:45.551 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+13:16:45.551 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+13:44:23.675 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+13:44:23.675 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:44:23.676 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+13:44:23.676 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+13:44:23.676 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+13:44:23.676 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+13:44:23.676 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+13:44:23.676 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+13:44:23.700 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+13:44:23.700 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+13:44:23.700 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+14:02:10.403 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+14:02:10.404 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+14:02:10.429 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:02:10.429 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:02:10.429 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+14:12:02.172 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+14:12:02.197 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:12:02.197 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:12:02.197 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+14:14:59.619 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+14:14:59.644 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:14:59.644 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:14:59.644 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+14:55:10.589 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+14:55:11.485 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+14:55:11.536 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:55:11.536 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:55:11.536 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+15:16:38.842 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+15:16:38.865 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_bak___
+15:16:38.865 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+15:16:38.907 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_old___
+15:34:17.715 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+15:34:18.618 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+15:34:18.680 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+15:34:18.680 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+15:34:18.680 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+15:38:49.555 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+15:38:49.556 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+15:38:49.581 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+15:38:49.581 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+15:38:49.581 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:05:22.192 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:05:22.243 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:05:22.243 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:05:22.243 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:14:18.089 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:14:18.114 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:14:18.114 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:14:18.114 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:26:33.805 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:26:33.830 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:26:33.830 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:26:33.830 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:28:55.124 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:28:55.176 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:28:55.176 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:28:55.176 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:32:30.560 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:32:30.585 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:32:30.586 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:32:30.586 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:34:44.270 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:34:44.297 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:34:44.297 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:34:44.297 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:38:55.474 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:38:55.499 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:38:55.499 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:38:55.499 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:55:43.940 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:55:43.967 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:55:43.967 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:55:43.967 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+16:56:56.927 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+16:56:56.978 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:56:56.978 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:56:56.978 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:00:30.890 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:00:30.941 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:00:30.941 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:00:30.942 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:02:35.377 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:02:35.427 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:02:35.427 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:02:35.427 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:09:24.602 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:09:24.603 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:09:24.629 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:09:24.629 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:09:24.629 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:10:56.788 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:10:56.814 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:10:56.814 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:10:56.814 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:19:57.389 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:19:57.441 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:19:57.441 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:19:57.441 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:21:16.086 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:21:16.112 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:21:16.112 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:21:16.112 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:26:39.984 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:26:40.033 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:26:40.034 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:26:40.034 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:30:09.418 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:30:09.469 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:30:09.469 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:30:09.469 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:42:28.710 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:42:28.710 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:42:28.711 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:42:28.711 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:42:28.711 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:42:28.711 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:42:28.711 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:42:28.711 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:42:28.752 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:42:28.752 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:42:28.752 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:51:38.843 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:51:39.742 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:51:39.795 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:51:39.795 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:51:39.795 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:55:28.744 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:55:28.770 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:55:28.770 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:55:28.770 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:58:40.899 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+17:58:40.951 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:58:40.952 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:58:40.952 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+18:02:30.208 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+18:02:30.208 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:02:30.208 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+18:02:30.209 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+18:02:30.209 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+18:02:30.209 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+18:02:30.209 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+18:02:30.209 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+18:02:30.234 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+18:02:30.234 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+18:02:30.234 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+18:07:46.561 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+18:07:46.586 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+18:07:46.586 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+18:07:46.586 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+18:20:37.567 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:20:37.567 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:20:37.567 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:20:37.591 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_bak___
+18:20:37.591 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:20:37.591 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 87, String not terminated
+18:20:37.594 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_bak___
+18:20:37.594 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:20:37.594 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 87, String not terminated
+18:20:37.598 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_bak___
+18:20:37.598 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:20:37.599 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 87, String not terminated
+18:20:37.632 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_old___
+18:20:37.634 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_old___
+18:20:37.642 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_old___
+18:39:46.354 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:39:46.354 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:39:46.354 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:39:46.378 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_bak___
+18:39:46.378 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:39:46.379 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_bak___
+18:39:46.379 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:39:46.379 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_bak___
+18:39:46.379 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec
+18:39:46.383 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:39:46.383 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:39:46.384 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:39:46.419 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_old___
+18:39:46.419 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_old___
+18:39:46.419 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec___jb_old___
+18:41:22.472 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+18:41:22.472 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+18:41:22.472 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+18:41:22.495 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+18:41:22.495 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+18:41:22.506 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+18:41:22.506 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+18:41:22.506 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+18:41:22.506 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+18:41:22.537 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+18:41:22.559 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+18:41:22.587 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+18:41:32.273 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+18:41:32.273 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+18:41:32.273 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+18:41:32.296 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+18:41:32.296 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+18:41:32.300 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+18:41:32.300 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+18:41:32.327 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+18:41:32.328 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+18:41:32.338 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+18:41:32.361 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+18:41:32.366 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+18:44:06.690 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec
+18:44:06.690 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec
+18:44:06.691 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec
+18:44:06.715 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec___jb_bak___
+18:44:06.715 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec
+18:44:06.715 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec___jb_bak___
+18:44:06.715 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec
+18:44:06.722 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec___jb_bak___
+18:44:06.722 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec
+18:44:06.755 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec___jb_old___
+18:44:06.755 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec___jb_old___
+18:44:06.765 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/ComparePipelinesForRPMPackages.spec___jb_old___
+18:49:08.848 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:08.848 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:08.848 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:08.872 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_bak___
+18:49:08.872 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:08.872 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_bak___
+18:49:08.872 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:08.874 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_bak___
+18:49:08.874 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:08.913 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_old___
+18:49:08.916 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_old___
+18:49:08.916 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_old___
+18:49:27.043 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:27.043 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:27.043 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:27.069 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_bak___
+18:49:27.069 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:27.078 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_bak___
+18:49:27.078 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:27.078 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_bak___
+18:49:27.078 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec
+18:49:27.133 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_old___
+18:49:27.160 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_old___
+18:49:27.165 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentFormAndTabs.spec___jb_old___
+18:49:42.121 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:42.121 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:42.121 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:42.144 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_bak___
+18:49:42.144 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:42.155 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_bak___
+18:49:42.156 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:42.156 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_bak___
+18:49:42.156 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:42.186 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_old___
+18:49:42.206 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_old___
+18:49:42.206 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_old___
+18:49:58.689 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:58.689 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:58.689 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:58.739 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_bak___
+18:49:58.739 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:58.740 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_bak___
+18:49:58.740 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:58.741 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_bak___
+18:49:58.742 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec
+18:49:58.783 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_old___
+18:49:58.787 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_old___
+18:49:58.791 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AddNewEnvironmentValidationsAndShow.spec___jb_old___
+18:50:19.638 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:19.638 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:19.639 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:19.661 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:19.661 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:19.661 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:19.661 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:19.672 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:19.672 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:19.728 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:19.739 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:19.748 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:23.330 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:23.330 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:23.330 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:23.365 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:23.365 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:23.365 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:23.365 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:23.366 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:23.366 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:23.415 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:23.419 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:23.419 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:37.266 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:37.266 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:37.266 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:37.319 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:37.319 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:37.322 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:37.323 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:37.324 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_bak___
+18:50:37.324 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec
+18:50:37.362 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:37.364 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:50:37.366 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironment.spec___jb_old___
+18:51:08.011 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:08.011 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:08.011 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:08.034 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_bak___
+18:51:08.034 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_bak___
+18:51:08.034 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:08.034 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:08.035 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_bak___
+18:51:08.035 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:08.076 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_old___
+18:51:08.089 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_old___
+18:51:08.098 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_old___
+18:51:18.923 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:18.923 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:18.923 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:18.951 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_bak___
+18:51:18.951 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:18.952 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_bak___
+18:51:18.952 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:18.980 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_bak___
+18:51:18.980 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec
+18:51:18.988 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_old___
+18:51:18.989 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_old___
+18:51:19.017 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/EditAnExistingEnvironmentNegativeCase.spec___jb_old___
+18:51:43.828 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+18:51:43.828 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+18:51:43.828 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+18:51:43.853 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+18:51:43.853 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+18:51:43.855 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+18:51:43.855 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+18:51:43.857 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:51:43.880 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+18:51:43.880 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+18:51:43.886 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:51:43.887 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:51:43.921 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+18:51:43.928 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+18:51:43.929 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+18:52:24.014 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+18:52:24.015 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:52:24.015 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:52:24.015 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+18:52:24.015 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+18:52:24.042 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+18:52:24.042 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+18:52:24.042 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+19:12:31.923 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+19:12:31.923 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+19:12:31.923 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+19:12:31.948 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_bak___
+19:12:31.948 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+19:12:31.948 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_bak___
+19:12:31.948 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+19:12:31.950 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_bak___
+19:12:31.950 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec
+19:12:31.988 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_old___
+19:12:31.988 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_old___
+19:12:31.988 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/AccessingAUrlAsAnOAuthClient.spec___jb_old___
+19:13:18.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+19:13:18.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+19:13:18.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+19:13:18.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+19:13:18.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+19:13:18.339 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+19:13:18.340 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+19:13:18.340 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+19:21:15.349 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+19:21:15.349 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+19:21:15.349 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+19:21:15.349 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+19:21:15.349 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+19:21:15.376 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+19:21:15.376 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+19:21:15.376 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+10:29:52.980 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:29:52.981 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:29:52.981 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+10:29:52.981 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+10:29:52.981 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+10:29:53.032 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+10:29:53.032 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+10:29:53.032 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+10:33:13.920 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:33:13.922 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:33:13.922 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+10:33:13.922 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+10:33:13.922 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+10:33:13.975 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+10:33:13.975 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+10:33:13.975 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+10:45:33.081 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.081 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.081 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.106 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+10:45:33.106 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.106 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+10:45:33.106 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.109 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:45:33.110 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:45:33.118 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+10:45:33.118 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.119 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.123 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:45:33.146 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+10:45:33.147 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+10:45:33.154 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_bak___
+10:45:33.154 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec
+10:45:33.157 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+10:45:33.166 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+10:45:33.194 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec___jb_old___
+10:47:46.409 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.409 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.409 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.409 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.432 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+10:47:46.432 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.433 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+10:47:46.433 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.437 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+10:47:46.437 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.440 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+10:47:46.440 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+10:47:46.474 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+10:47:46.474 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+10:47:46.484 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+10:47:46.486 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+10:50:49.520 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:50:49.520 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:50:49.520 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:50:49.543 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:50:49.543 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:50:49.546 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:50:49.547 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:50:49.549 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:50:49.549 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:50:49.585 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:50:49.585 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:50:49.593 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:52:40.401 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec
+10:52:40.401 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec
+10:52:40.401 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec
+10:52:40.426 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec___jb_bak___
+10:52:40.426 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec
+10:52:40.432 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec___jb_bak___
+10:52:40.432 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec
+10:52:40.432 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec___jb_bak___
+10:52:40.432 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec
+10:52:40.466 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec___jb_old___
+10:52:40.475 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec___jb_old___
+10:52:40.476 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec___jb_old___
+10:55:28.095 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:55:28.095 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:55:28.095 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:55:28.120 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:55:28.120 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:55:28.120 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:55:28.120 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:55:28.121 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:55:28.121 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:55:28.122 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 56, Dynamic parameter <Comment> could not be resolved
+10:55:28.122 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 56, Dynamic parameter <Comment> could not be resolved
+10:55:28.122 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec : line no: 56, Dynamic parameter <Comment> could not be resolved
+10:55:28.160 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:55:28.160 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:55:28.161 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:59:19.587 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:59:19.587 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:59:19.587 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:59:19.613 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:59:19.613 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:59:19.614 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:59:19.614 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:59:19.616 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_bak___
+10:59:19.616 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec
+10:59:19.652 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:59:19.652 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+10:59:19.652 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/MaterialSupport.spec___jb_old___
+11:00:08.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:00:08.286 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:00:08.312 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:00:08.312 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:00:08.312 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:00:59.955 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:00:59.955 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:00:59.981 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:00:59.981 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:00:59.981 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:03:20.175 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:03:20.177 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:03:20.234 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:03:20.234 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:03:20.234 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:04:14.950 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:04:15.942 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:04:15.942 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:04:15.971 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:04:15.971 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:04:15.971 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:14:14.283 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:14:14.283 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:14:14.309 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:14:14.309 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:14:14.309 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:15:46.504 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:15:46.504 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:15:46.531 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:15:46.531 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:15:46.531 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:20:49.315 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+11:20:50.575 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:20:50.575 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:20:50.611 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:20:50.611 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:20:50.611 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:21:17.709 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:21:17.709 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:21:17.764 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:21:17.764 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:21:17.764 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:29:01.986 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:29:01.986 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:29:02.012 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:29:02.013 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:29:02.013 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+11:59:31.122 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:59:31.122 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+11:59:31.172 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+11:59:31.172 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+11:59:31.172 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+12:07:55.441 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+12:07:56.401 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:07:56.401 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:07:56.433 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+12:07:56.433 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+12:07:56.433 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+12:12:33.446 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+12:12:34.393 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:12:34.393 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:12:34.447 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+12:12:34.447 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+12:12:34.447 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+12:15:26.704 [ERRO] Runner connection failed: Runner exited with error: exit status 1
+12:15:27.640 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:15:27.640 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:15:27.713 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+12:15:27.713 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+12:15:27.713 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+12:20:55.099 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:20:55.100 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:20:55.151 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+12:20:55.151 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+12:20:55.151 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+12:35:21.749 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:35:21.749 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+12:35:21.799 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+12:35:21.799 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+12:35:21.799 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+13:28:55.213 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:28:55.213 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:28:55.265 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+13:28:55.265 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+13:28:55.265 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+13:39:01.707 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:39:01.707 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:39:01.750 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+13:39:01.750 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+13:39:01.750 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+13:45:58.713 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:45:58.713 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+13:45:58.740 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+13:45:58.740 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+13:45:58.740 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+14:23:05.815 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:23:05.815 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:23:05.841 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:23:05.841 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:23:05.841 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+14:35:38.944 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:35:38.944 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+14:35:38.970 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+14:35:38.970 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+14:35:38.970 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+15:03:36.892 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.892 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.892 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.892 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.892 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.892 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.893 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.899 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.924 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.924 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.925 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.925 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.927 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.927 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.927 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.927 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.932 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.932 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.933 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.933 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.948 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.948 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.956 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_bak___
+15:03:36.956 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec
+15:03:36.978 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:36.982 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:36.983 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:36.983 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:36.987 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:36.992 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:37.013 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:37.027 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactFromAncestorUI.spec___jb_old___
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.701 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.712 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.734 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.734 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.736 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.736 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.746 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.746 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.746 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.746 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.750 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.750 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.757 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.757 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.778 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.778 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.824 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_bak___
+15:03:46.824 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec
+15:03:46.824 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.833 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.847 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.852 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.855 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.858 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.881 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:46.898 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTask.spec___jb_old___
+15:03:55.037 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.037 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.037 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.037 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.037 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.041 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.041 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.050 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.072 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.072 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.072 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.072 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.076 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.076 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.079 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.080 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.081 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.081 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.085 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.085 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.106 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.107 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.111 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:55.111 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:55.130 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.134 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.136 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.140 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.143 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.160 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.165 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:55.172 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:59.861 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.861 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.861 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.861 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.861 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.861 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.862 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.875 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.933 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.933 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.934 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.934 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.942 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.942 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.944 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.944 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.946 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.946 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.949 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.949 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.988 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.988 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.990 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:03:59.990 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_bak___
+15:03:59.990 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec
+15:03:59.993 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:04:00.001 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:04:00.006 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:04:00.006 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:04:00.031 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:04:00.047 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:04:00.049 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/FetchArtifactTaskUI.spec___jb_old___
+15:05:22.627 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+15:05:22.627 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+15:05:22.682 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+15:05:22.682 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+15:05:22.682 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+15:34:54.695 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+15:34:54.695 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+15:34:54.721 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+15:34:54.721 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+15:34:54.721 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:03:48.624 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:03:48.624 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:03:48.680 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:03:48.680 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:03:48.680 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.643 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.651 [INFO] Spec removed: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.671 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.671 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.678 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.678 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.679 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.679 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.680 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.680 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.692 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.693 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.694 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.694 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.716 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.718 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.719 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.720 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_bak___
+16:26:45.720 [INFO] Spec added/modified: /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec
+16:26:45.736 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.738 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.748 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.749 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.756 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.762 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:26:45.767 [ERRO] Removing watcher on : /home/godev/workspace/gocd-functional-tests/specs/PipelineGroupAdminsWithStageSecurity.spec___jb_old___
+16:27:14.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:27:14.184 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+16:27:14.212 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+16:27:14.212 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+16:27:14.212 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+17:48:36.919 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:48:36.920 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:48:36.947 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+17:48:36.947 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+17:48:36.947 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+18:29:46.031 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:29:46.032 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:29:46.059 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+18:29:46.059 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+18:29:46.059 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual
+18:37:30.528 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 74, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:37:30.529 [ERRO] Spec Parse failure: [ParseError] /home/godev/workspace/gocd-functional-tests/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 128, Parse error: Duplicate scenario definitions are not allowed in the same specification
+18:37:30.581 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs
+18:37:30.581 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/concepts
+18:37:30.581 [INFO] Watching directory: /home/godev/workspace/gocd-functional-tests/specs/manual

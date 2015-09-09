@@ -1,7 +1,7 @@
 CurlTaskPlugin
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Plugin configuration - setup
 * Login as "admin" - setup
 * Using pipeline "curl-task-pass,curl-task-fail" - setup
@@ -95,7 +95,7 @@ Include server and angular validation on onCancel
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CurlTaskPlugin" - teardown
 * With "1" live agents in directory "PluginAgents" - teardown
 * Using pipeline "curl-task-pass,curl-task-fail" - teardown

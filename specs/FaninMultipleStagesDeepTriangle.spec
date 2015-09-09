@@ -1,7 +1,7 @@
 FaninMultipleStagesDeepTriangle
 ===============================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "DeepC1, deepC2, deepC3, deepC4-auto, deepC5, deepC6" - setup
 * With "3" live agents in directory "StageDetails" - setup
@@ -141,7 +141,7 @@ verify pipeline is at label "2" and does not get triggered
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FaninMultipleStagesDeepTriangle" - teardown
 * With "3" live agents in directory "StageDetails" - teardown
 * Using pipeline "DeepC1, deepC2, deepC3, deepC4-auto, deepC5, deepC6" - teardown

@@ -1,7 +1,7 @@
 FanInBehaviorForTriggerWithOptions
 ==================================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "FTO1, fTO2, fTO3, fTO4, fTO5" - setup
 * With "2" live agents in directory "FanInBehaviorForTriggerWithOptions" - setup
@@ -120,7 +120,7 @@ tags: diamond dependency, fanin, auto, 6450
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInBehaviorForTriggerWithOptions" - teardown
 * With "2" live agents in directory "FanInBehaviorForTriggerWithOptions" - teardown
 * Using pipeline "FTO1, fTO2, fTO3, fTO4, fTO5" - teardown

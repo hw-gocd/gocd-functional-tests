@@ -1,7 +1,7 @@
 AddTemplateWithCommandRepoTask
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Setup command repo - setup
 * Capture go state "AddTemplateCommandRepoTask" - setup
@@ -57,7 +57,7 @@ tags: 6640, task-repository-location, admin-page
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddTemplateCommandRepoTask" - teardown
 * Setup command repo - teardown
 * Basic configuration - teardown

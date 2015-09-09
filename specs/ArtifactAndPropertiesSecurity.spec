@@ -1,7 +1,7 @@
 ArtifactAndPropertiesSecurity
 =============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "viewable-pipeline, 2-stage-viewable" - setup
@@ -92,7 +92,7 @@ View user cannot add properties using UI
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ArtifactAndPropertiesSecurity" - teardown
 * With "1" live agents in directory "pipeline_security" - teardown
 * Using pipeline "viewable-pipeline, 2-stage-viewable" - teardown

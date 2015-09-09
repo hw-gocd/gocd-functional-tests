@@ -1,7 +1,7 @@
 ConfigMergeGitConflictForPipelineAdmin
 ======================================
 
-Setup of contexts 
+Setup of contexts
 * ConflictingConfigurationForPipelineAdmin - setup
 * Login as "group1Admin" - setup
 * Capture go state "ConfigMergeGitConflictForPipelineAdmin" - setup
@@ -11,7 +11,7 @@ ConfigMergeGitConflictForPipelineAdmin
 
 tags: 7342, 7278
 
-Merge Conflict 
+Merge Conflict
 * Open config tab as group admin
 
 * Click link "Edit"
@@ -52,7 +52,7 @@ Successful Merge
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ConfigMergeGitConflictForPipelineAdmin" - teardown
 * Login as "group1Admin" - teardown
 * ConflictingConfigurationForPipelineAdmin - teardown

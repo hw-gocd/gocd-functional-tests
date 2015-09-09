@@ -1,7 +1,7 @@
 ApiBackupGoServer
 =================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline" - setup
@@ -36,7 +36,7 @@ tags: 5570, administration, backup, 5818, h2db_only
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ApiBackupGoServer" - teardown
 * Delete backup history - teardown
 * Using pipeline "basic-pipeline" - teardown

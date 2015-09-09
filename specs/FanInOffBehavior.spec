@@ -1,7 +1,7 @@
 FanInOffBehavior
 ================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "C1, c2, c3, c4-auto-new, c5" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -79,7 +79,7 @@ tags: diamond dependency, fanin, auto, server_restart_needed
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInOffBehavior" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "C1, c2, c3, c4-auto-new, c5" - teardown

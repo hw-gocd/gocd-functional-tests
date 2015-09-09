@@ -1,7 +1,7 @@
 FanInBehaviourManualAndAutoTriggerForDeepDiamondConfiguration
 =============================================================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "P1,P2,P3,P4" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -72,7 +72,7 @@ tags: Deep Diamond, Fanin, #6434, 6434
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInManualAndAutoTriggerForDeepDiamondConfiguration" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "P1,P2,P3,P4" - teardown

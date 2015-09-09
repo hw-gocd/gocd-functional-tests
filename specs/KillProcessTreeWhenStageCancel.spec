@@ -1,7 +1,7 @@
 KillProcessTreeWhenStageCancel
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "process-tree" - setup
 * With "1" live agents in directory "kill_process_tree" - setup
@@ -44,7 +44,7 @@ tags: 3544, automate, cancel, kill-process
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "KillProcessTreeWhenStageCancel" - teardown
 * With "1" live agents in directory "kill_process_tree" - teardown
 * Using pipeline "process-tree" - teardown

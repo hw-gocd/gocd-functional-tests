@@ -1,7 +1,7 @@
 DeletePackageAndRepository
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Delete package configuration - setup
 * Login as "admin" - setup
 * Using pipeline "one,two" - setup
@@ -81,7 +81,7 @@ Super-admin sees all pipelines as links
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "DeletePackage" - teardown
 * Using pipeline "one,two" - teardown
 * Login as "admin" - teardown

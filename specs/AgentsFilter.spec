@@ -1,7 +1,7 @@
 AgentsFilter
 ============
 
-Setup of contexts 
+Setup of contexts
 * Multiple agents configuration - setup
 * With "1" live agents in directory "AgentsUIScreen" - setup
 * Capture go state "AgentsUIScreen" - setup
@@ -129,7 +129,7 @@ Multiple filters (performs OR operation)
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentsUIScreen" - teardown
 * With "1" live agents in directory "AgentsUIScreen" - teardown
 * Multiple agents configuration - teardown

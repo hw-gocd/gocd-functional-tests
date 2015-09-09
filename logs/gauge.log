@@ -1,0 +1,556 @@
+17:48:36.763 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/MaterialSupport.spec : line no: 37, Dynamic parameter <Comment> could not be resolved
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/RPMPackageWithMultipleRepositoryPipelineA2.spec : line no: 118, Parse error: Duplicate scenario definitions are not allowed in the same specification
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/RPMPackageWithMultipleRepositoryPipelineA3.spec : line no: 32, String not terminated
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/CardActivityPage.spec : line no: 23, String not terminated
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/ComparePipelinesForRPMPackages.spec : line no: 72, String not terminated
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/FetchArtifactFromAncestorUI.spec : line no: 68, String not terminated
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/FetchArtifactTask.spec : line no: 68, String not terminated
+17:48:36.764 [CRIT] [ParseError] /home/godev/projects/go-functional-test/cruise-twist-new/specs/FetchArtifactTaskUI.spec : line no: 70, String not terminated
+10:56:51.250 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:56:51.251 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:56:55.288 [DEBU] Runner exited with error: exit status 1
+10:56:55.290 [DEBU] Runner connection error: Runner exited with error: exit status 1
+10:56:55.290 [DEBU] Error while killing runner: os: process already finished
+10:56:55.296 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:56:55.297 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:56:56.208 [CRIT] Failed to start gauge API. Runner exited with error: exit status 1
+
+11:00:37.140 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:37.140 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:46.388 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:46.388 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:53.813 [DEBU] Plugin [Html Report] with pid [22620] has exited
+11:00:53.813 [INFO] 
+The following failures occured:
+11:00:53.813 [INFO] 0 scenarios executed, 0 failed
+11:00:53.813 [INFO] 0 specifications executed, 0 failed
+11:00:53.813 [INFO] 0 specifications skipped
+11:00:53.813 [INFO] 6.374s
+13:16:35.188 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:16:35.188 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:16:44.617 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:16:44.617 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:20:05.013 [DEBU] Plugin [Html Report] with pid [23305] has exited
+13:20:09.014 [WARN] Killing runner with PID:23260 forcefully
+13:20:09.014 [INFO] 
+The following failures occured:
+13:20:09.014 [INFO] 1 scenarios executed, 1 failed
+13:20:09.014 [INFO] 1 specifications executed, 1 failed
+13:20:09.014 [INFO] 0 specifications skipped
+13:20:09.014 [INFO] 3m19.33s
+13:44:13.341 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:44:13.342 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:44:22.795 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:44:22.795 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:48:51.754 [DEBU] Plugin [Html Report] with pid [26496] has exited
+13:48:55.754 [WARN] Killing runner with PID:26449 forcefully
+13:48:55.755 [INFO] 1 scenarios executed, 0 failed
+13:48:55.755 [INFO] 1 specifications executed, 0 failed
+13:48:55.755 [INFO] 0 specifications skipped
+13:48:55.755 [INFO] 4m27.924s
+14:02:00.089 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:02:00.089 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:02:09.511 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:02:09.512 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:05:58.656 [DEBU] Plugin [Html Report] with pid [4856] has exited
+14:06:02.657 [WARN] Killing runner with PID:4811 forcefully
+14:06:02.657 [INFO] 
+The following failures occured:
+14:06:02.657 [INFO] 1 scenarios executed, 1 failed
+14:06:02.657 [INFO] 1 specifications executed, 1 failed
+14:06:02.657 [INFO] 0 specifications skipped
+14:06:02.657 [INFO] 3m48.096s
+14:11:51.703 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:11:51.704 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:12:01.270 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:12:01.272 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:14:49.347 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:14:49.347 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:14:58.736 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:14:58.737 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:19:25.893 [DEBU] Plugin [Html Report] with pid [13407] has exited
+14:19:29.894 [WARN] Killing runner with PID:13362 forcefully
+14:19:29.894 [INFO] 
+The following failures occured:
+14:19:29.894 [INFO] 1 scenarios executed, 1 failed
+14:19:29.894 [INFO] 1 specifications executed, 1 failed
+14:19:29.894 [INFO] 0 specifications skipped
+14:19:29.894 [INFO] 4m26.118s
+14:55:10.587 [DEBU] Runner exited with error: exit status 1
+14:55:10.588 [DEBU] Runner connection error: Runner exited with error: exit status 1
+14:55:10.589 [DEBU] Error while killing runner: os: process already finished
+14:55:10.597 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:55:10.598 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:34:17.714 [DEBU] Runner exited with error: exit status 1
+15:34:17.715 [DEBU] Runner connection error: Runner exited with error: exit status 1
+15:34:17.715 [DEBU] Error while killing runner: os: process already finished
+15:34:17.721 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:34:17.722 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:38:41.823 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:38:41.823 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:38:48.592 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:38:48.592 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:38:50.852 [DEBU] Plugin [Html Report] with pid [22652] has exited
+15:38:51.053 [INFO] 
+The following failures occured:
+15:38:51.053 [INFO] 0 scenarios executed, 0 failed
+15:38:51.053 [INFO] 0 specifications executed, 0 failed
+15:38:51.053 [INFO] 0 specifications skipped
+15:38:51.053 [INFO] 1.137s
+16:05:14.835 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:05:14.835 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:05:21.309 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:05:21.309 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:05:23.197 [DEBU] Plugin [Html Report] with pid [23107] has exited
+16:05:23.398 [INFO] 
+The following failures occured:
+16:05:23.398 [INFO] 0 scenarios executed, 0 failed
+16:05:23.398 [INFO] 0 specifications executed, 0 failed
+16:05:23.398 [INFO] 0 specifications skipped
+16:05:23.398 [INFO] 826ms
+16:14:10.463 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:14:10.464 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:14:17.199 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:14:17.200 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:14:19.076 [DEBU] Plugin [Html Report] with pid [23400] has exited
+16:14:19.176 [INFO] 
+The following failures occured:
+16:14:19.176 [INFO] 0 scenarios executed, 0 failed
+16:14:19.176 [INFO] 0 specifications executed, 0 failed
+16:14:19.176 [INFO] 0 specifications skipped
+16:14:19.176 [INFO] 837ms
+16:20:54.973 [CRIT] Failed to load the environment: local. local is an invalid environment
+16:21:38.951 [CRIT] Failed to load the environment: local. local is an invalid environment
+16:26:26.126 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:26:26.126 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:26:32.906 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:26:32.907 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:26:34.883 [DEBU] Plugin [Html Report] with pid [23754] has exited
+16:26:34.883 [INFO] 
+The following failures occured:
+16:26:34.883 [INFO] 0 scenarios executed, 0 failed
+16:26:34.883 [INFO] 0 specifications executed, 0 failed
+16:26:34.883 [INFO] 0 specifications skipped
+16:26:34.883 [INFO] 897ms
+16:28:33.398 [CRIT] Failed to load the environment: local. local is an invalid environment
+16:28:47.458 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:28:47.458 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:28:54.203 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:28:54.203 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:28:56.215 [DEBU] Plugin [Html Report] with pid [23871] has exited
+16:28:56.316 [INFO] 
+The following failures occured:
+16:28:56.316 [INFO] 0 scenarios executed, 0 failed
+16:28:56.316 [INFO] 0 specifications executed, 0 failed
+16:28:56.316 [INFO] 0 specifications skipped
+16:28:56.316 [INFO] 906ms
+16:32:22.860 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:32:22.861 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:32:29.599 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:32:29.600 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:32:31.577 [DEBU] Plugin [Html Report] with pid [24074] has exited
+16:32:31.678 [INFO] 
+The following failures occured:
+16:32:31.678 [INFO] 0 scenarios executed, 0 failed
+16:32:31.678 [INFO] 0 specifications executed, 0 failed
+16:32:31.678 [INFO] 0 specifications skipped
+16:32:31.678 [INFO] 859ms
+16:34:36.777 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:34:36.778 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:34:43.339 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:34:43.340 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:34:45.305 [DEBU] Plugin [Html Report] with pid [24201] has exited
+16:34:45.406 [INFO] 
+The following failures occured:
+16:34:45.406 [INFO] 0 scenarios executed, 0 failed
+16:34:45.406 [INFO] 0 specifications executed, 0 failed
+16:34:45.406 [INFO] 0 specifications skipped
+16:34:45.406 [INFO] 882ms
+16:38:26.188 [CRIT] Failed to load the environment: local. local is an invalid environment
+16:38:48.073 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:38:48.073 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:38:54.585 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:38:54.585 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:38:56.509 [DEBU] Plugin [Html Report] with pid [24386] has exited
+16:38:56.610 [INFO] 
+The following failures occured:
+16:38:56.610 [INFO] 0 scenarios executed, 0 failed
+16:38:56.610 [INFO] 0 specifications executed, 0 failed
+16:38:56.610 [INFO] 0 specifications skipped
+16:38:56.610 [INFO] 858ms
+16:55:36.237 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:55:36.238 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:55:42.995 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:55:42.995 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:55:44.967 [DEBU] Plugin [Html Report] with pid [24785] has exited
+16:55:45.067 [INFO] 
+The following failures occured:
+16:55:45.067 [INFO] 0 scenarios executed, 0 failed
+16:55:45.067 [INFO] 0 specifications executed, 0 failed
+16:55:45.067 [INFO] 0 specifications skipped
+16:55:45.067 [INFO] 844ms
+16:56:49.265 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:56:49.265 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:56:56.044 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:56:56.044 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:56:57.933 [DEBU] Plugin [Html Report] with pid [24898] has exited
+16:56:58.034 [INFO] 
+The following failures occured:
+16:56:58.034 [INFO] 0 scenarios executed, 0 failed
+16:56:58.034 [INFO] 0 specifications executed, 0 failed
+16:56:58.034 [INFO] 0 specifications skipped
+16:56:58.034 [INFO] 825ms
+17:00:23.171 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:00:23.172 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:00:29.996 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:00:29.997 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:00:31.933 [DEBU] Plugin [Html Report] with pid [25016] has exited
+17:00:32.034 [INFO] 
+The following failures occured:
+17:00:32.034 [INFO] 0 scenarios executed, 0 failed
+17:00:32.034 [INFO] 0 specifications executed, 0 failed
+17:00:32.034 [INFO] 0 specifications skipped
+17:00:32.034 [INFO] 859ms
+17:02:27.685 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:02:27.685 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:02:34.488 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:02:34.488 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:02:36.432 [DEBU] Plugin [Html Report] with pid [25173] has exited
+17:02:36.633 [INFO] 
+The following failures occured:
+17:02:36.633 [INFO] 0 scenarios executed, 0 failed
+17:02:36.633 [INFO] 0 specifications executed, 0 failed
+17:02:36.633 [INFO] 0 specifications skipped
+17:02:36.633 [INFO] 881ms
+17:09:16.904 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:09:16.905 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:09:23.676 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:09:23.676 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:09:25.639 [DEBU] Plugin [Html Report] with pid [25348] has exited
+17:09:25.839 [INFO] 
+The following failures occured:
+17:09:25.839 [INFO] 0 scenarios executed, 0 failed
+17:09:25.840 [INFO] 0 specifications executed, 0 failed
+17:09:25.840 [INFO] 0 specifications skipped
+17:09:25.840 [INFO] 886ms
+17:10:49.104 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:10:49.105 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:10:55.885 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:10:55.887 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:10:57.771 [DEBU] Plugin [Html Report] with pid [25478] has exited
+17:10:57.971 [INFO] 
+The following failures occured:
+17:10:57.971 [INFO] 0 scenarios executed, 0 failed
+17:10:57.971 [INFO] 0 specifications executed, 0 failed
+17:10:57.971 [INFO] 0 specifications skipped
+17:10:57.972 [INFO] 823ms
+17:19:49.680 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:19:49.680 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:19:56.470 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:19:56.471 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:19:58.435 [DEBU] Plugin [Html Report] with pid [25887] has exited
+17:19:58.636 [INFO] 
+The following failures occured:
+17:19:58.636 [INFO] 0 scenarios executed, 0 failed
+17:19:58.636 [INFO] 0 specifications executed, 0 failed
+17:19:58.636 [INFO] 0 specifications skipped
+17:19:58.636 [INFO] 864ms
+17:21:08.465 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:21:08.466 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:21:15.187 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:21:15.188 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:21:17.080 [DEBU] Plugin [Html Report] with pid [25977] has exited
+17:21:17.181 [INFO] 
+The following failures occured:
+17:21:17.181 [INFO] 0 scenarios executed, 0 failed
+17:21:17.181 [INFO] 0 specifications executed, 0 failed
+17:21:17.181 [INFO] 0 specifications skipped
+17:21:17.181 [INFO] 834ms
+17:26:08.437 [CRIT] Failed to load the environment: -classpath=src/test/java. -classpath=src/test/java is an invalid environment
+17:26:32.318 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:26:32.319 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:26:39.101 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:26:39.102 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:26:41.012 [DEBU] Plugin [Html Report] with pid [26165] has exited
+17:26:41.113 [INFO] 
+The following failures occured:
+17:26:41.113 [INFO] 0 scenarios executed, 0 failed
+17:26:41.113 [INFO] 0 specifications executed, 0 failed
+17:26:41.113 [INFO] 0 specifications skipped
+17:26:41.113 [INFO] 853ms
+17:30:01.882 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:30:01.883 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:30:08.546 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:30:08.546 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:30:10.474 [DEBU] Plugin [Html Report] with pid [26315] has exited
+17:30:10.575 [INFO] 
+The following failures occured:
+17:30:10.575 [INFO] 0 scenarios executed, 0 failed
+17:30:10.575 [INFO] 0 specifications executed, 0 failed
+17:30:10.575 [INFO] 0 specifications skipped
+17:30:10.575 [INFO] 877ms
+17:42:27.462 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:42:27.462 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:51:38.843 [DEBU] Runner exited with error: exit status 1
+17:51:38.843 [DEBU] Runner connection error: Runner exited with error: exit status 1
+17:51:38.843 [DEBU] Error while killing runner: os: process already finished
+17:51:38.850 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:51:38.850 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:55:22.052 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:55:22.053 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:55:27.811 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:55:27.812 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:55:29.781 [DEBU] Plugin [Html Report] with pid [27655] has exited
+17:55:29.981 [INFO] 
+The following failures occured:
+17:55:29.981 [INFO] 0 scenarios executed, 0 failed
+17:55:29.982 [INFO] 0 specifications executed, 0 failed
+17:55:29.982 [INFO] 0 specifications skipped
+17:55:29.982 [INFO] 878ms
+17:58:30.252 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:58:30.252 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:58:39.978 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:58:39.979 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:01:42.864 [DEBU] Plugin [Html Report] with pid [27766] has exited
+18:01:46.865 [WARN] Killing runner with PID:27718 forcefully
+18:01:46.865 [INFO] 
+The following failures occured:
+18:01:46.865 [INFO] 1 scenarios executed, 1 failed
+18:01:46.865 [INFO] 1 specifications executed, 1 failed
+18:01:46.865 [INFO] 0 specifications skipped
+18:01:46.865 [INFO] 3m1.781s
+18:02:19.847 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:02:19.847 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:02:29.319 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:02:29.321 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:06:59.384 [DEBU] Plugin [Html Report] with pid [29144] has exited
+18:07:03.385 [WARN] Killing runner with PID:29098 forcefully
+18:07:03.385 [INFO] 1 scenarios executed, 0 failed
+18:07:03.385 [INFO] 1 specifications executed, 0 failed
+18:07:03.385 [INFO] 0 specifications skipped
+18:07:03.385 [INFO] 4m29.025s
+18:07:14.469 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:07:14.469 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:07:14.596 [CRIT] [ParseError] /home/godev/workspace/gocd-functional-tests/specs/CardActivityPage.spec : line no: 23, String not terminated
+18:07:35.715 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:07:35.715 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:07:45.663 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:07:45.664 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:07:46.746 [WARN] Validation failed. The following steps have errors
+18:52:13.166 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:52:13.167 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:52:23.042 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:52:23.046 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:13:07.384 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:13:07.384 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:13:17.388 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:13:17.388 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:13:48.159 [DEBU] Plugin [Html Report] with pid [15951] has exited
+19:13:48.260 [INFO] 
+The following failures occured:
+19:13:48.260 [INFO] 0 scenarios executed, 0 failed
+19:13:48.260 [INFO] 0 specifications executed, 0 failed
+19:13:48.260 [INFO] 0 specifications skipped
+19:13:48.260 [INFO] 29.58s
+19:21:05.103 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:21:05.103 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:21:14.432 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+19:21:14.436 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:29:42.016 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:29:42.018 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:29:52.033 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:29:52.033 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:30:12.774 [DEBU] Plugin [Html Report] with pid [16072] has exited
+10:30:12.774 [INFO] 
+The following failures occured:
+10:30:12.775 [INFO] 0 scenarios executed, 0 failed
+10:30:12.775 [INFO] 0 specifications executed, 0 failed
+10:30:12.775 [INFO] 0 specifications skipped
+10:30:12.775 [INFO] 19.576s
+10:33:03.149 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:33:03.149 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:33:12.957 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:33:12.958 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:49:39.540 [DEBU] Plugin [Html Report] with pid [16402] has exited
+10:49:43.540 [WARN] Killing runner with PID:16318 forcefully
+10:49:43.540 [INFO] 
+The following failures occured:
+10:49:43.540 [INFO] 1 scenarios executed, 1 failed
+10:49:43.540 [INFO] 1 specifications executed, 1 failed
+10:49:43.540 [INFO] 0 specifications skipped
+10:49:43.540 [INFO] 16m25.375s
+10:59:57.682 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+10:59:57.682 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:07.301 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:07.301 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:49.625 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:49.626 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:59.034 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:00:59.034 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:03:18.947 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:03:19.092 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:04:14.950 [DEBU] Runner exited with error: exit status 1
+11:04:14.950 [DEBU] Runner connection error: Runner exited with error: exit status 1
+11:04:14.950 [DEBU] Error while killing runner: os: process already finished
+11:04:14.956 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:04:14.957 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:14:03.609 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:14:03.610 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:14:13.362 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:14:13.362 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:15:36.168 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:15:36.168 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:15:45.589 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:15:45.590 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:20:49.315 [DEBU] Runner exited with error: exit status 1
+11:20:49.315 [DEBU] Runner connection error: Runner exited with error: exit status 1
+11:20:49.315 [DEBU] Error while killing runner: os: process already finished
+11:20:49.322 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:20:49.323 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:21:07.243 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:21:07.244 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:21:16.750 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:21:16.751 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:28:52.047 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:28:52.048 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:29:01.070 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:29:01.070 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:59:20.995 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:59:20.996 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:59:30.220 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+11:59:30.221 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:07:55.441 [DEBU] Runner exited with error: exit status 1
+12:07:55.441 [DEBU] Runner connection error: Runner exited with error: exit status 1
+12:07:55.441 [DEBU] Error while killing runner: os: process already finished
+12:07:55.448 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:07:55.449 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:12:33.446 [DEBU] Runner exited with error: exit status 1
+12:12:33.446 [DEBU] Runner connection error: Runner exited with error: exit status 1
+12:12:33.446 [DEBU] Error while killing runner: os: process already finished
+12:12:33.452 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:12:33.453 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:15:26.704 [DEBU] Runner exited with error: exit status 1
+12:15:26.704 [DEBU] Runner connection error: Runner exited with error: exit status 1
+12:15:26.704 [DEBU] Error while killing runner: os: process already finished
+12:15:26.710 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:15:26.711 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:15:56.038 [DEBU] Plugin [Html Report] with pid [13495] has exited
+12:16:00.039 [WARN] Killing runner with PID:13450 forcefully
+12:16:00.039 [INFO] 
+The following failures occured:
+12:16:00.039 [INFO] 1 scenarios executed, 1 failed
+12:16:00.039 [INFO] 1 specifications executed, 1 failed
+12:16:00.039 [INFO] 0 specifications skipped
+12:16:00.039 [INFO] 16m24.739s
+12:20:45.003 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:20:45.003 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:20:54.199 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:20:54.199 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:35:11.328 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:35:11.328 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:35:20.822 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:35:20.823 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+12:39:45.666 [DEBU] Plugin [Html Report] with pid [31124] has exited
+12:39:49.666 [WARN] Killing runner with PID:31062 forcefully
+12:39:49.666 [INFO] 1 scenarios executed, 0 failed
+12:39:49.666 [INFO] 1 specifications executed, 0 failed
+12:39:49.666 [INFO] 0 specifications skipped
+12:39:49.666 [INFO] 4m23.73s
+13:28:45.088 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:28:45.088 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:28:54.299 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:28:54.299 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:37:57.302 [DEBU] Plugin [Html Report] with pid [30744] has exited
+13:38:01.303 [WARN] Killing runner with PID:30699 forcefully
+13:38:01.303 [INFO] 
+The following failures occured:
+13:38:01.303 [INFO] 4 scenarios executed, 2 failed
+13:38:01.303 [INFO] 4 specifications executed, 2 failed
+13:38:01.303 [INFO] 0 specifications skipped
+13:38:01.303 [INFO] 9m1.9s
+13:39:00.700 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:39:00.701 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:45:48.569 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:45:48.569 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:45:57.777 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+13:45:57.777 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:19:31.498 [DEBU] Plugin [Html Report] with pid [9264] has exited
+14:19:35.499 [WARN] Killing runner with PID:9218 forcefully
+14:19:35.499 [INFO] 
+The following failures occured:
+14:19:35.500 [INFO] 8 scenarios executed, 4 failed
+14:19:35.500 [INFO] 8 specifications executed, 4 failed
+14:19:35.500 [INFO] 0 specifications skipped
+14:19:35.500 [INFO] 33m32.603s
+14:22:55.532 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:22:55.533 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:23:04.890 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:23:04.891 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:32:00.080 [DEBU] Plugin [Html Report] with pid [31351] has exited
+14:32:04.081 [WARN] Killing runner with PID:31305 forcefully
+14:32:04.081 [INFO] 
+The following failures occured:
+14:32:04.081 [INFO] 3 scenarios executed, 1 failed
+14:32:04.081 [INFO] 3 specifications executed, 1 failed
+14:32:04.081 [INFO] 0 specifications skipped
+14:32:04.081 [INFO] 8m54.105s
+14:35:28.291 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:35:28.292 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:35:38.003 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:35:38.003 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+14:59:51.250 [DEBU] Plugin [Html Report] with pid [8305] has exited
+14:59:55.250 [WARN] Killing runner with PID:8262 forcefully
+14:59:55.250 [INFO] 
+The following failures occured:
+14:59:55.252 [INFO] 7 scenarios executed, 6 failed
+14:59:55.252 [INFO] 7 specifications executed, 6 failed
+14:59:55.252 [INFO] 0 specifications skipped
+14:59:55.252 [INFO] 24m12.131s
+15:05:12.017 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:05:12.018 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:05:21.686 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:05:21.687 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:34:44.282 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:34:44.283 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:34:53.778 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:34:53.779 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+15:54:28.696 [DEBU] Plugin [Html Report] with pid [7342] has exited
+15:54:32.697 [WARN] Killing runner with PID:7293 forcefully
+15:54:32.697 [INFO] 
+The following failures occured:
+15:54:32.698 [INFO] 5 scenarios executed, 2 failed
+15:54:32.698 [INFO] 5 specifications executed, 2 failed
+15:54:32.698 [INFO] 0 specifications skipped
+15:54:32.698 [INFO] 19m33.828s
+16:03:37.945 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:03:37.946 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:03:47.709 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:03:47.710 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:03:48.809 [WARN] Validation failed. The following steps have errors
+16:27:03.393 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:27:03.393 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:27:13.222 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+16:27:13.222 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:48:25.579 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:48:25.580 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:48:35.929 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+17:48:35.930 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:29:20.186 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:29:20.188 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:29:20.194 [INFO] No specifications found.
+18:29:34.844 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:29:34.844 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:29:45.051 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:29:45.052 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:34:03.491 [DEBU] Plugin [Html Report] with pid [19267] has exited
+18:34:07.497 [WARN] Killing runner with PID:19131 forcefully
+18:34:07.497 [INFO] 
+The following failures occured:
+18:34:07.498 [INFO] 1 scenarios executed, 1 failed
+18:34:07.498 [INFO] 1 specifications executed, 1 failed
+18:34:07.498 [INFO] 0 specifications skipped
+18:34:07.498 [INFO] 4m17.242s
+18:37:18.977 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:37:18.978 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:37:29.541 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.
+18:37:29.541 [WARN] line no: 1, Could not resolve special param type <repo-1:P-1>. Treating it as dynamic param.

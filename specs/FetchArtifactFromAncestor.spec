@@ -1,7 +1,7 @@
 FetchArtifactFromAncestor
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "uppest_pipeline, upper_pipeline, upper_peer_pipeline, up_pipeline, down_pipeline" - setup
 * With "2" live agents in directory "FetchMaterialFromAncestor" - setup
@@ -45,7 +45,7 @@ Successful fetch from direct parent
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FetchMaterialFromAncestor" - teardown
 * With "2" live agents in directory "FetchMaterialFromAncestor" - teardown
 * Using pipeline "uppest_pipeline, upper_pipeline, upper_peer_pipeline, up_pipeline, down_pipeline" - teardown

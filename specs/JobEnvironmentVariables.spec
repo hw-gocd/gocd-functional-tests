@@ -1,7 +1,7 @@
 JobEnvironmentVariables
 =======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-all-materials, pipeline-with-all-materials-downstream" - setup
 * With "1" live agents in directory "AgentsUIScreen" - setup
@@ -92,7 +92,7 @@ Pipeline with one material scm and a dependency material
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobEnvironmentVariables" - teardown
 * With "1" live agents in directory "AgentsUIScreen" - teardown
 * Using pipeline "pipeline-with-all-materials, pipeline-with-all-materials-downstream" - teardown

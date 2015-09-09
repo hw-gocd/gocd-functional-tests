@@ -1,7 +1,7 @@
 AddNewPipelineValidations
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -21,14 +21,14 @@ pipeline tab validations(do group here)
 * Verify inline validation message "This field is required."
 * Set "pipeline_group[pipeline][name](text_field): some random pipeline name"
 * Go next from settings
-* Verify inline validation message "Value should contain only alphanumeric characters, underscore and period."
+* Verify inline validation message "Value should contain only alphanumeric characters, dashes, underscores and periods."
 * Set "pipeline_group[pipeline][name](text_field): ${runtime_name:edit-pipeline}"
 * Go next from settings
 * Verify inline validation message "Pipeline name is already in use."
 * Set "pipeline_group[pipeline][name](text_field): the.right.thing"
 * Set "pipeline_group[group](text_field): some junk group"
 * Go next from settings
-* Verify inline validation message "Value should contain only alphanumeric characters, underscore and period."
+* Verify inline validation message "Value should contain only alphanumeric characters, dashes, underscores and periods."
 * Set "pipeline_group[group](text_field): some.junk.group"
 * Go next from settings
 * Verify transitioned successfully
@@ -117,12 +117,12 @@ stage/job validations
 * Verify inline validation message "This field is required."
 * Set "pipeline_group[pipeline][stage][name](text_field): foo bar baz"
 * Save pipeline
-* Verify inline validation message "Value should contain only alphanumeric characters, underscore and period."
+* Verify inline validation message "Value should contain only alphanumeric characters, dashes, underscores and periods."
 * Set "pipeline_group[pipeline][stage][name](text_field): valid.stage.name"
 * Set "pipeline_group[pipeline][stage][jobs][][name](text_field): NULL"
 * Verify inline validation message "This field is required."
 * Set "pipeline_group[pipeline][stage][jobs][][name](text_field): in valid job name"
-* Verify inline validation message "Value should contain only alphanumeric characters, underscore and period."
+* Verify inline validation message "Value should contain only alphanumeric characters, dashes, underscores and periods."
 * Set "pipeline_group[pipeline][stage][jobs][][name](text_field): valid.job.name"
 * Select task type as "More..."
 * Save pipeline
@@ -156,7 +156,7 @@ template validations
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddNewPipelineValidations" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Login as "admin" - teardown

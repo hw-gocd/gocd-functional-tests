@@ -1,7 +1,7 @@
 DependencyWalkInPipelineCompareWithSameScm
 ==========================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "first, child-of-first,grandchild-of-first" - setup
 * With "1" live agents in directory "dependency_walk" - setup
@@ -41,7 +41,7 @@ tags: 4643, automate, compare_pipeline, dependency_walk
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "DependencyWalkInPipelineCompareWithSameScm" - teardown
 * With "1" live agents in directory "dependency_walk" - teardown
 * Using pipeline "first, child-of-first,grandchild-of-first" - teardown

@@ -1,7 +1,7 @@
 AgentsApi
 =========
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline-fast, admin-pipeline" - setup
@@ -13,8 +13,8 @@ AgentsApi
 
 tags: 1621, agents, restful api, automate, 3450, 6996, 7033
 
- 
-Developer Note: We should move the following 'verfy' methods to the 'Using Agents API' fixture 
+
+Developer Note: We should move the following 'verfy' methods to the 'Using Agents API' fixture
 when we have a proper API for agents. Going through the web UI here because we don't have a
 better API yet.
 
@@ -49,8 +49,8 @@ Verify security unauthorized
 * Delete "some-uuid" - Using Agents Api
 * Verify return code is "401"
 
-The following randomly fails with a timeout issue on IE when fetching the agents page in the 
-constructor. I've tried various workarounds, but nothing fixes the problem... commenting out for 
+The following randomly fails with a timeout issue on IE when fetching the agents page in the
+constructor. I've tried various workarounds, but nothing fixes the problem... commenting out for
 now because it's not a critical assertion. Will watch it run on the agent to debug further... yogi
 On Agents Page
 verify "New Agent" link is not present
@@ -60,7 +60,7 @@ verify "New Agent" link is not present
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentsApi" - teardown
 * With "3" live agents in directory "AgentsApi" - teardown
 * Using pipeline "basic-pipeline-fast, admin-pipeline" - teardown

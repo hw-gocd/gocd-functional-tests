@@ -1,7 +1,7 @@
 EditPipelineWizardCronFieldValidations
 ======================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "EditPipelineWizardCronFieldValidations" - setup
@@ -16,22 +16,23 @@ tags: 4737, Clicky Admin
 
 Cron Field Validations
 
-* CronFieldValidation
-| Cron Field Value | valid | 
-| 0 0/5 * * * ? | true | 
-| 10 0/5 * * * ? | true | 
-| 0 30 10-13 ? * WED,FRI | true | 
-| 0 0/30 8-9 5,20 * ? | true | 
-| 0 30 10-13 ? * WED-FRI | true | 
-| 0 30 10-13 ? * FRI-MON | true | 
-| 0 30 10-13 ? * WED,FRI 2011 | true | 
-| some_string | false | 
-| @hourly | false | 
-| @monthly | false | 
-| @weekly | false | 
-| @daily | false | 
-| @reboot | false | 
-| 0 30  1-12 1-28 JAN-JUN ? | true | 
+* CronFieldValidation 
+     |Cron Field Value           |valid|
+     |---------------------------|-----|
+     |0 0/5 * * * ?              |true |
+     |10 0/5 * * * ?             |true |
+     |0 30 10-13 ? * WED,FRI     |true |
+     |0 0/30 8-9 5,20 * ?        |true |
+     |0 30 10-13 ? * WED-FRI     |true |
+     |0 30 10-13 ? * FRI-MON     |true |
+     |0 30 10-13 ? * WED,FRI 2011|true |
+     |some_string                |false|
+     |@hourly                    |false|
+     |@monthly                   |false|
+     |@weekly                    |false|
+     |@daily                     |false|
+     |@reboot                    |false|
+     |0 30  1-12 1-28 JAN-JUN ?  |true |
 
 
 * Open parameters page
@@ -45,13 +46,14 @@ Cron Field Validations
 
 Cron Field Validations with parameter substituion
 
-* CronFieldValidation
-| Cron Field Value | valid | 
-| #{cron_time_specifier} | true | 
-| #{partial_cron_time_specifier} WED-FRI | true | 
-| #(cron_time_specifier} #{partial_cron_time_specifier} | false | 
-| ${env_cron_time_specifier} | false | 
-| ${env_partial_cron_specifier} | false | 
+* CronFieldValidation 
+     |Cron Field Value                                     |valid|
+     |-----------------------------------------------------|-----|
+     |#{cron_time_specifier}                               |true |
+     |#{partial_cron_time_specifier} WED-FRI               |true |
+     |#(cron_time_specifier} #{partial_cron_time_specifier}|false|
+     |${env_cron_time_specifier}                           |false|
+     |${env_partial_cron_specifier}                        |false|
 
 
 * Go to environment variables page
@@ -66,10 +68,11 @@ Cron Field Validations with parameter substituion
 Cron time specifier validation with environment variables
 
 
-* CronFieldValidation
-| Cron Field Value | valid | 
-| ${env_cron_specifier} | false | 
-| ${env_partial_cron_specifier} | false | 
+* CronFieldValidation 
+     |Cron Field Value             |valid|
+     |-----------------------------|-----|
+     |${env_cron_specifier}        |false|
+     |${env_partial_cron_specifier}|false|
 
 
 
@@ -77,7 +80,7 @@ Cron time specifier validation with environment variables
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditPipelineWizardCronFieldValidations" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

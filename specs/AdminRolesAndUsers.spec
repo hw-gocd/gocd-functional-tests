@@ -1,7 +1,7 @@
 AdminRolesAndUsers
 ==================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "viewable-pipeline" - setup
@@ -17,13 +17,14 @@ tags: 1952, security, automate
 * Making "raghu" an admin user
 
 Verify if user is admin
-* VerifyIfUserIsAdmin
-| login as user | admin | 
-| view | false | 
-| operate | false | 
-| pavan | true | 
-| raghu | true | 
-| admin | true | 
+* VerifyIfUserIsAdmin 
+     |login as user|admin|
+     |-------------|-----|
+     |view         |false|
+     |operate      |false|
+     |pavan        |true |
+     |raghu        |true |
+     |admin        |true |
 
 * Logout - On Any Page
 
@@ -33,9 +34,10 @@ Verify if user is admin
 
 * Logout - On Any Page
 
-* VerifyIfUserIsAdmin
-| login as user | admin | 
-| raghu | false | 
+* VerifyIfUserIsAdmin 
+     |login as user|admin|
+     |-------------|-----|
+     |raghu        |false|
 
 * Login as "raghu"
 
@@ -54,7 +56,7 @@ Verify if user is admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AdminRolesAndUsers" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "viewable-pipeline" - teardown

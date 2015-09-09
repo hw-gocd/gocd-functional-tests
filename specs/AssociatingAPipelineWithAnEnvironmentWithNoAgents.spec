@@ -1,7 +1,7 @@
 AssociatingAPipelineWithAnEnvironmentWithNoAgents
 =================================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "environment-pipeline" - setup
 * With "2" live agents in directory "AssociatingAPipelineWithAnEnvironmentWithNoAgents" - setup
@@ -25,7 +25,7 @@ This is to verify that only the agents associated with an evironment are used to
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AssociatingAPipelineWithAnEnvironmentWithNoAgents" - teardown
 * With "2" live agents in directory "AssociatingAPipelineWithAnEnvironmentWithNoAgents" - teardown
 * Using pipeline "environment-pipeline" - teardown

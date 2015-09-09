@@ -1,7 +1,7 @@
 ApiStageCancel
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1" - setup
@@ -12,7 +12,7 @@ ApiStageCancel
 
 tags: api, stage, 5849
 
-Pipeline Groups - group 1 
+Pipeline Groups - group 1
 						  group 2
 Role: group1AdminRole
 Group Admins: group1Admin
@@ -48,7 +48,7 @@ Admins: admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ApiStageCancel" - teardown
 * Using pipeline "pipeline1" - teardown
 * Login as "admin" - teardown

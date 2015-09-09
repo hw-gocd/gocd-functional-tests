@@ -1,7 +1,7 @@
 GitMaterialViewerAndEditor
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "up, edit-pipeline" - setup
 * Capture go state "GitMaterialViewerAndEditor" - setup
@@ -47,7 +47,7 @@ tags: Clicky Admin, 4598
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "GitMaterialViewerAndEditor" - teardown
 * Using pipeline "up, edit-pipeline" - teardown
 * Basic configuration - teardown

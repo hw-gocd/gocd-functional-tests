@@ -1,7 +1,7 @@
 EncryptPasswords
 ================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Capture go state "EncryptPasswords" - setup
@@ -44,7 +44,7 @@ Encryption of Svn and P4 passwords taken care of in relavent tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EncryptPasswords" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

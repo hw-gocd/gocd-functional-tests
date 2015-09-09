@@ -1,7 +1,7 @@
 CommandRepositoryDoesNotListSnippetsFromHiddenFolders
 =====================================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Setup command repo - setup
 * Using pipeline "basic-auto-pipeline" - setup
@@ -45,7 +45,7 @@ verify that invalid files from hidden folder do not get listed as invalid
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CommandRepositoryDoesNotListSnippetsFromHiddenFolders" - teardown
 * Using pipeline "basic-auto-pipeline" - teardown
 * Setup command repo - teardown

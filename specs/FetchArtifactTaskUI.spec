@@ -119,7 +119,6 @@ Error conditions
 * Verify validation failed for "task[src](text_field): Should provide either srcdir or srcfile"
 
 
-
 Fetch Artifact from previous stage of same pipeline
 * Click on pipeline "uppest_pipeline" for editing
 
@@ -143,11 +142,6 @@ Fetch Artifact from previous stage of same pipeline
 * Save and verify saved successfully
 
 * Verify task "2" is "Fetch Artifact" task without on cancel and properties "Stage Name: uppest-stage1, Job Name: uppest-job1, Source Directory: source_dir" that runs if state is "Passed"
-
-
-
-
-
 
 Teardown of contexts 
 * Capture go state "FetchArtifactTask" - teardown

@@ -1,7 +1,7 @@
 EditPipelineWizardStageListing
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Setup command repo - setup
 * Using pipeline "edit-pipeline" - setup
@@ -73,7 +73,7 @@ Because of bug "On Success" message is being shown as success
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditPipelineWizardStageListing" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Setup command repo - teardown

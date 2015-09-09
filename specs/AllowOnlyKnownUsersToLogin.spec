@@ -1,7 +1,7 @@
 AllowOnlyKnownUsersToLogin
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup
@@ -28,7 +28,7 @@ tags: 4168
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AllowOnlyKnownUsersToLogin" - teardown
 * Using pipeline "basic-pipeline" - teardown
 * Login as "admin" - teardown

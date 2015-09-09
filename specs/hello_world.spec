@@ -23,11 +23,11 @@ Second scenario for the specification
 This is the second scenario in this specification
 
 * Say "hello again" to "gauge"
-* Step that takes a table
-    |Product|       Description           |
-    |-------|-----------------------------|
-    |Gauge  |Test automation with ease    |
-    |Mingle |Agile project management     |
-    |Snap   |Hosted continuous integration|
-    |Gocd   |Continuous delivery platform |
+* Step that takes a table 
+     |Product|Description                  |
+     |-------|-----------------------------|
+     |Gauge  |Test automation with ease    |
+     |Mingle |Agile project management     |
+     |Snap   |Hosted continuous integration|
+     |Gocd   |Continuous delivery platform |
 

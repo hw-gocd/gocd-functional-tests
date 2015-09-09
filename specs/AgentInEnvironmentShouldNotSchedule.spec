@@ -1,7 +1,7 @@
 AgentInEnvironmentShouldNotSchedule
 ===================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast" - setup
 * With "1" live agents in directory "AgentInEnvironmentShouldNotSchedule" - setup
@@ -27,7 +27,7 @@ tags: agent management, svn support, agent auto-discover, 3093, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentInEnvironmentShouldNotSchedule" - teardown
 * With "1" live agents in directory "AgentInEnvironmentShouldNotSchedule" - teardown
 * Using pipeline "basic-pipeline-fast" - teardown

@@ -1,7 +1,7 @@
 HungJobWarning
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "hung-job-pipeline" - setup
 * With "1" live agents in directory "HungJobWarning" - setup
@@ -35,7 +35,7 @@ tags: #4584, Clicky Admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "HungJobWarning" - teardown
 * With "1" live agents in directory "HungJobWarning" - teardown
 * Using pipeline "hung-job-pipeline" - teardown

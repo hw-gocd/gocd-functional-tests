@@ -1,7 +1,7 @@
 ArtifactMD5VerificationFailure
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "artifact-md5-mismatch" - setup
 * Capture go state "ArtifactMD5VerificationFailure" - setup
@@ -53,7 +53,7 @@ Failure Scenario - MD5 Mismatch
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * With "1" live agents in directory "ArtifactsMD5Failure" - teardown
 * Capture go state "ArtifactMD5VerificationFailure" - teardown
 * Using pipeline "artifact-md5-mismatch" - teardown

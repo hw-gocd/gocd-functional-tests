@@ -1,7 +1,7 @@
 AdminTaskListing
 ================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-ls" - setup
 * Capture go state "AdminTaskListing" - setup
@@ -44,7 +44,7 @@ tags: 4597, task, clicky, admin, exec, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AdminTaskListing" - teardown
 * Using pipeline "pipeline-ls" - teardown
 * Basic configuration - teardown

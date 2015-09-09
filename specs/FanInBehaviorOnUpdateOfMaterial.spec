@@ -1,7 +1,7 @@
 FanInBehaviorOnUpdateOfMaterial
 ===============================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "d-up-left, d-up-right, d-down, basic-auto-pipeline" - setup
 * With "1" live agents in directory "Stage details" - setup
@@ -23,8 +23,8 @@ left [l1(g1), l2(g3), l3(g5), l3(g7)                  V                         
                       \                                            /                                                      |
                        \                                         /                                                        |
                         V                                      V                                                        |
-                     down[d1(l1, r1, g1), d2(l3, r4, g5), d3(l2, r6, g3)] <------------------+     
-			
+                     down[d1(l1, r1, g1), d2(l3, r4, g5), d3(l2, r6, g3)] <------------------+
+
 
 * Trigger pipelines "d-up-left" and wait for labels "1" to pass
 * Trigger pipelines "d-up-right" and wait for labels "1" to pass
@@ -83,7 +83,7 @@ left [l1(g1), l2(g3), l3(g5), l3(g7)                  V                         
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInBehaviorOnChangeOfMaterials" - teardown
 * With "1" live agents in directory "Stage details" - teardown
 * Using pipeline "d-up-left, d-up-right, d-down, basic-auto-pipeline" - teardown

@@ -1,7 +1,7 @@
 FanInOffBehaviorBlacklistingForTriangleConfiguration
 ====================================================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "cruise, acceptance" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -69,7 +69,7 @@ Verify Build cause for Acceptance
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FaninOffBehaviorBlacklistingForTriangleConfiguration" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "cruise, acceptance" - teardown

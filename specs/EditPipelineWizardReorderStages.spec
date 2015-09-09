@@ -1,7 +1,7 @@
 EditPipelineWizardReorderStages
 ===============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline-with-3-stages" - setup
 * Capture go state "EditPipelineWizardReorderStages" - setup
@@ -26,7 +26,7 @@ tags: Clicky Admin, 4742
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditPipelineWizardReorderStages" - teardown
 * Using pipeline "edit-pipeline-with-3-stages" - teardown
 * Basic configuration - teardown

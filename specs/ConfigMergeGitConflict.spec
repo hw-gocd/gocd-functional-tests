@@ -1,7 +1,7 @@
 ConfigMergeGitConflict
 ======================
 
-Setup of contexts 
+Setup of contexts
 * ConflictingConfiguration - setup
 * Login as "admin" - setup
 * Capture go state "ConfigMergeGitConflict" - setup
@@ -52,7 +52,7 @@ Post validation failure
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Using pipeline "basic-pipeline, upstream-pipeline,middle-pipeline" - teardown
 * Capture go state "ConfigMergeGitConflict" - teardown
 * Login as "admin" - teardown

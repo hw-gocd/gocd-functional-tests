@@ -1,7 +1,7 @@
 CommandRepositoryValidations
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Setup command repo - setup
@@ -110,7 +110,7 @@ Verifying server health message for a directory which does not exist being set a
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "CommandRepositoryValidations" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Setup command repo - teardown

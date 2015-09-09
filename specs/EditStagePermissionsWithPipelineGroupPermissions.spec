@@ -1,7 +1,7 @@
 EditStagePermissionsWithPipelineGroupPermissions
 ================================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -67,7 +67,7 @@ Make sure that only users who operate permissions (and not view users) on the pi
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditStagePermissionsWithPipelineGroupPermissions" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Login as "admin" - teardown

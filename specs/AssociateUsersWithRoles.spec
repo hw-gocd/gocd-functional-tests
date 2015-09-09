@@ -1,7 +1,7 @@
 AssociateUsersWithRoles
 =======================
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup
@@ -49,7 +49,7 @@ raghu -> viewer
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AssociateUsersWithRoles" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

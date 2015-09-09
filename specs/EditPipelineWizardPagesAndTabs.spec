@@ -1,7 +1,7 @@
 EditPipelineWizardPagesAndTabs
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "EditPipelineWizardPagesAndTabs" - setup
@@ -64,7 +64,7 @@ there is a bug here below statement should have been verify defaultstage has typ
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditPipelineWizardPagesAndTabs" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

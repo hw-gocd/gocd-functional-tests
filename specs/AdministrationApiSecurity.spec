@@ -1,7 +1,7 @@
 AdministrationApiSecurity
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2, pipeline3" - setup
@@ -60,7 +60,7 @@ Users Not in Roles
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AdministrationApiSecurity" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline1, pipeline2, pipeline3" - teardown

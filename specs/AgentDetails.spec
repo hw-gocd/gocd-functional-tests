@@ -1,7 +1,7 @@
 AgentDetails
 ============
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "normal-pipeline, basic,failing-pipeline" - setup
@@ -108,7 +108,7 @@ verify that a groupadmin cannot see job history tab
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentDetails" - teardown
 * With "1" live agents in directory "AgentDetails" - teardown
 * Using pipeline "normal-pipeline, basic,failing-pipeline" - teardown

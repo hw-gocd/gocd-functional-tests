@@ -1,6 +1,6 @@
 #Clone pipeline <edit-pipeline> to <admin-test-dependency> in pipeline group <dependency-group>
 *Open "Pipelines" tab
-*Click clone button for pipeline "edit-pipeline"
-*Enter pipeline name "admin-test-dependency"
-*Enter pipeline group name "dependency-group"
+*Click clone button for pipeline <edit-pipeline>
+*Enter pipeline name <admin-test-dependency>
+*Enter pipeline group name <dependency-group>
 *Save for success

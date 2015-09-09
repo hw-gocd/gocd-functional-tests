@@ -1,7 +1,7 @@
 JobRerunConfigDeletion
 ======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-3-jobs" - setup
 * Capture go state "JobRerunConfigDeletion" - setup
@@ -33,7 +33,7 @@ tags: 4137, stage-details, job-rerun, scheduling, rerun
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobRerunConfigDeletion" - teardown
 * Using pipeline "pipeline-with-3-jobs" - teardown
 * Basic configuration - teardown

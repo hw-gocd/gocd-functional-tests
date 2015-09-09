@@ -1,7 +1,7 @@
 ComparePipelineWithBisect
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "up" - setup
 * Capture go state "ComparePipelineWithBisect" - setup
@@ -53,7 +53,7 @@ tags: 4688, compare_pipeline, 5789
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipelineWithBisect" - teardown
 * Using pipeline "up" - teardown
 * Basic configuration - teardown

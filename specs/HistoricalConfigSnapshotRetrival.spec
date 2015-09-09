@@ -1,7 +1,7 @@
 HistoricalConfigSnapshotRetrival
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline" - setup
@@ -35,7 +35,7 @@ tags: config, api, 1441, versioning
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "HistoricalConfigSnapshotRetrival" - teardown
 * Using pipeline "basic-pipeline" - teardown
 * Login as "admin" - teardown

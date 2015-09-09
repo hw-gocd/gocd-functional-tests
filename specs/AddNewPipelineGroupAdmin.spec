@@ -1,7 +1,7 @@
 AddNewPipelineGroupAdmin
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "group1Admin" - setup
 * Capture go state "AddNewPipelineGroupAdmin" - setup
@@ -57,7 +57,7 @@ make sure group admins don't see autocomplete for group
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AddNewPipelineGroupAdmin" - teardown
 * Login as "group1Admin" - teardown
 * Group admin security configuration - teardown

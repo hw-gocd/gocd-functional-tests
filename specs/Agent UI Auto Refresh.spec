@@ -1,7 +1,7 @@
 Agent UI Auto Refresh
 =====================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-slow" - setup
 * With "1" live agents in directory "AgentsUIWithAutoRefresh" - setup
@@ -33,7 +33,7 @@ and no open if we are. This way, we can ensure that auto refresh works fine.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "Agent uI auto refresh" - teardown
 * With "1" live agents in directory "AgentsUIWithAutoRefresh" - teardown
 * Using pipeline "basic-pipeline-slow" - teardown

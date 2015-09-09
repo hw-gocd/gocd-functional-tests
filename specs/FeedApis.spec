@@ -1,7 +1,7 @@
 FeedApis
 ========
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "mingle-config-parent, two-stage-pipeline-with-mingle-config" - setup
 * With "1" live agents in directory "NOT-USED" - setup
@@ -64,7 +64,7 @@ tags: 3351, automate, 3365, feeds, shine
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FeedApis" - teardown
 * Logout on exit - teardown
 * With "1" live agents in directory "NOT-USED" - teardown

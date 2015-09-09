@@ -1,7 +1,7 @@
 AuthenticationProviderError
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Invalid ldap configuration - setup
 * Capture go state "AuthenticationProviderError" - setup
 
@@ -17,7 +17,7 @@ DNS error for Ldap server
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AuthenticationProviderError" - teardown
 * Invalid ldap configuration - teardown
 

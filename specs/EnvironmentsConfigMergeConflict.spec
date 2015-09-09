@@ -1,7 +1,7 @@
 EnvironmentsConfigMergeConflict
 ===============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Capture go state "EnvironmentsConfigMergeConflict" - setup
@@ -75,7 +75,7 @@ tags: 7302
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EnvironmentsConfigMergeConflict" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

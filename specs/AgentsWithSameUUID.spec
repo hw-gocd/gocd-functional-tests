@@ -1,7 +1,7 @@
 AgentsWithSameUUID
 ==================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast" - setup
 * Capture go state "AgentsWithSameUUID" - setup
@@ -49,7 +49,7 @@ MAKE THIS SCENARIO RUN IN WINDOWS ONCE THE BUG https://mingle05.thoughtworks.com
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AgentsWithSameUUID" - teardown
 * Using pipeline "basic-pipeline-fast" - teardown
 * Basic configuration - teardown

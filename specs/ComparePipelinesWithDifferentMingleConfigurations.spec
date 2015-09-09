@@ -1,7 +1,7 @@
 ComparePipelinesWithDifferentMingleConfigurations
 =================================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-with-mingle-config,down-pipeline-with-mingle-config" - setup
@@ -45,7 +45,7 @@ tags: 4643, automate, compare_pipeline, dependency_walk, 4687
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipelinesWithDifferentMingleConfigurations" - teardown
 * With "1" live agents in directory "compare_pipelines" - teardown
 * Using pipeline "pipeline-with-mingle-config,down-pipeline-with-mingle-config" - teardown

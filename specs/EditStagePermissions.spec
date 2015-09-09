@@ -1,7 +1,7 @@
 EditStagePermissions
 ====================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -42,7 +42,7 @@ Verify the happy path of authorizing a user and role to operate on a stage
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditStagePermissions" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Login as "admin" - teardown

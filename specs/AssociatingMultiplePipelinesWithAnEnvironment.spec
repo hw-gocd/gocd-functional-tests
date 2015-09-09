@@ -1,7 +1,7 @@
 AssociatingMultiplePipelinesWithAnEnvironment
 =============================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "environment-pipeline, basic-pipeline" - setup
 * With "2" live agents in directory "AssociatingMultiplePipelinesWithAnEnvironment" - setup
@@ -28,7 +28,7 @@ This is to verify that only the agents associated with an evironment are used to
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AssociatingMultiplePipelinesWithAnEnvironment" - teardown
 * With "2" live agents in directory "AssociatingMultiplePipelinesWithAnEnvironment" - teardown
 * Using pipeline "environment-pipeline, basic-pipeline" - teardown

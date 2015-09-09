@@ -1,7 +1,7 @@
 DoNothingPluginTest
 ===================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Capture go state "DoNothingPluginTest" - setup
 
@@ -21,7 +21,7 @@ tags: plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "DoNothingPluginTest" - teardown
 * Basic configuration - teardown
 

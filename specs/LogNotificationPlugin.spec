@@ -1,7 +1,7 @@
 LogNotificationPlugin
 =====================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast,basic-pipeline-fail,basic-pipeline-run-till-file-exists" - setup
 * With "1" live agents in directory "PluginAgents" - setup
@@ -47,7 +47,7 @@ tags: plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "LogNotificationPlugin" - teardown
 * With "1" live agents in directory "PluginAgents" - teardown
 * Using pipeline "basic-pipeline-fast,basic-pipeline-fail,basic-pipeline-run-till-file-exists" - teardown

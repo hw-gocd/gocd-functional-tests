@@ -1,7 +1,7 @@
 EditAnExistingEnvironmentNegativeCase
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "environment-pipeline, environment-pipeline-locked, environment-failing-pipeline,pipeline-with-environment-variables" - setup
@@ -75,7 +75,7 @@ Environment Variables Section
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditAnExistingEnvironmentNegativeCase" - teardown
 * Using pipeline "environment-pipeline, environment-pipeline-locked, environment-failing-pipeline,pipeline-with-environment-variables" - teardown
 * Login as "admin" - teardown

@@ -1,7 +1,7 @@
 AdvancedParamSubstitution
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "parent_pipeline" - setup
 * With "2" live agents in directory "ParamSubstitution" - setup
@@ -197,7 +197,7 @@ tags: 4207, Params, template, stage1, 6820
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AdvancedParamSubstitution" - teardown
 * With "2" live agents in directory "ParamSubstitution" - teardown
 * Using pipeline "parent_pipeline" - teardown

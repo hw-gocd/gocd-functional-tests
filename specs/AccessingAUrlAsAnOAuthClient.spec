@@ -1,7 +1,7 @@
 AccessingAUrlAsAnOAuthClient
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline" - setup
@@ -26,7 +26,7 @@ tags: 4248, oAuth, windows
 * Set field "siteUrl" to "http://localhost:8253"
 * Set field "secureSiteUrl" to "https://localhost:8254"
 * Save configuration
-* Verify message "Saved Configuration Successfully." shows up
+* Verify message "Saved configuration successfully." shows up
 
 * Logout - On Any Page
 
@@ -38,9 +38,10 @@ tags: 4248, oAuth, windows
 * Navigate to new client form
 
 Populate OAuth Clients
-* PopulateOAuthClients
-| Client Name | Redirect Url | 
-| twist-client | /help | 
+* PopulateOAuthClients 
+     |Client Name |Redirect Url            |
+     |------------|------------------------|
+     |twist-client|/dummy_not_in_production|
 
 
 * Open "OAuth Clients" tab
@@ -60,7 +61,7 @@ Populate OAuth Clients
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "AccessingAUrlAsAnOAuthClient" - teardown
 * Using pipeline "basic-pipeline" - teardown
 * Login as "admin" - teardown

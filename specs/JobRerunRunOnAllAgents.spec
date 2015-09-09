@@ -1,7 +1,7 @@
 JobRerunRunOnAllAgents
 ======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-for-job-rerun-run-on-all" - setup
 * Capture go state "JobRerunRunOnAllAgents" - setup
@@ -86,7 +86,7 @@ tags: 4137, stage-details, job-rerun, scheduling, rerun, run-on-all
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobRerunRunOnAllAgents" - teardown
 * Using pipeline "pipeline-for-job-rerun-run-on-all" - teardown
 * Basic configuration - teardown

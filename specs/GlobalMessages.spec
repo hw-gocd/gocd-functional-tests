@@ -1,7 +1,7 @@
 GlobalMessages
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast" - setup
 * Capture go state "GlobalMessages" - setup
@@ -41,7 +41,7 @@ tags: 3540, global messages, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "GlobalMessages" - teardown
 * Using pipeline "basic-pipeline-fast" - teardown
 * Basic configuration - teardown

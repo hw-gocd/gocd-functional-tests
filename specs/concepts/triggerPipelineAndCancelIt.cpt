@@ -1,5 +1,5 @@
 #trigger pipeline <p1> and cancel it
-*Looking at pipeline "p1"
+*Looking at pipeline <p1>
 *Trigger pipeline
 *Verify stage "1" is "Building" on pipeline with label "1"
 *Navigate to stage "defaultStage" of run "1"

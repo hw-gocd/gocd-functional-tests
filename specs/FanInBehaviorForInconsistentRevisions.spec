@@ -1,7 +1,7 @@
 FanInBehaviorForInconsistentRevisions
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "FIR1, fIR2, fIR3" - setup
 * With "2" live agents in directory "FanInBehaviorForInconsistentRevisions" - setup
@@ -84,7 +84,7 @@ tags: diamond dependency, fanin, auto, 6451
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInBehaviorForInconsistentRevisions" - teardown
 * With "2" live agents in directory "FanInBehaviorForInconsistentRevisions" - teardown
 * Using pipeline "FIR1, fIR2, fIR3" - teardown

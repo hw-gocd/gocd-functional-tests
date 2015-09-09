@@ -1,7 +1,7 @@
 EditStagePermissionsWithPipelineGroupAdmins
 ===========================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -41,7 +41,7 @@ Verify that an admin or a pipeline group admin can be explicitly added as an ope
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditStagePermissionsWithPipelineGroupAdmins" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Login as "admin" - teardown

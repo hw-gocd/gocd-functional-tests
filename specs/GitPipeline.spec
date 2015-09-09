@@ -1,7 +1,7 @@
 GitPipeline
 ===========
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "git-pipeline" - setup
 * With "1" live agents in directory "git_pipeline" - setup
@@ -70,7 +70,7 @@ tags: git, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "GitPipeline" - teardown
 * With "1" live agents in directory "git_pipeline" - teardown
 * Using pipeline "git-pipeline" - teardown

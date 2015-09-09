@@ -1,7 +1,7 @@
 ComparePipelinesWithTriangleDependency
 ======================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "fourth, fifth, another-sixth-manual" - setup
 * With "1" live agents in directory "compare_pipelines" - setup
@@ -29,7 +29,7 @@ tags: 4643, automate, compare_pipeline, dependency_walk
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipelinesWithTriangleDependency" - teardown
 * With "1" live agents in directory "compare_pipelines" - teardown
 * Using pipeline "fourth, fifth, another-sixth-manual" - teardown

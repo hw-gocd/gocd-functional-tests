@@ -1,7 +1,7 @@
 CommandRepository
 =================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Setup command repo - setup
 * Using pipeline "basic-auto-pipeline" - setup
@@ -100,7 +100,7 @@ tags: 6664, admin-page, configuration, task-repository-location, 6640, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ServerConfigurationCommandRepository" - teardown
 * Using pipeline "basic-auto-pipeline" - teardown
 * Setup command repo - teardown

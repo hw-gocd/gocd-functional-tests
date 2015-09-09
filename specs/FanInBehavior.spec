@@ -1,7 +1,7 @@
 FanInBehavior
 =============
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "C1, c2, c3, c4-auto, c5, c6-auto, c7, c8, c9, c10-auto, c11-auto" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -277,7 +277,7 @@ verify pipeline does not get triggered even once
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInBehavior" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "C1, c2, c3, c4-auto, c5, c6-auto, c7, c8, c9, c10-auto, c11-auto" - teardown

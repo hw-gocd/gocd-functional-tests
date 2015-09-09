@@ -1,7 +1,7 @@
 ArtifactMD5VerificationSkip
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "artifact-md5-skip" - setup
 * Capture go state "ArtifactMD5VerificationSkip" - setup
@@ -50,7 +50,7 @@ tags: #2408, Agent, Artifacts, MD5
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * With "1" live agents in directory "ArtifactsMD5Skip" - teardown
 * Capture go state "ArtifactMD5VerificationSkip" - teardown
 * Using pipeline "artifact-md5-skip" - teardown

@@ -1,7 +1,7 @@
 JobDetailsBreadCrumbs
 =====================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast" - setup
 * Capture go state "JobDetailsBreadCrumbs" - setup
@@ -48,7 +48,7 @@ tags: 4147, breadcrumbs, job-detail
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "JobDetailsBreadCrumbs" - teardown
 * Using pipeline "basic-pipeline-fast" - teardown
 * Basic configuration - teardown

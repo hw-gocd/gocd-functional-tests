@@ -1,7 +1,7 @@
 ClonePipeline
 =============
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -53,7 +53,7 @@ tags: Clone, #5164, Clicky Admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ClonePipeline" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Login as "admin" - teardown

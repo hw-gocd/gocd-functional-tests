@@ -1,7 +1,7 @@
 ArtifactUploadFetch
 ===================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-artifacts" - setup
@@ -50,7 +50,7 @@ tags: 2248, 3153, fetch artifact, svn support, diagnostics messages, publish art
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ArtifactUploadFetch" - teardown
 * With "1" live agents in directory "Artifacts" - teardown
 * Using pipeline "pipeline-artifacts" - teardown

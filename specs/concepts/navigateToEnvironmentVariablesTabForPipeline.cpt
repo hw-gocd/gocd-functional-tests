@@ -1,4 +1,4 @@
 #Navigate to environment variables tab for pipeline <different_variable_at_environment_pipeline_stage_job>
 *Open "Pipelines" tab
-*Edit pipeline "different_variable_at_environment_pipeline_stage_job"
+*Edit pipeline <different_variable_at_environment_pipeline_stage_job>
 *Go to environment variables page

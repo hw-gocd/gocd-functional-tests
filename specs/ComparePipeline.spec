@@ -1,7 +1,7 @@
 ComparePipeline
 ===============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "up, down" - setup
 * With "1" live agents in directory "card_activity" - setup
@@ -86,7 +86,7 @@ Downstream
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ComparePipeline" - teardown
 * With "1" live agents in directory "card_activity" - teardown
 * Using pipeline "up, down" - teardown

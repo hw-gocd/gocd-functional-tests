@@ -1,7 +1,7 @@
 EnvironmentsScreen
 ==================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-environment-pipeline, basic-pipeline-run-till-file-exists" - setup
 * With "2" live agents in directory "AgentsUIScreen" - setup
@@ -32,7 +32,7 @@ tags: 2808, environment, UI, automate, 3574, 3513
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EnvironmentsScreen" - teardown
 * With "2" live agents in directory "AgentsUIScreen" - teardown
 * Using pipeline "basic-environment-pipeline, basic-pipeline-run-till-file-exists" - teardown

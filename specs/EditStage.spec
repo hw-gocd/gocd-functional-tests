@@ -1,7 +1,7 @@
 EditStage
 =========
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -39,7 +39,7 @@ tags: Clicky Admin, 4595, 5005
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "EditStage" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Login as "admin" - teardown
