@@ -1,7 +1,7 @@
 SmokeTest
 =========
 
-Setup of contexts 
+Setup of contexts
 * SmokeConfiguration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline-fast, downstream-pipeline, environment-pipeline, run.till.file.exists" - setup
@@ -29,10 +29,13 @@ Verify that if upstream pipeline has a timer it triggers the downstream pipeline
 * Verify modification "0" has revision "${runtime_name:basic-pipeline-fast}/1/defaultStage/1"
 * Verify material has changed
 
+* On Agents Page
+
 * Add environment "uat" to agents "2"
 
 * Adding pipeline "run.till.file.exists" to "uat" environment
 
+* On Pipeline Dashboard Page
 * Looking at pipeline "run.till.file.exists"
 * Trigger pipeline
 * Stop "1" jobs waiting for file to exist - On Pipeline Dashboard Page
@@ -43,6 +46,7 @@ Verify that if upstream pipeline has a timer it triggers the downstream pipeline
 
 Check we can see the Pipeline Activity page...
 
+* On Environments Page
 * Looking at "uat" environment
 * Verify pipeline is visible "environment-pipeline"
 * Click on pipeline "environment-pipeline"
@@ -50,6 +54,7 @@ Check we can see the Pipeline Activity page...
 
 Check we can see the Stage Details page...
 
+* On Environments Page
 * Looking at "uat" environment
 * Verify pipeline is visible "environment-pipeline"
 * Click on stage "defaultStage" of pipeline "environment-pipeline"
@@ -57,17 +62,21 @@ Check we can see the Stage Details page...
 
 Check we can see the Job Details page...
 
+* On Pipeline Dashboard Page
 * Looking at pipeline "environment-pipeline"
 * Navigate to stage "defaultStage" of run "1"
 
 * Navigate to job "short"
 
+* On Agents Page
 * Verify the "missing" agent has "Unknown" free space
 
+* On Preferences page
 * Verify page title is "Preferences"
 
 * Verify page title is "Administration" - On Administration Page
 
+* On Pipeline Dashboard Page
 * Looking at pipeline "run.till.file.exists"
 * Navigate to stage "default.stage" of run "1" having counter "1"
 
@@ -84,7 +93,7 @@ Check we can see the Job Details page...
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SmokeTest" - teardown
 * With "2" live agents in directory "SmokeTest" - teardown
 * Using pipeline "basic-pipeline-fast, downstream-pipeline, environment-pipeline, run.till.file.exists" - teardown
