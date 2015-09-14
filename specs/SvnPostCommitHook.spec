@@ -1,7 +1,7 @@
 SvnPostCommitHook
 =================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "svn-postcommithook-pipeline, another-svn-postcommithook-pipeline" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -77,7 +77,7 @@ tags: 6433, svn-support
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SvnPostCommitHook" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "svn-postcommithook-pipeline, another-svn-postcommithook-pipeline" - teardown

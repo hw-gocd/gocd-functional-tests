@@ -1,7 +1,7 @@
 StageDetailsShineIntegrationWithoutSecurity
 ===========================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "junit-failures, shine-message" - setup
 * With "1" live agents in directory "StageDetailsShineIntegration" - setup
@@ -30,7 +30,7 @@ tags: 3609, stage-details, automate, shine, failing
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsShineIntegrationWithoutSecurity" - teardown
 * With "1" live agents in directory "StageDetailsShineIntegration" - teardown
 * Using pipeline "junit-failures, shine-message" - teardown

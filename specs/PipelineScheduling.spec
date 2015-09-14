@@ -1,7 +1,7 @@
 PipelineScheduling
 ==================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-2-manual-stages-that-run-till-file-exists" - setup
@@ -46,7 +46,7 @@ tags: restful api, #2482, svn support, scheduling, diagnostics messages, rerun, 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineScheduling" - teardown
 * With "1" live agents in directory "PipelineScheduling" - teardown
 * Using pipeline "pipeline-2-manual-stages-that-run-till-file-exists" - teardown

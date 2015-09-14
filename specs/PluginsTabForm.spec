@@ -1,7 +1,7 @@
 PluginsTabForm
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Setup http based yum repo - setup
 * Group admin security configuration - setup
 * Login as "admin" - setup
@@ -15,8 +15,8 @@ tags: 7735, 7777, admin-page, configuration, plugins-tests
 * Open "Plugins" tab
 
 * Verify plugin named "Yum plugin" with id "yum" is valid
-* Verify plugin with id "yum" has version "2.0.0" name "Yum plugin" description "Plugin that polls a yum repository" author "ThoughtWorks Go Team" with enabled link to "http://www.thoughtworks.com/"
-* Verify more information for plugin with id "yum" has path "/plugins/bundled/yum-repo-exec-poller.jar" target os "Linux" target go version "14.4.0" and bundled status as "Yes"
+* Verify plugin with id "yum" has version "2.0.1" name "Yum plugin" description "Plugin that polls a yum repository" author "ThoughtWorks Go Team" with enabled link to "http://www.thoughtworks.com/"
+* Verify more information for plugin with id "yum" has path "/plugins/bundled/yum-repo-exec-poller.jar" target os "Linux" target go version "15.2.0" and bundled status as "Yes"
 * Verify plugin named "test-donothing-plugin.jar" with id "test-donothing-plugin.jar" is valid
 * Verify plugin with id "test-donothing-plugin.jar" has version "" name "test-donothing-plugin.jar" description "No description available." author "Unknown" with disabled link
 * Verify more information for plugin with id "test-donothing-plugin.jar" has path "/test-donothing-plugin.jar" target os "No restrictions" target go version "Unknown" and bundled status as "Yes"
@@ -29,8 +29,8 @@ tags: 7735, 7777, admin-page, configuration, plugins-tests
 * Open "Plugins" tab
 
 * Verify plugin named "Yum plugin" with id "yum" is valid
-* Verify plugin with id "yum" has version "2.0.0" name "Yum plugin" description "Plugin that polls a yum repository" author "ThoughtWorks Go Team" with enabled link to "http://www.thoughtworks.com/"
-* Verify more information for plugin with id "yum" has path "/plugins/bundled/yum-repo-exec-poller.jar" target os "Linux" target go version "14.4.0" and bundled status as "Yes"
+* Verify plugin with id "yum" has version "2.0.1" name "Yum plugin" description "Plugin that polls a yum repository" author "ThoughtWorks Go Team" with enabled link to "http://www.thoughtworks.com/"
+* Verify more information for plugin with id "yum" has path "/plugins/bundled/yum-repo-exec-poller.jar" target os "Linux" target go version "15.2.0" and bundled status as "Yes"
 * Verify plugin named "test-donothing-plugin.jar" with id "test-donothing-plugin.jar" is valid
 * Verify plugin with id "test-donothing-plugin.jar" has version "" name "test-donothing-plugin.jar" description "No description available." author "Unknown" with disabled link
 * Verify more information for plugin with id "test-donothing-plugin.jar" has path "/test-donothing-plugin.jar" target os "No restrictions" target go version "Unknown" and bundled status as "Yes"
@@ -42,7 +42,7 @@ tags: 7735, 7777, admin-page, configuration, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PluginsTabForm" - teardown
 * Login as "admin" - teardown
 * Group admin security configuration - teardown

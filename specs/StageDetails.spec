@@ -1,7 +1,7 @@
 StageDetails
 ============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-ls,basic-auto-pipeline" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -74,7 +74,7 @@ tags: 3609, stage-details, automate, failing
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetails" - teardown
 * Logout on exit - teardown
 * With "2" live agents in directory "StageDetails" - teardown

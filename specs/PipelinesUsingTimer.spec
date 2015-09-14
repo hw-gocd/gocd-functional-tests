@@ -1,7 +1,7 @@
 PipelinesUsingTimer
 ===================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast" - setup
 * With "1" live agents in directory "PipelinesUsingTimer" - setup
@@ -37,7 +37,7 @@ Setting a timer that will constantly trigger the pipeline.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelinesUsingTimer" - teardown
 * With "1" live agents in directory "PipelinesUsingTimer" - teardown
 * Using pipeline "basic-pipeline-fast" - teardown

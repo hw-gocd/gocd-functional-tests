@@ -1,7 +1,7 @@
 TaskReordering
 ==============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline-with-tasks" - setup
 * Capture go state "TaskReordering" - setup
@@ -37,7 +37,7 @@ tags: Clicky Admin, 4894
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TaskReordering" - teardown
 * Using pipeline "edit-pipeline-with-tasks" - teardown
 * Basic configuration - teardown

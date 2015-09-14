@@ -1,7 +1,7 @@
 TfsPipelineLabelIncludesMaterialRevision
 ========================================
 
-Setup of contexts 
+Setup of contexts
 * Tfs configuration - setup
 * Using pipeline "tfs_artifact_in_dest" - setup
 * Capture go state "TfsPipelineLabelIncludesMaterialRevision" - setup
@@ -37,7 +37,7 @@ tags: #6193, Pipeline label, tfs
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TfsPipelineLabelIncludesMaterialRevision" - teardown
 * Using pipeline "tfs_artifact_in_dest" - teardown
 * Tfs configuration - teardown

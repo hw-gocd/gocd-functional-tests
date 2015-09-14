@@ -107,7 +107,7 @@ public abstract class CruisePage {
         assertThat(elementCCTrayFeed.fetch("href"), StringContains.containsString("/go/cctray.xml"));
 
         ElementStub elementAPIs = browser.link("APIs");
-        assertThat(elementAPIs.fetch("href"), StringContains.containsString("http://www.go.cd/documentation/user/current/api/go_api.html"));
+        assertThat(elementAPIs.fetch("href"), StringContains.containsString("http://api.go.cd/"));
 
         ElementStub elementPlugins = browser.link("Plugins").in(browser.div("footer"));
         assertThat(elementPlugins.fetch("href"), StringContains.containsString("http://www.go.cd/community/plugins.html"));
@@ -139,7 +139,7 @@ public abstract class CruisePage {
         }
         scenarioState.logOut();
     }
-    
+
     public void verifyInformationMessage(String expectedMessage) throws Exception {
         Assert.assertThat(browser.div("notification").getText(), Is.is(expectedMessage));
     }
@@ -168,7 +168,7 @@ public abstract class CruisePage {
         Assert.assertThat(proceedButton.exists(), Is.is(true));
         proceedButton.click();
     }
-    
+
     public String[] splitMe(String tabs) {
 		String[] allTabs = tabs.split(",");
 		return allTabs;
@@ -187,14 +187,14 @@ public abstract class CruisePage {
     public void verifyThatTableHasHeaders(String tableName, String allHeaders) throws Exception {
         ElementStub stagesOfTemplatedPipelineTable = browser.table(tableName);
         assertThat(stagesOfTemplatedPipelineTable.exists(), Is.is(true));
-        
+
         String[] individualHeaders = allHeaders.split(",");
         for (String currentHeader : individualHeaders) {
             ElementStub tableHeader = browser.tableHeader(currentHeader.trim()).in(stagesOfTemplatedPipelineTable);
             assertThat(tableHeader.exists(), Is.is(true));
         }
     }
-    
+
     public void verifyThatUnauthorizedAccessMessageIsShown() throws Exception {
 		ElementStub notification = browser.div(Regex.matches("notification"));
 		ElementStub notificationIcon = browser.div("biggest").in(notification);
@@ -203,19 +203,19 @@ public abstract class CruisePage {
 		assertThat(notificationIcon.exists(), Is.is(true));
 		assertThat(notificationText.exists(), Is.is(true));
 	}
-    
+
     public void assertThatTextBoxHasValue(String identifier, String value) {
 		assertEquals(browser.textbox(identifier).getValue(), value);
-	} 
-	
+	}
+
 	public void assertThatTextAreaHasValue(String identifier, String value) {
 		assertEquals(browser.textarea(identifier).getValue(), value);
-	} 
-	
+	}
+
 	public void sleepFor(int millis) throws InterruptedException{
 		Thread.sleep(millis);
 	}
-	
+
 	public void autoCompleteShouldShowSuggestions(String expectedSuggestions) throws Exception {
         AutoCompleteSuggestions suggestions = new AutoCompleteSuggestions(browser, browserWrapper);
         String[] expected = expectedSuggestions.split(",");
@@ -224,7 +224,7 @@ public abstract class CruisePage {
         }
         verifyEquals("Found: " + suggestions.allSuggestionTexts(0), expected.length, suggestions.allSuggestion(0).size());
 	}
-	
+
 	public void selectOptionFromCommandLookupDropdown(Integer oneBasedOptionIndex) throws Exception {
         AutoCompleteSuggestions suggestions = new AutoCompleteSuggestions(browser, browserWrapper);
         suggestions.selectOption(oneBasedOptionIndex - 1, 0);

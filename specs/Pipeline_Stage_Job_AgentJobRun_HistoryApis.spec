@@ -1,7 +1,7 @@
 Pipeline_Stage_Job_AgentJobRun_HistoryApis
 ==========================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline-fast,run.till.file.exists,pipeline-with-failing-stage" - setup
@@ -81,7 +81,7 @@ tags: 3351, automate, 3086, schedule, trigger, restful api, 3453
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "HistoryApis" - teardown
 * With "1" live agents in directory "HistoryApis" - teardown
 * Using pipeline "basic-pipeline-fast,run.till.file.exists,pipeline-with-failing-stage" - teardown

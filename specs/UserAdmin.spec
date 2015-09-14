@@ -1,7 +1,7 @@
 UserAdmin
 =========
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup

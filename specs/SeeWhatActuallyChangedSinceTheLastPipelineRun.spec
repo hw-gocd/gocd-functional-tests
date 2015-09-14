@@ -1,7 +1,7 @@
 SeeWhatActuallyChangedSinceTheLastPipelineRun
 =============================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "svn-pipeline" - setup
 * With "1" live agents in directory "SeeWhatActuallyChangedSinceLastPipelineRun" - setup
@@ -35,7 +35,7 @@ Marked as changed is verified by looking at the css class "highlight-true"
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SeeWhatActuallyChangedSinceTheLastPipelineRun" - teardown
 * With "1" live agents in directory "SeeWhatActuallyChangedSinceLastPipelineRun" - teardown
 * Using pipeline "svn-pipeline" - teardown

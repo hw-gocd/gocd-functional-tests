@@ -1,7 +1,7 @@
 StageDetailsViewAndOperatePermissions
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Stage security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "p1, p2, p3, p4" - setup
@@ -91,7 +91,7 @@ tags: 6786, stage-details
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsViewAndOperatePermissions" - teardown
 * Using pipeline "p1, p2, p3, p4" - teardown
 * Login as "admin" - teardown

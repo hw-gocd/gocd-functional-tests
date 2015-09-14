@@ -1,7 +1,7 @@
 PipelineDependencyChainingWithIgnoreFilters
 ===========================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "autoFirst, child-of-autoFirst, grandchild-of-autoFirst" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -74,7 +74,7 @@ Verify dependency chaining after scm does not trigger both autoFirst and child-o
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDependencyChainingWithIgnoreFilters" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "autoFirst, child-of-autoFirst, grandchild-of-autoFirst" - teardown

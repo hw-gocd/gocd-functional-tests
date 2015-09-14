@@ -1,7 +1,7 @@
 SpecificRevisionOfPipeline
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast, manual-downstream-pipeline" - setup
 * With "2" live agents in directory "specific_revision_deployment" - setup
@@ -15,7 +15,7 @@ tags: 3388, restful api, 3407, automate, 3453
 * Adding pipeline "manual-downstream-pipeline" to "uat" environment
 * Assigning "1" agents to environment "uat"
 
-This sets up 2 pipeline instances of each pipeline 
+This sets up 2 pipeline instances of each pipeline
 * Trigger pipeline "basic-pipeline-fast"
 * Wait for first stage to pass with pipeline label "1"
 
@@ -39,7 +39,7 @@ REFER -> SpecificRevisionOfPipelineWithOperateScreenCheck.scn
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SpecificRevisionOfPipeline" - teardown
 * With "2" live agents in directory "specific_revision_deployment" - teardown
 * Using pipeline "basic-pipeline-fast, manual-downstream-pipeline" - teardown

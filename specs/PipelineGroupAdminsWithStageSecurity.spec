@@ -1,7 +1,7 @@
 PipelineGroupAdminsWithStageSecurity
 ====================================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-with-group-and-stage-security" - setup
@@ -44,7 +44,7 @@ He should still be able to operate on the stage.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineGroupAdminsWithStageSecurity" - teardown
 * With "1" live agents in directory "not-used" - teardown
 * Using pipeline "pipeline-with-group-and-stage-security" - teardown

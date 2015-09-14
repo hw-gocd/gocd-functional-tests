@@ -1,7 +1,7 @@
 UserAPI
 =======
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Capture go state "UserAPI" - setup
@@ -36,7 +36,7 @@ tags: 7478, api, users
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "UserAPI" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

@@ -1,7 +1,7 @@
 StageDetailsHistoryPagination
 =============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-ls" - setup
 * Capture go state "StageDetailsHistoryPagination" - setup
@@ -26,7 +26,7 @@ tags: 3609, stage-details, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsHistoryPagination" - teardown
 * Using pipeline "pipeline-ls" - teardown
 * Basic configuration - teardown

@@ -1,7 +1,7 @@
 SearchInPackageRepositoryTab
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1" - setup
@@ -18,42 +18,42 @@ tags: 7752, clicky ui, admin-page, configuration, plugins-tests
 * Verify that search box is not shown
 * Enter repository name as "this-is-a-repository-with-long-name-having-56-characters"
 * Select "yum" plugin
-* Enter repo url as "http://localhost:8081/yumrepo"
+* Enter repo url as "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Enter username as "user"
 * Enter password as "password"
 * Verify check connection gives message containing "Connection OK"
 * Click save - Already on Package Repositories tab
-* Verify repo details are filled with name "this-is-a-repository-with-long-name-having-56-characters" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo,user"
+* Verify repo details are filled with name "this-is-a-repository-with-long-name-having-56-characters" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1},user"
 * Verify password is encrypted value
 * Click on add new repository
 * Enter repository name as "repo.with.periods"
 * Select "yum" plugin
-* Enter repo url as "http://localhost:8081/yumrepo"
+* Enter repo url as "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Enter username as "user"
 * Enter password as "password"
 * Verify check connection gives message containing "Connection OK"
 * Click save - Already on Package Repositories tab
-* Verify repo details are filled with name "repo.with.periods" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo,user"
+* Verify repo details are filled with name "repo.with.periods" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1},user"
 * Verify password is encrypted value
 * Click on add new repository
 * Enter repository name as "repo_one"
 * Select "yum" plugin
-* Enter repo url as "http://localhost:8081/yumrepo"
+* Enter repo url as "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Enter username as "user"
 * Enter password as "password"
 * Verify check connection gives message containing "Connection OK"
 * Click save - Already on Package Repositories tab
-* Verify repo details are filled with name "repo_one" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo,user"
+* Verify repo details are filled with name "repo_one" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1},user"
 * Verify password is encrypted value
 * Click on add new repository
 * Enter repository name as "repo_two"
 * Select "yum" plugin
-* Enter repo url as "http://localhost:8081/yumrepo"
+* Enter repo url as "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Enter username as "user"
 * Enter password as "password"
 * Verify check connection gives message containing "Connection OK"
 * Click save - Already on Package Repositories tab
-* Verify repo details are filled with name "repo_two" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo,user"
+* Verify repo details are filled with name "repo_two" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1},user"
 * Verify password is encrypted value
 
 * Open "Pipelines" tab
@@ -108,7 +108,7 @@ tags: 7752, clicky ui, admin-page, configuration, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SearchInPackageRepositoryTab" - teardown
 * Setup http based yum repo - teardown
 * Using pipeline "pipeline1" - teardown

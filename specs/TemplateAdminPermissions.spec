@@ -1,7 +1,7 @@
 TemplateAdminPermissions
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Template admin configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1,pipeline2,pipeline3,pipeline-without-template" - setup
@@ -55,7 +55,7 @@ tags: Clicky Admin, 7876
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TemplatesAdminPermissions" - teardown
 * Using pipeline "pipeline1,pipeline2,pipeline3,pipeline-without-template" - teardown
 * Login as "admin" - teardown

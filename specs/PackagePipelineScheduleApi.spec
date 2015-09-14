@@ -1,7 +1,7 @@
 PackagePipelineScheduleApi
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Package configuration - setup
 * Setup http based yum repo - setup
 * Using pipeline "pipeline_with_yum_repo_package_api" - setup
@@ -35,7 +35,7 @@ tags: 7805, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "pipeline_with_yum_repo_package_api" - teardown
 * With "1" live agents in directory "pipeline_with_yum_repo_package_api" - teardown
 * Using pipeline "pipeline_with_yum_repo_package_api" - teardown

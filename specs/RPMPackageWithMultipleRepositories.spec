@@ -1,7 +1,7 @@
 RPMPackageWithMultipleRepositories
 ==================================
 
-Setup of contexts 
+Setup of contexts
 * Package configuration - setup
 * Using pipeline "A1,A3" - setup
 * Setup file system based yum repos "repo1;repo2" - setup
@@ -60,7 +60,7 @@ tags: #7467, Yum repo package, plugins-tests
 * Verify pipeline is triggered by "changes"
 * Verify build cause message contains "Package - repo-1:P-1 - Repository: [repo_url=file://${runtime_package_repo_uri:repo1}] - Package: [package_spec=go-server]"
 * Verify build cause message contains "go-server-13.1.1-16714.noarch"
-	
+
 * Navigate to materials for "A1" "1" "defaultStage" "1"
 
 * Looking at material of type "Package" named "repo-1:P-1"
@@ -136,7 +136,7 @@ tags: #7467, Yum repo package, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "RPMPackageWithMultipleRepositories" - teardown
 * With "1" live agents in directory "RPMPackageWithMultipleRepositories" - teardown
 * Setup file system based yum repos "repo1;repo2" - teardown

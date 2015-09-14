@@ -1,7 +1,7 @@
 NantTask
 ========
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "nant-pipeline" - setup
 * With "1" live agents in directory "NantTask" - setup
@@ -27,7 +27,7 @@ verify test contains "All Tests Passed"
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "NantTask" - teardown
 * With "1" live agents in directory "NantTask" - teardown
 * Using pipeline "nant-pipeline" - teardown

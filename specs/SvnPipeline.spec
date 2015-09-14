@@ -1,7 +1,7 @@
 SvnPipeline
 ===========
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "svn-pipeline, svn-pipeline-with-external" - setup
 * With "1" live agents in directory "AgentsUIScreen" - setup
@@ -80,7 +80,7 @@ SVN External tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SvnPipeline" - teardown
 * With "1" live agents in directory "AgentsUIScreen" - teardown
 * Using pipeline "svn-pipeline, svn-pipeline-with-external" - teardown

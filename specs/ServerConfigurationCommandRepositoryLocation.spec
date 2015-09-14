@@ -1,7 +1,7 @@
 ServerConfigurationCommandRepositoryLocation
 ============================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Capture go state "ServerConfigurationCommandRepositoryLocation" - setup
 * Setup command repo - setup
@@ -27,7 +27,7 @@ tags: 6664, admin-page, configuration, task-repository-location
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Setup command repo - teardown
 * Capture go state "ServerConfigurationCommandRepositoryLocation" - teardown
 * Basic configuration - teardown

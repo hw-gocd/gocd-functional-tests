@@ -1,7 +1,7 @@
 PackageWithDuplicateAndMissingKeysOnConfigEdit
 ==============================================
 
-Setup of contexts 
+Setup of contexts
 * Package configuration - setup
 * Using pipeline "M8,M9" - setup
 * Capture go state "RPMPackageWithMDUErrors" - setup
@@ -39,7 +39,7 @@ tags: #7468, Yum repo package, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "RPMPackageWithMDUErrors" - teardown
 * Using pipeline "M8,M9" - teardown
 * Package configuration - teardown

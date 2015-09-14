@@ -32,11 +32,11 @@ tags: #7467, Yum repo package, plugins-tests
 * Looking at material of type "Package" named "repo-1:P-2"
 * Verify modification "0" has revision "go-server-13.1.0-122.noarch" - Already On Build Cause Section
 * Verify modification "0" is checked in by "anonymous" with comment "Trackback: Not Provided"
-* Verify material has changedchanged - Already On Build Cause Section
+* Verify material has changed
 * Looking at material of type "Package" named "repo-2:Q-3"
 * Verify modification "0" has revision "go-agent-13.1.0-5411.noarch" - Already On Build Cause Section
 * Verify modification "0" is checked in by "anonymous" with comment "Trackback: Not Provided"
-* Verify material has changedchanged - Already On Build Cause Section
+* Verify material has changed
 
 * Looking at pipeline "A3"
 * Navigate to stage "defaultStage" of run "1" having counter "1"
@@ -87,11 +87,11 @@ tags: #7467, Yum repo package, plugins-tests
 * Looking at material of type "Package" named "repo-1:P-2"
 * Verify modification "0" has revision "go-server-13.1.0-123.noarch" - Already On Build Cause Section
 * Verify modification "0" is checked in by "anonymous" with comment "Trackback: Not Provided"
-* Verify material has changedchanged - Already On Build Cause Section
+* Verify material has changed
 * Looking at material of type "Package" named "repo-2:Q-3"
 * Verify modification "0" has revision "go-agent-13.1.0-5411.noarch" - Already On Build Cause Section
 * Verify modification "0" is checked in by "anonymous" with comment "Trackback: Not Provided"
-* Verify material has not changedchanged - Already On Build Cause Section
+* Verify material has not changed
 
 * Looking at pipeline "A3"
 * Navigate to stage "defaultStage" of run "2" having counter "1"
@@ -110,8 +110,6 @@ tags: #7467, Yum repo package, plugins-tests
 * Navigate to job "defaultJob"
 
 * Verify material tab contains revision for package materials "repo-1:P-2=go-server-13.1.0-123.noarch,repo-2:Q-3=go-agent-13.1.0-5411.noarch"
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Publish artifacts "go-server-13.2.0-124.noarch.rpm" to "repo1"
 

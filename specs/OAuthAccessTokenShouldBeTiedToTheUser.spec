@@ -1,7 +1,7 @@
 OAuthAccessTokenShouldBeTiedToTheUser
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2" - setup
@@ -12,7 +12,7 @@ OAuthAccessTokenShouldBeTiedToTheUser
 
 tags: 4248, oAuth
 
-This scenario tests that access token should be tied to the user who approved 
+This scenario tests that access token should be tied to the user who approved
 
 * Adding "http://localhost:8253" as site uRL
 * Adding "https://localhost:8254" as secure site uRL
@@ -27,9 +27,10 @@ This scenario tests that access token should be tied to the user who approved
 * Navigate to new client form
 
 Populate OAuth Clients
-* PopulateOAuthClients
-| Client Name | Redirect Url | 
-| client | /help/Agent_API.html | 
+* PopulateOAuthClients 
+     |Client Name|Redirect Url            |
+     |-----------|------------------------|
+     |client     |/dummy_not_in_production|
 
 
 * Open "OAuth Clients" tab
@@ -77,7 +78,7 @@ Populate OAuth Clients
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "OAuthAccessTokenShouldBeTiedToTheUser" - teardown
 * Using pipeline "pipeline1, pipeline2" - teardown
 * Login as "admin" - teardown

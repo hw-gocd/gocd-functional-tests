@@ -1,7 +1,7 @@
 StageDetailPipelineDependenciesTab
 ==================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-with-2-stages-run-till-file-exists, up, down1, down2, down3, down4, abyss" - setup
@@ -47,19 +47,19 @@ tags: 3688, pipeline, automate
 * Verify pipeline depends on "up,itemmu"
 * Verfiy pipeline has dependencies "abyss"
 * Verify dependency "abyss" has runs "1"
- 
+
 * Removing pipeline "down3"
 * Making pipeline "down2" not depend on "up"
- 
+
 * Navigate to pipeline dependencies for "up" "1" "defaultStage" "1"
- 
+
 * Current pipeline being "up"
 * Verfiy pipeline has dependencies "down1,down2,down4"
 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailPipelineDependenciesTab" - teardown
 * With "3" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline-with-2-stages-run-till-file-exists, up, down1, down2, down3, down4, abyss" - teardown

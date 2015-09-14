@@ -1,7 +1,7 @@
 PipelineDependencyTriangle
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "fourth, fifth, another-sixth" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -41,7 +41,7 @@ tags: dependency pipeline, 3695, 3957, automate, failing, server_restart_needed
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDependencyTriangle" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "fourth, fifth, another-sixth" - teardown

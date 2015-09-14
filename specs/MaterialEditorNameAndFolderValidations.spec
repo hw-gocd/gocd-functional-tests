@@ -1,7 +1,7 @@
 MaterialEditorNameAndFolderValidations
 ======================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "MaterialEditorNameAndFolderValidations" - setup
@@ -27,23 +27,24 @@ Create one of hg, svn, p4 and git materials
 * Verify that "git" with name "git_material" is added with attributes "url>http://foo.bar,dest>git_dir"
 
 Material Form Validations
-* MaterialFormValidator
-| materialName | elementType | field | value | message? | 
-| hg_material | textbox | materialName | hg-material | You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline. | 
-| hg_material | textbox | folder | hg | Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested. | 
-| svn_material | textbox | materialName | hg-material | You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline. | 
-| svn_material | textbox | folder | hg | Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested. | 
-| git_material | textbox | materialName | hg-material | You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline. | 
-| git_material | textbox | folder | hg | Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested. | 
-| p4_material | textbox | materialName | hg-material | You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline. | 
-| p4_material | textbox | folder | hg | Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested. | 
+* MaterialFormValidator 
+     |materialName|elementType|field       |value      |message?                                                                                                                                                                                                                                                                                                   |
+     |------------|-----------|------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |hg_material |textbox    |materialName|hg-material|You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline.|
+     |hg_material |textbox    |folder      |hg         |Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested.                                                                                                                                                                            |
+     |svn_material|textbox    |materialName|hg-material|You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline.|
+     |svn_material|textbox    |folder      |hg         |Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested.                                                                                                                                                                            |
+     |git_material|textbox    |materialName|hg-material|You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline.|
+     |git_material|textbox    |folder      |hg         |Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested.                                                                                                                                                                            |
+     |p4_material |textbox    |materialName|hg-material|You have defined multiple materials called 'hg-material'. Material names are case-insensitive and must be unique. Note that for dependency materials the default materialName is the name of the upstream pipeline. You can override this by setting the materialName explicitly for the upstream pipeline.|
+     |p4_material |textbox    |folder      |hg         |Invalid Destination Directory. Every material needs a different destination directory and the directories should not be nested.                                                                                                                                                                            |
 
 
 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "MaterialEditorNameAndFolderValidations" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

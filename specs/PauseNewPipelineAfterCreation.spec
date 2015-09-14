@@ -1,7 +1,7 @@
 PauseNewPipelineAfterCreation
 =============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "PauseNewPipelineAfterCreation" - setup
@@ -55,7 +55,7 @@ tags: 4812, Clicky Admin, Admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PauseNewPipelineAfterCreation" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

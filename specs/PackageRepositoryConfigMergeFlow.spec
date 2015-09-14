@@ -1,7 +1,7 @@
 PackageRepositoryConfigMergeFlow
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Setup http based yum repo - setup
 * Package configuration - setup
 * Capture go state "PackageRepositoryConfigMergeFlow" - setup
@@ -38,7 +38,7 @@ Merge Conflict
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PackageRepositoryConfigMergeFlow" - teardown
 * Package configuration - teardown
 * Setup http based yum repo - teardown

@@ -1,7 +1,7 @@
 OAuthScenariosWhenClientIsRemoved
 =================================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2" - setup
@@ -25,9 +25,10 @@ tags: 4248, oAuth
 * Navigate to new client form
 
 Populate OAuth Clients
-* PopulateOAuthClients
-| Client Name | Redirect Url | 
-| group1-client | /help/Agent_API.html | 
+* PopulateOAuthClients 
+     |Client Name  |Redirect Url            |
+     |-------------|------------------------|
+     |group1-client|/dummy_not_in_production|
 
 
 * Open "OAuth Clients" tab
@@ -40,12 +41,13 @@ The case where the client is deleted before authenticating
 * Using "HTTPS"
 
 * For client "group1-client"
-* Verify requesting approval redirects to "/help/Agent_API.html" and returns with error "invalid-client-id"
+* Verify requesting approval redirects to "/dummy_not_in_production" and returns with error "invalid-client-id"
 
 Populate OAuth Clients
-* PopulateOAuthClients
-| Client Name | Redirect Url | 
-| group1-client | /help/Agent_API.html | 
+* PopulateOAuthClients 
+     |Client Name  |Redirect Url            |
+     |-------------|------------------------|
+     |group1-client|/dummy_not_in_production|
 
 * Remember client entries for "group1-client"
 
@@ -68,7 +70,7 @@ Populate OAuth Clients
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "OAuthScenariosWhenClientIsRemoved" - teardown
 * Using pipeline "pipeline1, pipeline2" - teardown
 * Login as "admin" - teardown

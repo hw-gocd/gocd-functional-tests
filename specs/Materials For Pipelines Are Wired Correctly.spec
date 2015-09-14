@@ -1,7 +1,7 @@
 Materials For Pipelines Are Wired Correctly
 ===========================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "junit-tests" - setup
 * With "1" live agents in directory "StageDetailsShineIntegration" - setup
@@ -38,7 +38,7 @@ Smoke test to check if the query to get the users on the changesets that trigger
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "Materials for pipelines are wired correctly" - teardown
 * With "1" live agents in directory "StageDetailsShineIntegration" - teardown
 * Using pipeline "junit-tests" - teardown

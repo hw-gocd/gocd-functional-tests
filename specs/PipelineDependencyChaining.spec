@@ -1,7 +1,7 @@
 PipelineDependencyChaining
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "autoFirst, child-of-autoFirst, grandchild-of-autoFirst" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -49,7 +49,7 @@ Verify dependency chaining after scm triggers autoFirst pipeline
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDependencyChaining" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "autoFirst, child-of-autoFirst, grandchild-of-autoFirst" - teardown

@@ -1,7 +1,7 @@
 PipelineXml
 ===========
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline-fast, admin-pipeline" - setup
@@ -44,7 +44,7 @@ tags: 3378, 3411, feeds, shine, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineXml" - teardown
 * With "1" live agents in directory "NOT-USED" - teardown
 * Using pipeline "basic-pipeline-fast, admin-pipeline" - teardown

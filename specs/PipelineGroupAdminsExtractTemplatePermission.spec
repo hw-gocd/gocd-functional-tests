@@ -1,7 +1,7 @@
 PipelineGroupAdminsExtractTemplatePermission
 ============================================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-with-group-and-stage-security" - setup
@@ -29,7 +29,7 @@ User pavan is the pipeline Group Admin. He should not see Extract Template.
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineGroupAdminExtractTemplatePermission" - teardown
 * Using pipeline "pipeline-with-group-and-stage-security" - teardown
 * Login as "admin" - teardown

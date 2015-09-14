@@ -1,7 +1,7 @@
 YumRepoPackageAsMaterial
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Setup http based yum repo - setup
 * Package configuration - setup
 * Using pipeline "pipeline_with_yum_repo_package_as_material, pipeline_repo_user_has_special_password" - setup
@@ -21,12 +21,12 @@ tags: #7272, Yum repo package, plugins-tests, 7364, #7571
 
 * Open console tab
 * Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_LABEL" with value "go-agent-13.1.1-16714.noarch"
-* Verify console has environment variable "GO_REPO_TW_REPO_GO_AGENT_REPO_URL" with value "http://localhost:8081/yumrepo"
+* Verify console has environment variable "GO_REPO_TW_REPO_GO_AGENT_REPO_URL" with value "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Verify console has environment variable "GO_REPO_TW_REPO_GO_AGENT_USERNAME" with value "user"
 * Verify console has environment variable "GO_REPO_TW_REPO_GO_AGENT_PASSWORD" with value "********"
 * Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_PACKAGE_SPEC" with value "go-agent"
-* Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_LOCATION" with value "http://user:******@localhost:8081/yumrepo/go-agent-13.1.1-16714.noarch.rpm"
-* Verify console contains "GO_REPO_TW_REPO_GO_AGENT_PASSWORD : ****** AND GO_PACKAGE_TW_REPO_GO_AGENT_LOCATION : http://user:******@localhost:8081/yumrepo/go-agent-13.1.1-16714.noarch.rpm"
+* Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_LOCATION" with value "http://user:******@localhost:8081/${runtime_package_http_repo_name:http_repo1}/go-agent-13.1.1-16714.noarch.rpm"
+* Verify console contains "GO_REPO_TW_REPO_GO_AGENT_PASSWORD : ****** AND GO_PACKAGE_TW_REPO_GO_AGENT_LOCATION : http://user:******@localhost:8081/${runtime_package_http_repo_name:http_repo1}/go-agent-13.1.1-16714.noarch.rpm"
 
 * Publish new artifact
 
@@ -38,7 +38,7 @@ tags: #7272, Yum repo package, plugins-tests, 7364, #7571
 
 * Open console tab
 * Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_LABEL" with value "go-agent-13.1.1-16715.noarch"
-* Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_LOCATION" with value "http://user:******@localhost:8081/yumrepo/go-agent-13.1.1-16715.noarch.rpm"
+* Verify console has environment variable "GO_PACKAGE_TW_REPO_GO_AGENT_LOCATION" with value "http://user:******@localhost:8081/${runtime_package_http_repo_name:http_repo1}/go-agent-13.1.1-16715.noarch.rpm"
 
 User with password containing special characters
 * Looking at pipeline "pipeline_repo_user_has_special_password"
@@ -49,7 +49,7 @@ User with password containing special characters
 
 * Open console tab
 * Verify console has environment variable "GO_PACKAGE_TW_REPO_2_GO_AGENT_NOARCH_LABEL" with value "go-agent-13.1.1-16715.noarch"
-* Verify console has environment variable "GO_REPO_TW_REPO_2_GO_AGENT_NOARCH_REPO_URL" with value "http://localhost:8081/yumrepo"
+* Verify console has environment variable "GO_REPO_TW_REPO_2_GO_AGENT_NOARCH_REPO_URL" with value "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Verify console has environment variable "GO_REPO_TW_REPO_2_GO_AGENT_NOARCH_USERNAME" with value "user_with_special_password"
 * Verify console has environment variable "GO_REPO_TW_REPO_2_GO_AGENT_NOARCH_PASSWORD" with value "********"
 * Verify console has environment variable "GO_PACKAGE_TW_REPO_2_GO_AGENT_NOARCH_PACKAGE_SPEC" with value "go-agent.noarch"

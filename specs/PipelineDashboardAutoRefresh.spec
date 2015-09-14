@@ -1,7 +1,7 @@
 PipelineDashboardAutoRefresh
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-run-till-file-exists" - setup
 * With "1" live agents in directory "PipelineDashboard" - setup
@@ -31,7 +31,7 @@ tags: UI, automate, pipeline-dashboard, #3700, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDashboardAutoRefresh" - teardown
 * With "1" live agents in directory "PipelineDashboard" - teardown
 * Using pipeline "basic-pipeline-run-till-file-exists" - teardown

@@ -14,6 +14,7 @@ import java.util.List;
 import net.sf.sahi.client.Browser;
 import net.sf.sahi.client.ElementStub;
 
+import org.apache.ecs.xhtml.span;
 import org.hamcrest.Matchers;
 import org.hamcrest.core.Is;
 import org.junit.Assert;

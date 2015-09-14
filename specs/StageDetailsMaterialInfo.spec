@@ -1,7 +1,7 @@
 StageDetailsMaterialInfo
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "first,second,third" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -83,7 +83,7 @@ tags: 3609, stage-details, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsMaterialInfo" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "first,second,third" - teardown

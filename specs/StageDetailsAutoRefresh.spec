@@ -1,7 +1,7 @@
 StageDetailsAutoRefresh
 =======================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-run-till-file-exists" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -44,7 +44,7 @@ After a the stage completes the page should be automatically updated
 
 * Rerun stage "defaultStage" for current pipeline having pipeline label "1" - Using Stage Api
 
-Checking that a new re-run of the stage appears 
+Checking that a new re-run of the stage appears
 
 * Wait for stage bar to show "Run: 2 of 2" in other runs
 * Click on stage bar run "2" of "2"
@@ -62,7 +62,7 @@ This is a bug. At this point, there is nothing which is running and the job has 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsAutoRefresh" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "basic-pipeline-run-till-file-exists" - teardown

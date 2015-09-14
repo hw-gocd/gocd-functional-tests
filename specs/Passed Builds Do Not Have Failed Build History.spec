@@ -1,7 +1,7 @@
 Passed Builds Do Not Have Failed Build History
 ==============================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "junit-tests" - setup
 * With "1" live agents in directory "StageDetailsShineIntegration" - setup
@@ -36,7 +36,7 @@ Smoke test/happy path to check that passed stages do not get a failed stage hist
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "Passed builds do not have failed build history" - teardown
 * With "1" live agents in directory "StageDetailsShineIntegration" - teardown
 * Using pipeline "junit-tests" - teardown

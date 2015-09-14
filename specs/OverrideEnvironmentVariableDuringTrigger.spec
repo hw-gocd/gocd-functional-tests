@@ -1,7 +1,7 @@
 OverrideEnvironmentVariableDuringTrigger
 ========================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-environment-variables" - setup
 * With "1" live agents in directory "OverrideEnvironmentVariableDuringTrigger" - setup
@@ -51,7 +51,7 @@ Verify variables value as echoed as part of task
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "OverrideEnvironmentVariableDuringTrigger" - teardown
 * With "1" live agents in directory "OverrideEnvironmentVariableDuringTrigger" - teardown
 * Using pipeline "pipeline-with-environment-variables" - teardown

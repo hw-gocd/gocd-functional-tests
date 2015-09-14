@@ -1,7 +1,7 @@
 PipelineCreationConfigMergeConflict
 ===================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "Admin" - setup
 * Capture go state "PipelineCreationConfigMergeConflict" - setup
@@ -96,7 +96,7 @@ tags: 7280
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineCreationConfigMergeConflict" - teardown
 * Login as "Admin" - teardown
 * Secure configuration - teardown

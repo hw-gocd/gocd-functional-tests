@@ -25,7 +25,7 @@ public class UsingUserApi {
 
 	@com.thoughtworks.gauge.Step("Attempt to delete <username> user and should return <httpStatus>")
 	public void attemptToDeleteUserAndShouldReturn(String username, String httpStatus) throws Exception {
-		CruiseResponse response = talkToCruise.delete(Urls.urlFor(String.format("/api/users/%s", username)));
+		CruiseResponse response = talkToCruise.delete(Urls.urlFor(String.format("/api/users/%s", username)), true);
 		assertThat(response.getStatus(), is(Integer.parseInt(httpStatus)));
 	}
 }

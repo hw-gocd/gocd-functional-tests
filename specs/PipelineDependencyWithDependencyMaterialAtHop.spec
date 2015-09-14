@@ -1,7 +1,7 @@
 PipelineDependencyWithDependencyMaterialAtHop
 =============================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "fourth, fifth, sixth, last-sixth" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -50,7 +50,7 @@ Case of Dependency material with hop
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDependencyWithDependencyMaterialAtHop" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "fourth, fifth, sixth, last-sixth" - teardown

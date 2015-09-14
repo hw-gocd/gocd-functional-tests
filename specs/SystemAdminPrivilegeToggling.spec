@@ -1,7 +1,7 @@
 SystemAdminPrivilegeToggling
 ============================
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup
@@ -58,7 +58,7 @@ tags: 4404, admin, role
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SystemAdminPrivilegeToggling" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

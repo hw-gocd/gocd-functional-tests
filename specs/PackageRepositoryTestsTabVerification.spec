@@ -1,7 +1,7 @@
 PackageRepositoryTestsTabVerification
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Package configuration - setup
 * Using pipeline "K3,K4" - setup
 * Setup file system based yum repos "repo3" - setup
@@ -40,7 +40,7 @@ tags: #7451, #7806, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PackageRepositoryTestsTabVerification" - teardown
 * With "1" live agents in directory "PackageRepositoryTestsTabVerification" - teardown
 * Setup file system based yum repos "repo3" - teardown

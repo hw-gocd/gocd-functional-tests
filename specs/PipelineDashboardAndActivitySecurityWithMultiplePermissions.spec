@@ -1,7 +1,7 @@
 PipelineDashboardAndActivitySecurityWithMultiplePermissions
 ===========================================================
 
-Setup of contexts 
+Setup of contexts
 * Permissions configuration - setup
 * Login as "admin" - setup
 * Using pipeline "P8, p9" - setup
@@ -13,7 +13,7 @@ PipelineDashboardAndActivitySecurityWithMultiplePermissions
 
 tags: 6786, Permissions
 
-Verify that user 'group1view' gets union of the different permissions specified to him 
+Verify that user 'group1view' gets union of the different permissions specified to him
 
 * Trigger pipelines "P8" and wait for labels "1" to pass
 * Trigger pipelines "P9" and wait for labels "1" to pass
@@ -25,10 +25,11 @@ Verify that user 'group1view' gets union of the different permissions specified 
 
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate Using Ui? | Can Operate? | Can Pause Using Ui? | Can Pause Using Api? | 
-| P8 | true | true | true | true | true | 
-| P9 | true | true | true | true | true | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate Using Ui?|Can Operate?|Can Pause Using Ui?|Can Pause Using Api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P8           |true       |true                 |true        |true               |true                |
+     |P9           |true       |true                 |true        |true               |true                |
 
 
 * verify user has operate permissions on "defaultStage" for pipeline "P8" on Pipeline Activity Page
@@ -44,7 +45,7 @@ Pipeline Visibility
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDashboardAndActivitySecurityWithMultiplePermissions" - teardown
 * With "1" live agents in directory "Pipeline dashboard" - teardown
 * Using pipeline "P8, p9" - teardown

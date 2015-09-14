@@ -1,7 +1,7 @@
 TestStageCancellationOrFailureAndStageRerunForADiamondConfiguration
 ===================================================================
 
-Setup of contexts 
+Setup of contexts
 * Fanin configuration - setup
 * Using pipeline "Upstream1,Upstream2,Downstream1" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -135,7 +135,7 @@ Verify Build cause for Downstream1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "FanInTestStageCancellationOrFailureAndStageRerunForADiamondConfiguration " - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "Upstream1,Upstream2,Downstream1" - teardown

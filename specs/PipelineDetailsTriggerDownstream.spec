@@ -1,7 +1,7 @@
 PipelineDetailsTriggerDownstream
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "up-with-2-stages,down-depend-on-1,down-depend-on-2" - setup
@@ -55,12 +55,12 @@ tags: 3785, dependency pipeline, trigger with options, automate
 * Verify currently deployed revision is "${runtime_name:up-with-2-stages}/1/first/1"
 * Verify material is pegged with revision "${runtime_name:up-with-2-stages}/2/first/1"
 * Close - Already on deployment light box
- 
 
 
 
 
-Teardown of contexts 
+
+Teardown of contexts
 * Capture go state "PipelineDetailsTriggerDownstream" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "up-with-2-stages,down-depend-on-1,down-depend-on-2" - teardown

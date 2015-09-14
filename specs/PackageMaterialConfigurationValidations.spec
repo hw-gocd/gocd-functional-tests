@@ -1,7 +1,7 @@
 PackageMaterialConfigurationValidations
 =======================================
 
-Setup of contexts 
+Setup of contexts
 * Setup http based yum repo - setup
 * Package configuration - setup
 * Using pipeline "pipeline_with_yum_repo_package_as_material" - setup
@@ -16,7 +16,7 @@ tags: #7272, Yum repo package, plugins-tests, 7317, 7488
 
 * Open material listing page
 
-* Verify that package with name "tw-repo:go-agent" is added with url "Repository: [repo_url=http://localhost:8081/yumrepo] - Package: [package_spec=go-agent]"
+* Verify that package with name "tw-repo:go-agent" is added with url "Repository: [repo_url=http://localhost:8081/${runtime_package_http_repo_name:http_repo1}] - Package: [package_spec=go-agent]"
 * Open new package material creation popup
 
 * Select repository "tw-repo"
@@ -70,16 +70,17 @@ tags: #7272, Yum repo package, plugins-tests, 7317, 7488
 
 label template validations with material name
 
-* LabelTemplateValidations
-| field value | valid | 
-| ${COUNT}#{tw-repo:go-agent} | false | 
-| ${COUNT}-${tw-repo:go-agent} | true | 
+* LabelTemplateValidations 
+     |field value                 |valid|
+     |----------------------------|-----|
+     |${COUNT}#{tw-repo:go-agent} |false|
+     |${COUNT}-${tw-repo:go-agent}|true |
 
 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PackageMaterialConfigurationValidations" - teardown
 * Using pipeline "pipeline_with_yum_repo_package_as_material" - teardown
 * Package configuration - teardown

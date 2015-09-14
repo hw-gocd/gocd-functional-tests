@@ -1,7 +1,7 @@
 PropertiesSecurityWithStageOverriding
 =====================================
 
-Setup of contexts 
+Setup of contexts
 * Permissions configuration - setup
 * Login as "admin" - setup
 * Using pipeline "P3,P5,P6" - setup
@@ -82,7 +82,7 @@ commented line verification to be put back after #6827 or #6809 is fixed
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PropertiesSecurityWithStagOverriding" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "P3,P5,P6" - teardown

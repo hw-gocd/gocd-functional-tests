@@ -1,7 +1,7 @@
 RescheduleJob
 =============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline" - setup
 * With "1" live agents in directory "RescheduleJob" - setup
@@ -32,7 +32,7 @@ tags: 1995, 2126, 2126, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "RescheduleJob" - teardown
 * With "1" live agents in directory "RescheduleJob" - teardown
 * Using pipeline "basic-pipeline" - teardown

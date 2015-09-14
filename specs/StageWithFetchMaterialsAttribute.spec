@@ -1,7 +1,7 @@
 StageWithFetchMaterialsAttribute
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "fetch-materials" - setup
 * With "3" live agents in directory "FetchMaterial" - setup
@@ -43,7 +43,7 @@ tags: 4199
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageWithFetchMaterialsAttribute" - teardown
 * With "3" live agents in directory "FetchMaterial" - teardown
 * Using pipeline "fetch-materials" - teardown

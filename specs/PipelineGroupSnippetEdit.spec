@@ -1,7 +1,7 @@
 PipelineGroupSnippetEdit
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "group1Admin" - setup
 * Capture go state "PipelineGroupSnippetEdit" - setup
@@ -34,7 +34,7 @@ Validations
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineGroupSnippetEdit" - teardown
 * Login as "group1Admin" - teardown
 * Group admin security configuration - teardown

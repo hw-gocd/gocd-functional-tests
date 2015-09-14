@@ -1,7 +1,7 @@
 PipelineSelector
 ================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "up, edit-pipeline, autoFirst, child-of-autoFirst, artifact-md5-up, artifact-md5-skip" - setup
 * Logout on exit - setup
@@ -190,7 +190,7 @@ verify that even if 1 pipeline is deselected the group checkbox appears deselect
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineSelector" - teardown
 * Logout on exit - teardown
 * Using pipeline "up, edit-pipeline, autoFirst, child-of-autoFirst, artifact-md5-up, artifact-md5-skip" - teardown

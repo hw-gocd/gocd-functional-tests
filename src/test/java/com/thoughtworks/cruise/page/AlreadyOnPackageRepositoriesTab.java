@@ -1,41 +1,25 @@
 package com.thoughtworks.cruise.page;
 
-// JUnit Assert framework can be used for verification
-
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
-
-import java.io.File;
-
-import javax.swing.border.EmptyBorder;
-
 import net.sf.sahi.client.Browser;
 import net.sf.sahi.client.ElementStub;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.hamcrest.core.Is;
-import org.hamcrest.core.IsNull;
-import org.junit.Assert;
 
 import com.thoughtworks.cruise.Regex;
-import com.thoughtworks.cruise.RuntimePath;
 import com.thoughtworks.cruise.SahiBrowserWrapper;
-import com.thoughtworks.cruise.page.OnServerDetailPage.License;
 import com.thoughtworks.cruise.state.CurrentPageState;
-import com.thoughtworks.cruise.state.ScenarioState;
 import com.thoughtworks.cruise.state.CurrentPageState.Page;
-import com.thoughtworks.cruise.util.SystemUtil;
+import com.thoughtworks.cruise.state.ScenarioState;
 import com.thoughtworks.cruise.utils.Assertions;
 import com.thoughtworks.cruise.utils.Assertions.Function;
 import com.thoughtworks.cruise.utils.Assertions.Predicate;
 import com.thoughtworks.cruise.utils.Timeout;
 
 public class AlreadyOnPackageRepositoriesTab extends CruiseAdminPage {
-
 	private static final String PACKAGE_REPOSITORY_YUM_REPO_URL_ID = "package_repository_configuration_0_configurationValue_value";
 	private static final String PACKAGE_REPOSITORY_PLUGIN_CONFIGURATION_ID = "package_repository_pluginConfiguration_id";
 	private static final String PACKAGE_REPOSITORY_NAME_ID = "package_repository_name";
@@ -67,7 +51,7 @@ public class AlreadyOnPackageRepositoriesTab extends CruiseAdminPage {
 
 	@com.thoughtworks.gauge.Step("Enter repo url as <repoUrl>")
 	public void enterRepoUrlAs(String repoUrl) throws Exception {
-		browser.textbox(PACKAGE_REPOSITORY_YUM_REPO_URL_ID).setValue(repoUrl);
+		browser.textbox(PACKAGE_REPOSITORY_YUM_REPO_URL_ID).setValue(scenarioState.expand(repoUrl));
 	}
 
 	@com.thoughtworks.gauge.Step("Enter username as <username>")
@@ -170,7 +154,7 @@ public class AlreadyOnPackageRepositoriesTab extends CruiseAdminPage {
 	public void verifyRepoDetailsAreFilledWithNamePluginAndNonSecureConfiguration(String repoName, String plugin, String configuration) throws Exception {
 		assertThat(browser.textbox(PACKAGE_REPOSITORY_NAME_ID).getValue(), is(repoName));
 		assertThat(browser.select(PACKAGE_REPOSITORY_PLUGIN_CONFIGURATION_ID).selectedText(), is(plugin));
-		String[] configurationValues = configuration.split(",");
+		String[] configurationValues = scenarioState.expand(configuration).split(",");
 		for(int i=0; i< configurationValues.length; i++){
 			assertThat(browser.textbox(String.format("package_repository_configuration_%s_configurationValue_value", i)).getValue(), is(configurationValues[i].trim()));
 		}

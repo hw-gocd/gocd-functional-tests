@@ -1,7 +1,7 @@
 PipelineLayoutOperatePermissions
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "2-stage-viewable" - setup
@@ -46,7 +46,7 @@ tags: 3657, pipeline layout, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineLayoutOperatePermissions" - teardown
 * With "1" live agents in directory "PipelineLayout" - teardown
 * Using pipeline "2-stage-viewable" - teardown

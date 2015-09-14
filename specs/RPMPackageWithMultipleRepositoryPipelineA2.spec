@@ -16,6 +16,7 @@ tags: #7467, Yum repo package, plugins-tests
 * Looking at pipeline "A2"
 * Verify stage "1" is "Passed" on pipeline with label "1"
 * Verify pipeline "A2" is triggered by "changes"
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Looking at pipeline "A2"
@@ -70,6 +71,7 @@ tags: #7467, Yum repo package, plugins-tests
 * Trigger pipelines "A2" and wait for labels "2" to pass
 * Looking at pipeline "A2"
 * Verify stage "1" is "Passed" on pipeline with label "2"
+
 
 * Looking at pipeline "A2"
 * Open changes section for counter "2"
@@ -173,7 +175,7 @@ tags: #7467, Yum repo package, plugins-tests
 * Open changes section for counter "7"
 
 * verify material of type "Package" with name "repo-1:P-2" for pipeline "A2" with counter "7" and modification "0" has unchanged revision "go-server-13.1.0-123.noarch"
-* verify material of type "Package" with name "repo-2:Q-2" for pipeline "A2" with counter "7" and modification "0"  has unchanged revision "go-agent-13.1.0-16715.noarch"
+* verify material of type "Package" with name "repo-2:Q-2" for pipeline "A2" with counter "7" and modification "0" has unchanged revision "go-agent-13.1.0-16715.noarch"
 * Looking at material of type "Git" named "modifiable_git" for pipeline "A2" with counter "7"
 * Verify modification "0" has revision "git-new-one"
 * Verify material has changed

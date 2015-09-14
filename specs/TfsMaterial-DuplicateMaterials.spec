@@ -1,7 +1,7 @@
 TfsMaterial-DuplicateMaterials
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "tfs-pipeline-with-duplicate-materials" - setup
 * With "1" live agents in directory "TfsMaterial-DuplicateMaterials" - setup
@@ -33,7 +33,7 @@ tags: #5799, 5799, tfs
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TfsMaterial-DuplicateMaterials" - teardown
 * With "1" live agents in directory "TfsMaterial-DuplicateMaterials" - teardown
 * Using pipeline "tfs-pipeline-with-duplicate-materials" - teardown

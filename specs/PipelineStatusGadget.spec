@@ -1,7 +1,7 @@
 PipelineStatusGadget
 ====================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "admin-pipeline, viewable-pipeline" - setup
@@ -23,7 +23,7 @@ tags: 4249, gadgets, oAuth, 4366, 4332, 5270
 * Logout - On any page over localhost ssl
 
 * Login as "admin" - On Login Page Over Localhost Ssl
-	
+
 * Looking at pipeline "admin-pipeline"
 * Trigger pipeline
 
@@ -31,7 +31,7 @@ tags: 4249, gadgets, oAuth, 4366, 4332, 5270
 
 * Delete all client entries
 * Navigate to new client form
- 
+
 * Using client name "gadget-server"
 * Using redirect url "http://localhost:3000/gadgets/oauthcallback"
 * Add new auth client
@@ -100,7 +100,7 @@ force logging out session for hostname. Other tests use hostname in url. Was cau
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineStatusGadget" - teardown
 * Gadget rendering server is running - teardown
 * Using pipeline "admin-pipeline, viewable-pipeline" - teardown

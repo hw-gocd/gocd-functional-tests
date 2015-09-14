@@ -1,7 +1,7 @@
 PluginValidations
 =================
 
-Setup of contexts 
+Setup of contexts
 * Capture go state "PluginValidations" - setup
 
 PluginValidations
@@ -18,7 +18,7 @@ tags: #7481, Plugin Validations, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PluginValidations" - teardown
 
 

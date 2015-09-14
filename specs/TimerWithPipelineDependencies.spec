@@ -1,7 +1,7 @@
 TimerWithPipelineDependencies
 =============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast, downstream-pipeline" - setup
 * With "1" live agents in directory "TimerWithPipelineDependencies" - setup
@@ -51,7 +51,7 @@ verify that if downstream pipeline has a timer it get triggered seperately
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TimerWithPipelineDependencies" - teardown
 * With "1" live agents in directory "TimerWithPipelineDependencies" - teardown
 * Using pipeline "basic-pipeline-fast, downstream-pipeline" - teardown

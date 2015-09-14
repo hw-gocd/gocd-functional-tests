@@ -1,7 +1,7 @@
 PipelineSelectorWithSecurity
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using group "basic, admin-only, viewable, group.with.dot,operable" - setup
@@ -105,7 +105,7 @@ tags: 3843, UI, 5424, linux
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineSelectorWithSecurity" - teardown
 * Using group "basic, admin-only, viewable, group.with.dot,operable" - teardown
 * Login as "admin" - teardown

@@ -1,7 +1,7 @@
 PackageDefinitionConfigMergeFlow
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Setup http based yum repo - setup
 * Package configuration - setup
 * Using pipeline "pipeline_with_yum_repo_package_as_material,pipeline_repo_user_has_special_password" - setup
@@ -34,7 +34,7 @@ Successful Merge
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PackageDefinitionConfigMergeFlow" - teardown
 * Using pipeline "pipeline_with_yum_repo_package_as_material,pipeline_repo_user_has_special_password" - teardown
 * Package configuration - teardown

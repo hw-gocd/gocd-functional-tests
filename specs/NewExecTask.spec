@@ -1,7 +1,7 @@
 NewExecTask
 ===========
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-ls" - setup
 * Capture go state "NewExecTask" - setup
@@ -47,7 +47,7 @@ address all the validation issues
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "NewExecTask" - teardown
 * Using pipeline "pipeline-ls" - teardown
 * Basic configuration - teardown

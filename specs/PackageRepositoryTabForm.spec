@@ -1,7 +1,7 @@
 PackageRepositoryTabForm
 ========================
 
-Setup of contexts 
+Setup of contexts
 * Setup http based yum repo - setup
 * Group admin security configuration - setup
 * Login as "admin" - setup
@@ -26,7 +26,7 @@ tags: 4171, clicky ui, admin-page, configuration, plugins-tests, 7488, 7487, 735
 * Click save - Already on Package Repositories tab
 * Verify message shows up "Save failed, see errors below"
 * Verify error message "This field is required,Repository url is empty" shows up against field repository url
-* Enter repo url as "http://localhost:8081/yumrepo"
+* Enter repo url as "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Verify check connection gives message containing "401"
 * Click save - Already on Package Repositories tab
 * Verify repository listing contains "repo-1"
@@ -36,7 +36,7 @@ tags: 4171, clicky ui, admin-page, configuration, plugins-tests, 7488, 7487, 735
 
 * Verify add new repository form is shown
 * Click on "repo-1" in repository listing
-* Verify repo details are filled with name "repo-1" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo"
+* Verify repo details are filled with name "repo-1" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Enter username as "user1"
 * Enter password as "password"
 * Verify check connection gives message containing "401"
@@ -49,14 +49,14 @@ tags: 4171, clicky ui, admin-page, configuration, plugins-tests, 7488, 7487, 735
 * Enter password as "password"
 * Verify check connection gives message containing "Connection OK"
 * Click save - Already on Package Repositories tab
-* Verify repo details are filled with name "repo-1" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo,user"
+* Verify repo details are filled with name "repo-1" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1},user"
 * Verify password is encrypted value
 
 
 * Open "Package Repositories" tab
 
 * Click on "repo-1" in repository listing
-* Verify repo details are filled with name "repo-1" plugin "yum" and non secure configuration "http://localhost:8081/yumrepo"
+* Verify repo details are filled with name "repo-1" plugin "yum" and non secure configuration "http://localhost:8081/${runtime_package_http_repo_name:http_repo1}"
 * Enter username as "user1"
 * Enter password as "password"
 * Click save - Already on Package Repositories tab
@@ -96,7 +96,7 @@ tags: 4171, clicky ui, admin-page, configuration, plugins-tests, 7488, 7487, 735
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PackageRepositoryTabForm" - teardown
 * Using pipeline "pipeline1" - teardown
 * Login as "admin" - teardown

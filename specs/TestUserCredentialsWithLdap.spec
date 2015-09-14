@@ -1,7 +1,7 @@
 TestUserCredentialsWithLdap
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Valid ldap configuration - setup
 * Capture go state "TestUserCredentialsWithLdap" - setup
 
@@ -31,7 +31,7 @@ user should see error message when incorrect password is provided
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TestUserCredentialsWithLdap" - teardown
 * Valid ldap configuration - teardown
 

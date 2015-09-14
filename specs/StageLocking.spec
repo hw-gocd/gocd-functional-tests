@@ -1,7 +1,7 @@
 StageLocking
 ============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-lock" - setup
 * With "1" live agents in directory "StageLocking" - setup
@@ -32,7 +32,7 @@ tags: 3249, stage-locking, timer, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageLocking" - teardown
 * With "1" live agents in directory "StageLocking" - teardown
 * Using pipeline "pipeline-with-lock" - teardown

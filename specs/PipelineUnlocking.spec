@@ -1,7 +1,7 @@
 PipelineUnlocking
 =================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-2-manual-stages-that-run-till-file-exists, pipeline-with-failing-stage" - setup
@@ -87,7 +87,7 @@ Verify a pipeline with a failed stage can be unlocked
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineUnlocking" - teardown
 * With "1" live agents in directory "pipeline-unlocking" - teardown
 * Using pipeline "pipeline-2-manual-stages-that-run-till-file-exists, pipeline-with-failing-stage" - teardown

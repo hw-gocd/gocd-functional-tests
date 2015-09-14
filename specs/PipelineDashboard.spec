@@ -1,7 +1,7 @@
 PipelineDashboard
 =================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-2-manual-stages-that-run-till-file-exists, admin-pipeline" - setup
@@ -105,7 +105,7 @@ tags: UI, automate, pipeline-dashboard, #3700, 3820, failing, stage1
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDashboard" - teardown
 * With "4" live agents in directory "PipelineDashboard" - teardown
 * Using pipeline "pipeline-2-manual-stages-that-run-till-file-exists, admin-pipeline" - teardown

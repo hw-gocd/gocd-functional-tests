@@ -1,7 +1,7 @@
 TfsMaterialSchedulingAndMaterialModification
 ============================================
 
-Setup of contexts 
+Setup of contexts
 * Tfs configuration - setup
 * Using pipeline "tfs-pipeline-with-multiple-stages" - setup
 * With "1" live agents in directory "TfsMaterialSchedulingAndMaterialModification" - setup
@@ -55,7 +55,7 @@ verify second instance built with newer material
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TfsMaterialSchedulingAndMaterialModification" - teardown
 * With "1" live agents in directory "TfsMaterialSchedulingAndMaterialModification" - teardown
 * Using pipeline "tfs-pipeline-with-multiple-stages" - teardown

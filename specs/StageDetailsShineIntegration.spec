@@ -1,7 +1,7 @@
 StageDetailsShineIntegration
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "junit-failures, shine-message" - setup
@@ -94,7 +94,7 @@ port needs to be correct, we do not discover our port while honoring hostname us
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsShineIntegration" - teardown
 * With "1" live agents in directory "StageDetailsShineIntegration" - teardown
 * Using pipeline "junit-failures, shine-message" - teardown

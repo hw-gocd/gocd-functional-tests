@@ -1,7 +1,7 @@
 RPMPackageWithMDUErrors
 =======================
 
-Setup of contexts 
+Setup of contexts
 * Package configuration - setup
 * Using pipeline "M1,M2,M3,M4,M5,M6,M7" - setup
 * Setup file system based yum repos "repo1:go-server-13.1.0-122.noarch.rpm;repo3:go-agent-13.1.0-112.noarch.rpm,go-agent-13.1.0-112.x86_64.rpm" - setup
@@ -48,7 +48,7 @@ tags: #7468, Yum repo package, plugins-tests
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "RPMPackageWithMDUErrors" - teardown
 * With "2" live agents in directory "RPMPackageWithMDUErrors" - teardown
 * Setup file system based yum repos "repo1:go-server-13.1.0-122.noarch.rpm;repo3:go-agent-13.1.0-112.noarch.rpm,go-agent-13.1.0-112.x86_64.rpm" - teardown

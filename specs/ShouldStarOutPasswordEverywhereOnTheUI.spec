@@ -1,7 +1,7 @@
 ShouldStarOutPasswordEverywhereOnTheUI
 ======================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "remote-pipeline" - setup
 * With "1" live agents in directory "material_urls_display_test" - setup
@@ -34,7 +34,7 @@ TODO - Add a test to make sure the Pipeline Dashboard build cause popup and the 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "NewShouldShowPasswordAsStarInMaterialTabAndConsoleOutputAndPopup" - teardown
 * With "1" live agents in directory "material_urls_display_test" - teardown
 * Using pipeline "remote-pipeline" - teardown

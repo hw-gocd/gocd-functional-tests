@@ -74,7 +74,7 @@ public class Configuration {
         if (!response.isSuccess()) {
             throw new RuntimeException("Error while posting config.\nThe response code was: " + response.getStatus() + ".\nThe response body was: " + response.getBody());
         }
-        System.out.println("Finished with response: " + response.getBody());
+        System.out.println("Finished updating config with response: " + response.getBody());
     }
 
     private static final class CurrentConfigState {

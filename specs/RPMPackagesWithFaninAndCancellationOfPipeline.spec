@@ -1,7 +1,7 @@
 RPMPackagesWithFaninAndCancellationOfPipeline
 =============================================
 
-Setup of contexts 
+Setup of contexts
 * Package configuration - setup
 * Using pipeline "fanin_a, fanin_b, fanin_c, fanin_d" - setup
 * Setup file system based yum repos "repo3:go-agent-13.1.0-112.noarch.rpm" - setup
@@ -132,7 +132,7 @@ verify pipeline is at label "2" and does not get triggered
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "RPMPackagesWithFaninAdvanced" - teardown
 * With "2" live agents in directory "RPMPackagesWithFaninAdvanced" - teardown
 * Setup file system based yum repos "repo3:go-agent-13.1.0-112.noarch.rpm" - teardown

@@ -1,7 +1,7 @@
 StageDetailsConfigurationTab
 ============================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "edit-pipeline" - setup
@@ -111,7 +111,7 @@ manually trigger the second stage
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsConfigurationTab" - teardown
 * With "1" live agents in directory "StageDetailsConfigurationTab" - teardown
 * Using pipeline "edit-pipeline" - teardown

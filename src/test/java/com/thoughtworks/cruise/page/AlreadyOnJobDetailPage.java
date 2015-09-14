@@ -550,6 +550,6 @@ public class AlreadyOnJobDetailPage extends CruisePage{
 	}
 
 	private String getContentFromConsole() {
-		return browser.preformatted(Regex.wholeWord("buildoutput_pre")).in(browser.span("console_tab_content_container")).fetch("innerHTML");
+		return browser.preformatted(Regex.wholeWord("buildoutput_pre")).in(browser.div("tab-content-of-console")).fetch("innerHTML");
 	}
 }

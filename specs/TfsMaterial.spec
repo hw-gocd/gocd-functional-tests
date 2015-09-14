@@ -1,7 +1,7 @@
 TfsMaterial
 ===========
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-tfs-pipeline" - setup
 * With "2" live agents in directory "TfsMaterial" - setup
@@ -131,7 +131,7 @@ tags: tfs, 6194
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TfsMaterial" - teardown
 * With "2" live agents in directory "TfsMaterial" - teardown
 * Using pipeline "basic-tfs-pipeline" - teardown

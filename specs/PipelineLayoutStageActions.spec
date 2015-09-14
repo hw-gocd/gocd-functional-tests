@@ -1,7 +1,7 @@
 PipelineLayoutStageActions
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-with-3-stages" - setup
@@ -115,7 +115,7 @@ this instance has lock
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineLayoutStageActions" - teardown
 * With "1" live agents in directory "PipelineLayout" - teardown
 * Using pipeline "pipeline-with-3-stages" - teardown

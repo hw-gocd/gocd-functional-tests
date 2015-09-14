@@ -50,7 +50,7 @@
                         <xsd:field xpath="@name"/>
                     </xsd:unique>
                 </xsd:element>
-		<xsd:element minOccurs="0" maxOccurs="1" name="config-repos" type="configReposType">
+                <xsd:element minOccurs="0" maxOccurs="1" name="config-repos" type="configReposType">
                 </xsd:element>
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="pipelines" type="pipelinesType"/>
                 <xsd:element minOccurs="0" maxOccurs="1" name="templates" type="templatesType">
@@ -134,9 +134,7 @@
         <xsd:attribute type="nameType" name="name" use="required"/>
     </xsd:complexType>
 
-
-
-   <xsd:complexType name="configReposType">
+    <xsd:complexType name="configReposType">
         <xsd:sequence>
             <xsd:element name="config-repo" minOccurs="0" maxOccurs="unbounded" type="configRepoType"/>
         </xsd:sequence>
@@ -155,7 +153,6 @@
         </xsd:sequence>
         <xsd:attribute type="nameType" name="plugin" use="optional"/>
     </xsd:complexType>
-
 
     <xsd:complexType name="scmsType">
         <xsd:sequence>

@@ -1,7 +1,7 @@
 PipelineDependencyDiamond
 =========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "d-up-left, d-up-right, d-down" - setup
 * With "2" live agents in directory "StageDetails" - setup
@@ -23,7 +23,7 @@ left [l1(g1), l2(g3), l3(g5), l3(g7)                  V                         
                       \                                            /                                                      |
                        \                                         /                                                        |
                         V                                      V                                                        |
-                     down[d1(l1, r1, g1), d2(l3, r4, g5), d3(l2, r6, g3)] <------------------+                        
+                     down[d1(l1, r1, g1), d2(l3, r4, g5), d3(l2, r6, g3)] <------------------+
 
 * Trigger pipelines "d-up-left,d-up-right" and wait for labels "1" to pass
 * Looking at pipeline "d-down"
@@ -46,7 +46,7 @@ verify pipeline is at label "1" and does not get triggered
 * Trigger pipelines "d-up-left" and wait for labels "2" to pass
 
 On Pipeline Dashboard Page
-looking at pipeline "d-down"        
+looking at pipeline "d-down"
 verify pipeline is at label "1" and does not get triggered
 
 * With material "git-second" for pipeline "d-up-left"
@@ -127,7 +127,7 @@ verify pipeline is at label "1" and does not get triggered
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDependencyDiamond" - teardown
 * With "2" live agents in directory "StageDetails" - teardown
 * Using pipeline "d-up-left, d-up-right, d-down" - teardown

@@ -1,7 +1,7 @@
 TfsMaterialViewerAndEditor
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * Capture go state "TfsMaterialViewerAndEditor" - setup
@@ -88,7 +88,7 @@ tags: Clicky Admin, #5775, 6191, tfs
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TfsMaterialViewerAndEditor" - teardown
 * Using pipeline "edit-pipeline" - teardown
 * Basic configuration - teardown

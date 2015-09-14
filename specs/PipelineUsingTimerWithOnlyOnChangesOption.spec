@@ -1,7 +1,7 @@
 PipelineUsingTimerWithOnlyOnChangesOption
 =========================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "basic-pipeline-fast,downstream-pipeline" - setup
 * With "1" live agents in directory "PipelinesUsingTimer" - setup
@@ -48,7 +48,7 @@ Changing pipeline config appropriately to use in this test
 
 * Select onlyOnChanges flag to trigger pipeline only on new material
 * Click save - Already On General Options Page
-	
+
 * Looking at pipeline "downstream-pipeline"
 * Verify pipeline is at label "2" and does not get triggered
 
@@ -74,7 +74,7 @@ Changing pipeline config appropriately to use in this test
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineUsingTimerWithOnlyOnChangesOption" - teardown
 * With "1" live agents in directory "PipelinesUsingTimer" - teardown
 * Using pipeline "basic-pipeline-fast,downstream-pipeline" - teardown

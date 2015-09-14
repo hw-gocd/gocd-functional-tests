@@ -16,51 +16,51 @@ MaterialSupport
 tags: perforce, automate
 
 
-* Trigger pipelines "Pipeline" and wait for labels "1" to pass
+* Trigger pipelines <Pipeline> and wait for labels "1" to pass
 * Open changes section for counter "1"
 
-* Looking at material of type "material type" named "material name" for pipeline "Pipeline" with counter "1"
+* Looking at material of type <material type> named <material name> for pipeline <Pipeline> with counter "1"
 * Verify revision <First Revision> exists
 
 * Navigate to stage "defaultStage" of run "1"
 
-* Navigate to job "jobName"
+* Navigate to job <jobName>
 
 * Open console tab
 * Verify material tab contains revision <First modified by>
-* Verify console contains "First Updating message"
+* Verify console contains <First Updating message>
 
 * Looking at first agent for pipeline <Pipeline>
 * Verify <material name> is checked out under the pipelines folder
 
-* With material named "material name" in pipeline "Pipeline"
+* With material named <material name> in pipeline <Pipeline>
 * Checkin file "foo.txt" as user "cceuser" with message "Comment"
 
-* Trigger pipelines "Pipeline" and wait for labels "2" to pass
+* Trigger pipelines <Pipeline> and wait for labels "2" to pass
 * Open changes section for counter "2"
 
-* Looking at material of type "material type" named "material name" for pipeline "Pipeline" with counter "2"
+* Looking at material of type <material type> named <material name> for pipeline <Pipeline> with counter "2"
 * Verify revision <Second Revision> exists
 
 * Navigate to stage "defaultStage" of run "2"
 
-* Navigate to job "jobName"
+* Navigate to job <jobName>
 
 * Open console tab
-* Verify console contains "Secong Updating Message"
+* Verify console contains <Secong Updating Message>
 * Verify material tab contains revision <Material Tab>
 
 Check autoscheduling svn pipeline
 
-* With material named "material name" in pipeline "Pipeline"
+* With material named <material name> in pipeline <Pipeline>
 * Checkin file "foo1.txt" as user "cceuser" with message "Comment"
 
 * Setting first stage of <Pipeline> to auto approval
 
-* Trigger pipelines "Pipeline" and wait for labels "3" to pass
+* Trigger pipelines <Pipeline> and wait for labels "3" to pass
 * Open changes section for counter "3"
 
-* Looking at material of type "material type" named "material name" for pipeline "Pipeline" with counter "3"
+* Looking at material of type <material type> named <material name> for pipeline <Pipeline> with counter "3"
 * Verify revision <Third Revision> exists
 
 

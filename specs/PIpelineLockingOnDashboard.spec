@@ -1,7 +1,7 @@
 PIpelineLockingOnDashboard
 ==========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-lock-all-manual" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -43,7 +43,7 @@ tags: pipeline-dashboard, #3740
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PIpelineLockingOnDashboard" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline-with-lock-all-manual" - teardown

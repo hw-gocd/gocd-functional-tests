@@ -1,7 +1,7 @@
 StageDetailsForPipelineLock
 ===========================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-lock-all-manual" - setup
 * With "1" live agents in directory "StageDetails" - setup
@@ -40,7 +40,7 @@ tags: stage-details, automate, pipeline-locking, 3659
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageDetailsForPipelineLock" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline-with-lock-all-manual" - teardown

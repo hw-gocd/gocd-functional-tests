@@ -1,7 +1,7 @@
 ParamSubstitution
 =================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-with-wierd-command" - setup
 * With "1" live agents in directory "ParamSubstitution" - setup
@@ -25,7 +25,7 @@ tags: 4207, param, params
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ParamSubstitution" - teardown
 * With "1" live agents in directory "ParamSubstitution" - teardown
 * Using pipeline "pipeline-with-wierd-command" - teardown

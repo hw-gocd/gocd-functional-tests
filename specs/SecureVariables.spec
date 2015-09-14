@@ -1,7 +1,7 @@
 SecureVariables
 ===============
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline" - setup
 * With "1" live agents in directory "SecureVariables" - setup
@@ -116,7 +116,7 @@ HACK: testing value for secure variable by reversing the value within rake task
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SecureVariables" - teardown
 * With "1" live agents in directory "SecureVariables" - teardown
 * Using pipeline "edit-pipeline" - teardown

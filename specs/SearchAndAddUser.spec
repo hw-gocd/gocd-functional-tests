@@ -1,7 +1,7 @@
 SearchAndAddUser
 ================
 
-Setup of contexts 
+Setup of contexts
 * With no users - setup
 * Secure configuration - setup
 * Login as "admin" - setup
@@ -69,7 +69,7 @@ YOU NEED TO RESTORE PASSWORD FILE PATH NOW, IF YOU WANT TO CONTINUE AFTER THIS. 
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "SearchAndAddUser" - teardown
 * With "0" live agents in directory "null" - teardown
 * Using pipeline "basic-pipeline" - teardown

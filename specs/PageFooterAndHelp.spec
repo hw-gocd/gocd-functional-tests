@@ -1,10 +1,11 @@
 PageFooterAndHelp
 =================
 
-|user name|
-|admin|
-|view|
-Setup of contexts 
+     |user name|
+     |---------|
+     |admin    |
+     |view     |
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "basic-pipeline" - setup
@@ -17,7 +18,7 @@ tags: 3246, automate
 
 * Logout - On Any Page
 
-* Login as "user name"
+* Login as <user name>
 
 * Looking at pipeline "basic-pipeline"
 * Trigger pipeline
@@ -49,7 +50,7 @@ tags: 3246, automate
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PageFooterAndHelp" - teardown
 * Using pipeline "basic-pipeline" - teardown
 * Login as "admin" - teardown

@@ -1,7 +1,7 @@
 StageWithCleanWorkingDIrAttribute
 =================================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "pipeline-clean-working-dir" - setup
 * With "1" live agents in directory "CleanDir" - setup
@@ -54,7 +54,7 @@ tags: 4232
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageWithCleanWorkingDIrAttribute" - teardown
 * With "1" live agents in directory "CleanDir" - teardown
 * Using pipeline "pipeline-clean-working-dir" - teardown

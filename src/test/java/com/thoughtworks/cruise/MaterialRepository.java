@@ -81,21 +81,21 @@ public class MaterialRepository {
 	@com.thoughtworks.gauge.Step("Commit file <fileBaseName>")
 	public void commitFile(String fileBaseName) throws Exception {
 		Repository currentRepository = currentRepository();
-		currentRepository.addFile(new File(RuntimePath.pathFor("material-files"), fileBaseName));
+		currentRepository.addFile(new File(RuntimePath.pathFor("../cruise-twist-new/material-files"), fileBaseName));
 		currentRepository.checkin(String.format("File %s", fileBaseName));
 	}
 
 	@com.thoughtworks.gauge.Step("Commit file <fileBaseName> to directory <folderToCopyTo>")
 	public void commitFileToDirectory(String fileBaseName, String folderToCopyTo) throws Exception {
 		Repository currentRepository = currentRepository();
-		currentRepository.addFile(new File(RuntimePath.pathFor("material-files"), fileBaseName), folderToCopyTo);
+		currentRepository.addFile(new File(RuntimePath.pathFor("../cruise-twist-new/material-files"), fileBaseName), folderToCopyTo);
 		currentRepository.checkin(String.format("File %s/%s", folderToCopyTo, fileBaseName));
 	}
 	
 	@com.thoughtworks.gauge.Step("Commit file <fileBaseName> to directory <folderToCopyTo> as user <username>")
 	public void commitFileToDirectoryAsUser(String fileBaseName, String folderToCopyTo, String username) throws Exception {
 		Repository currentRepository = currentRepository();
-		currentRepository.addFile(new File(RuntimePath.pathFor("material-files"), fileBaseName), folderToCopyTo);
+		currentRepository.addFile(new File(RuntimePath.pathFor("../cruise-twist-new/material-files"), fileBaseName), folderToCopyTo);
 		currentRepository.checkin(username, String.format("File %s/%s", folderToCopyTo, fileBaseName));
 	}
 

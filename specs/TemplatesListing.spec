@@ -1,7 +1,7 @@
 TemplatesListing
 ================
 
-Setup of contexts 
+Setup of contexts
 * Template admin configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1,pipeline2,pipeline3,pipeline-down,pipeline-without-template" - setup
@@ -33,7 +33,7 @@ tags: 4600, Clicky Admin
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TemplatesViewerAndEditor" - teardown
 * Using pipeline "pipeline1,pipeline2,pipeline3,pipeline-down,pipeline-without-template" - teardown
 * Login as "admin" - teardown

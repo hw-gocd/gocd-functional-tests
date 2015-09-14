@@ -1,7 +1,7 @@
 PipelineApprovalConfigurations
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline, autoFirst" - setup
 * Capture go state "PipelineApprovalConfigurations" - setup
@@ -59,7 +59,7 @@ Automatic pipeline scheduling for pipeline using template
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineApprovalConfigurations" - teardown
 * Using pipeline "edit-pipeline, autoFirst" - teardown
 * Basic configuration - teardown
