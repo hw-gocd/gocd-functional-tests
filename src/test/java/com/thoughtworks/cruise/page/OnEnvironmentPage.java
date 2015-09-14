@@ -73,6 +73,13 @@ public class OnEnvironmentPage extends CruisePage {
 
     }
 
+
+    @com.thoughtworks.gauge.Step("On Environments Page")
+    public void goToEnvironmentPage() throws Exception {
+        navigateToURL();
+
+    }
+
     @com.thoughtworks.gauge.Step("Verify pipeline is visible <pipelineName>")
 	public void verifyPipelineIsVisible(String pipelineName) throws Exception {
         findPipelineTitleLink(pipelineName);

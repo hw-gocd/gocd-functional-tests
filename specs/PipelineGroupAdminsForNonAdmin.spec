@@ -1,7 +1,7 @@
 PipelineGroupAdminsForNonAdmin
 ==============================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2,pipeline3" - setup
@@ -22,11 +22,12 @@ He has view permission for group2 and operate permission for group3.
 * Login as "notInAnyRoleA"
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate? | 
-| pipeline1 | false | false | 
-| pipeline2 | true | false | 
-| pipeline3 | false | true | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate?|
+     |-------------|-----------|------------|
+     |pipeline1    |false      |false       |
+     |pipeline2    |true       |false       |
+     |pipeline3    |false      |true        |
 
 
 * Verify admin link is disabled
@@ -41,7 +42,7 @@ Pipeline Visibility
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineGroupAdminsForNonAdmin" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline1, pipeline2,pipeline3" - teardown

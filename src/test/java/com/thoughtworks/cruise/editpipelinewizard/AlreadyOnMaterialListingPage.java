@@ -224,14 +224,13 @@ public class AlreadyOnMaterialListingPage extends AlreadyOnEditPipelineWizardPag
     }
 
 	@com.thoughtworks.gauge.Step("Verify that package with name <materialName> is added with url <url>")
-	public void verifyThatPackageWithNameIsAddedWithUrl(String materialName,
-			String url) throws Exception {
+	public void verifyThatPackageWithNameIsAddedWithUrl(String materialName, String url) throws Exception {
 		ElementStub materialLink = browser.link(materialName);
 		ElementStub materialRow = materialLink.parentNode().parentNode();
 		ElementStub materialTypeCell = browser.cell("Package").in(materialRow);
 
 		Assert.assertThat(materialLink.exists(), Is.is(true));
-		Assert.assertThat(materialRow.containsText(url), Is.is(true));		
+		Assert.assertThat(materialRow.containsText(scenarioState.expand(url)), Is.is(true));		
 		Assert.assertThat(materialTypeCell.exists(), Is.is(true));
 	}
 	

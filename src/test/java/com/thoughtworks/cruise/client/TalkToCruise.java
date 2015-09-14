@@ -24,6 +24,7 @@ import org.apache.commons.httpclient.methods.multipart.MultipartRequestEntity;
 import org.apache.commons.httpclient.methods.multipart.Part;
 import org.apache.commons.httpclient.methods.multipart.StringPart;
 
+import com.thoughtworks.cruise.client.TalkToCruise.CruiseResponse;
 import com.thoughtworks.cruise.state.CurrentUsernameProvider;
 
 public class TalkToCruise {
@@ -92,10 +93,17 @@ public class TalkToCruise {
 	}
 	
 	public CruiseResponse delete(String url) {
-        DeleteMethod del = new DeleteMethod(url);
-        return execute(url, del, true);
+        return delete(url, false);
     }
-
+	
+	public CruiseResponse delete(String url, boolean newApi) {
+        DeleteMethod del = new DeleteMethod(url);
+        if (newApi){
+        	del.addRequestHeader("Accept", "application/vnd.go.cd.v1+json");
+        }
+        return execute(url, del, true);
+	}
+	
 	public CruiseResponse getWithoutBasicAuth(String url, String headerName, String headerValue) {
 		GetMethod get = new GetMethod(url);
 		get.addRequestHeader(headerName, headerValue);
@@ -172,4 +180,5 @@ public class TalkToCruise {
 		}
 		return httpClient;
 	}
+
 }

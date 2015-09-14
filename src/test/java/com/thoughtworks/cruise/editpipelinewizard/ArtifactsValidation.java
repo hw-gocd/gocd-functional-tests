@@ -77,9 +77,13 @@ public class ArtifactsValidation {
 
 
 	@com.thoughtworks.gauge.Step("ArtifactsValidation <table>")
-	public void brtMethod(com.thoughtworks.gauge.Table table) throws Exception {
-		com.thoughtworks.twist.migration.brt.BRTMigrator.BRTExecutor(table, this);
-	
+	public void brtMethod(com.thoughtworks.gauge.Table table) throws Throwable {
+		com.thoughtworks.twist.migration.brt.BRTMigrator brtMigrator = new com.thoughtworks.twist.migration.brt.BRTMigrator();
+		try {
+			brtMigrator.BRTExecutor(table, this);
+		} catch (Exception e) {
+			throw e.getCause();
+		}
 	}
 
 	

@@ -1,7 +1,7 @@
 ServerConfigurationTabUserManagement
 ====================================
 
-Setup of contexts 
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Capture go state "ServerConfigurationTabUserManagement" - setup
@@ -25,9 +25,10 @@ Password Settings
 LDAP Settings
 * Open "Server Configuration" tab
 
-* ConfigureMailHost
-| URI | Ldap Username | Ldap Password | Search Base | Search  Filter | message? | 
-| ldap://fmtdc02.corporate.thoughtworks.com | foo | bar | ou=Employees,ou=Enterprise,ou=Principal,dc=corporate,dc=thoughtworks,dc=com | (sAMAccountName={0}) | Saved configuration successfully. | 
+* ConfigureMailHost 
+     |URI                                      |Ldap Username|Ldap Password|Search Base                                                                |Search  Filter      |message?                         |
+     |-----------------------------------------|-------------|-------------|---------------------------------------------------------------------------|--------------------|---------------------------------|
+     |ldap://fmtdc02.corporate.thoughtworks.com|foo          |bar          |ou=Employees,ou=Enterprise,ou=Principal,dc=corporate,dc=thoughtworks,dc=com|(sAMAccountName={0})|Saved configuration successfully.|
 
 * Set field "ldap_uri" to "ldap://bad-server"
 * Validate ldap should return "Cannot connect to ldap, please check the settings. Reason: bad-server:389; nested exception is javax.naming.CommunicationException: bad-server:389 [Root exception is java.net.UnknownHostException: bad-server]"
@@ -38,7 +39,7 @@ LDAP Settings
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "ServerConfigurationTabUserManagement" - teardown
 * Login as "admin" - teardown
 * Secure configuration - teardown

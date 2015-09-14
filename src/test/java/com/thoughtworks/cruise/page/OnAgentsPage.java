@@ -345,7 +345,7 @@ public class OnAgentsPage extends CruisePage {
 	}
 
 	@com.thoughtworks.gauge.Step("Select agent <element> - On Agents Page")
-	private void selectAgent(ElementStub element) {
+	public void selectAgent(ElementStub element) {
 		final ElementStub checkbox = agentCheckbox(element);
 		assertTrue(element.exists());
 		Assertions.waitUntil(Timeout.TEN_SECONDS, new Predicate() {
@@ -368,6 +368,12 @@ public class OnAgentsPage extends CruisePage {
 	@com.thoughtworks.gauge.Step("Disable an agent showing status <status>")
 	public void disableAnAgentShowingStatus(String status) throws Exception {
 		bulkEdit(elementAgentRowWithStatus(status), "Disable");
+	}
+
+
+	@com.thoughtworks.gauge.Step("On Agents Page")
+	public void goToAgentsPage() throws Exception {
+		navigateToURL();
 	}
 
 	@com.thoughtworks.gauge.Step("Disable agent <agentIndex>")

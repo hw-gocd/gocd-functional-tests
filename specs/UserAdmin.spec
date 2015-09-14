@@ -16,14 +16,15 @@ tags: 3237, security, Admin, stage1, oss
 Scenario marked as manual because of Sahi problem of navigateTo
 
 Create users in DB
-* CreateUsers
-| username | email | alias | 
-| admin | admin@tw.com | adminAlias | 
-| view | view@tw.com | zzz,viewAlias | 
-| operate | op@tw.com | opAlias | 
-| pavan | pavan@tw.com | pavanu,ps | 
-| raghu | raghu@tw.com | rrr,rags,ragsu | 
-| operatorUser | opUser@tw.com | opUser | 
+* CreateUsers 
+     |username    |email        |alias         |
+     |------------|-------------|--------------|
+     |admin       |admin@tw.com |adminAlias    |
+     |view        |view@tw.com  |zzz,viewAlias |
+     |operate     |op@tw.com    |opAlias       |
+     |pavan       |pavan@tw.com |pavanu,ps     |
+     |raghu       |raghu@tw.com |rrr,rags,ragsu|
+     |operatorUser|opUser@tw.com|opUser        |
 
 
 
@@ -45,7 +46,7 @@ Create users in DB
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "UserAdmin" - teardown
 * Using pipeline "basic-pipeline" - teardown
 * Login as "admin" - teardown

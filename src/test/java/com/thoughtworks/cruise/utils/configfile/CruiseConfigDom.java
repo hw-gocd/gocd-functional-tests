@@ -13,7 +13,6 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -26,6 +25,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.StringUtils;
 import org.dom4j.Attribute;
 import org.dom4j.Document;
@@ -723,7 +723,7 @@ public class CruiseConfigDom {
 		return pipelineNames;
 	}
 
-	public Map<String, String> replacePackageRepositoryURI() {
+	public Map<String, String> replacePackageRepositoryURIForFileSystemBasedRepos() {
 		Map<String, String> packageURI = new HashMap<String, String>();
 		List<Element> list = root().selectNodes(
 				"/cruise/repositories/repository/configuration/property/value");
@@ -745,6 +745,56 @@ public class CruiseConfigDom {
 		}
 		return packageURI;
 	}
+
+	/** Looks for variables of type: ${http_repo*} in REPO_URL property and replaces it. Example:
+     *    <repositories>
+     *        <repository id="repo-id" name="tw-repo">
+     *          <pluginConfiguration id="yum" version="1"/>
+     *          <configuration>
+     *            <property>
+     *              <key>REPO_URL</key>
+     *              <value>http://192.168.0.101:8081/${http_repo1}</value>
+     *            </property>
+     *
+     *     TO
+     *
+     *    <repositories>
+     *        <repository id="repo-id" name="tw-repo">
+     *          <pluginConfiguration id="yum" version="1"/>
+     *          <configuration>
+     *            <property>
+     *              <key>REPO_URL</key>
+     *              <value>http://192.168.0.101:8081/pkgrepo-RANDOM1234</value>
+     *            </property>
+     *
+     *      AND return a map which contains: {"http_repo1" => "pkgrepo-RANDOM1234"}
+	 */
+    public Map<String, String> replacePackageRepositoryURIForHttpBasedRepos(Map<String, String> currentRepoNames) {
+        Pattern httpRepoNameVariablePattern = Pattern.compile("\\$\\{(http_repo[^\\}]*)\\}");
+        Map<String, String> httpRepoNameInConfigToItsNameAtRuntime = new HashMap<String, String>(currentRepoNames);
+
+        List<Element> allRepoUrlPropertyKeys = root().selectNodes("/cruise//repositories/repository/configuration/property/key[text()='REPO_URL']");
+        for (Element repoUrlKeyElement : allRepoUrlPropertyKeys) {
+            Node repoUrlPropertyInConfig = repoUrlKeyElement.getParent().selectSingleNode("value");
+            String existingValueOfRepoUrl = repoUrlPropertyInConfig.getText();
+
+            Matcher matcherForVariable = httpRepoNameVariablePattern.matcher(existingValueOfRepoUrl);
+            if (matcherForVariable.find()) {
+                String variableName = matcherForVariable.group(1);
+
+                String replacementRepoName = httpRepoNameInConfigToItsNameAtRuntime.get(variableName);
+                if (!httpRepoNameInConfigToItsNameAtRuntime.containsKey(variableName)) {
+                    replacementRepoName = "pkgrepo-" + RandomStringUtils.randomAlphanumeric(10);
+                    httpRepoNameInConfigToItsNameAtRuntime.put(variableName, replacementRepoName);
+                }
+
+                String replacementRepoURL = existingValueOfRepoUrl.replaceFirst(httpRepoNameVariablePattern.pattern(), replacementRepoName);
+                repoUrlPropertyInConfig.setText(replacementRepoURL);
+            }
+        }
+
+        return httpRepoNameInConfigToItsNameAtRuntime;
+    }
 
 	private void replacePipelineInFetchArtifact(String initial, String replaced) {
 		List<Element> selectNodes = (List<Element>) root().selectNodes(
@@ -1801,31 +1851,30 @@ public class CruiseConfigDom {
 	private String customCommandSearchStringWithOutArguments(String command) {
 		return String.format("./exec[@command=\"%s\"]", command);
 	}
-	
+
 	public void deletePackageRepo(String repoId){
 		findRepo(repoId).detach();
 	}
-	
+
 	private Element findRepo(String repoId){
 		return (Element) root().selectSingleNode(
 				String.format("//repositories/repository[@id='%s']", repoId));
 	}
-	
+
 	public void addANewPackageDefinitionToRepository(String packageId,String packageSpec, String repoId) {
 		Element repo = findRepo(repoId);
-		Element packagesForRepo = (Element) repo.selectSingleNode("packages");		
+		Element packagesForRepo = (Element) repo.selectSingleNode("packages");
 		Element newPackage =  packagesForRepo.addElement("package");
 		newPackage.addAttribute("name", packageId);
 		newPackage.addAttribute("id", packageId);
 		Element packageSpecProperty = newPackage.addElement("configuration").addElement("property");
 		packageSpecProperty.addElement("key").setText("PACKAGE_SPEC");
-		packageSpecProperty.addElement("value").setText(packageSpec);					
+		packageSpecProperty.addElement("value").setText(packageSpec);
 	}
 
-	public void addPackageMaterialToPipeline(String packageId, String pipelineName) {		
+	public void addPackageMaterialToPipeline(String packageId, String pipelineName) {
 		Element pipeline = getPipeline(pipelineName);
 		Element materials = (Element) pipeline.selectSingleNode("materials");
 		materials.addElement("package").addAttribute("ref", packageId);
 	}
-
 }

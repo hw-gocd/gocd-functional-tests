@@ -1,7 +1,7 @@
 PipelineDashboardAndPipelineActivitySecurity
 ============================================
 
-Setup of contexts 
+Setup of contexts
 * Permissions configuration - setup
 * Login as "admin" - setup
 * Using pipeline "P1, p2, p3, p4" - setup
@@ -23,12 +23,13 @@ Verify that super-admin has all view and operate permissions
 
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate Using Ui? | Can Operate? | Can Pause Using Ui? | Can Pause Using Api? | 
-| P1 | true | true | true | true | true | 
-| P2 | true | true | true | true | true | 
-| P3 | true | true | true | true | true | 
-| P4 | true | true | true | true | true | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate Using Ui?|Can Operate?|Can Pause Using Ui?|Can Pause Using Api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P1           |true       |true                 |true        |true               |true                |
+     |P2           |true       |true                 |true        |true               |true                |
+     |P3           |true       |true                 |true        |true               |true                |
+     |P4           |true       |true                 |true        |true               |true                |
 
 
 
@@ -49,12 +50,13 @@ Pipeline Visibility
 
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate Using Ui? | Can Operate? | Can Pause Using Ui? | Can Pause Using Api? | 
-| P1 | true | false | false | false | false | 
-| P2 | true | true | true | true | true | 
-| P3 | true | true | true | true | true | 
-| P4 | false | false | true | false | true | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate Using Ui?|Can Operate?|Can Pause Using Ui?|Can Pause Using Api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P1           |true       |false                |false       |false              |false               |
+     |P2           |true       |true                 |true        |true               |true                |
+     |P3           |true       |true                 |true        |true               |true                |
+     |P4           |false      |false                |true        |false              |true                |
 
 
 
@@ -71,12 +73,13 @@ Pipeline Visibility
 
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate Using Ui? | Can Operate? | Can Pause Using Ui? | Can Pause Using Api? | 
-| P1 | true | false | false | false | false | 
-| P2 | false | false | false | false | false | 
-| P3 | true | true | true | true | true | 
-| P4 | false | false | false | false | false | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate Using Ui?|Can Operate?|Can Pause Using Ui?|Can Pause Using Api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P1           |true       |false                |false       |false              |false               |
+     |P2           |false      |false                |false       |false              |false               |
+     |P3           |true       |true                 |true        |true               |true                |
+     |P4           |false      |false                |false       |false              |false               |
 
 
 
@@ -92,12 +95,13 @@ Pipeline Visibility
 
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate Using Ui? | Can Operate? | Can Pause Using Ui? | Can Pause Using Api? | 
-| P1 | false | false | true | false | true | 
-| P2 | true | true | true | true | true | 
-| P3 | true | false | false | true | true | 
-| P4 | true | false | false | false | false | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate Using Ui?|Can Operate?|Can Pause Using Ui?|Can Pause Using Api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P1           |false      |false                |true        |false              |true                |
+     |P2           |true       |true                 |true        |true               |true                |
+     |P3           |true       |false                |false       |true               |true                |
+     |P4           |true       |false                |false       |false              |false               |
 
 
 
@@ -112,7 +116,7 @@ Pipeline Visibility
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDashboardAndPipelineActivitySecurity" - teardown
 * With "2" live agents in directory "PipelineDashboardSecurity" - teardown
 * Using pipeline "P1, p2, p3, p4" - teardown

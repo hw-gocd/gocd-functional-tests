@@ -1,7 +1,7 @@
 PipelineGroupPermissionsForUserWithOperateViewAndAdmin
 ======================================================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2, pipeline3" - setup
@@ -23,11 +23,12 @@ In this case, the user should have all group admin permissions on group 1 , shou
 * Login as "group1Admin"
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate? | 
-| pipeline1 | true | true | 
-| pipeline2 | false | true | 
-| pipeline3 | true | false | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate?|
+     |-------------|-----------|------------|
+     |pipeline1    |true       |true        |
+     |pipeline2    |false      |true        |
+     |pipeline3    |true       |false       |
 
 
 * Verify source xml is not visible
@@ -62,7 +63,7 @@ verify the save was successful
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineGroupPermissionsForUserWithOperateViewAndAdmin" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline1, pipeline2, pipeline3" - teardown

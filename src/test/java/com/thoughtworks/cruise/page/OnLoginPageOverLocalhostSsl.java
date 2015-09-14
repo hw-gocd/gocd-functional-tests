@@ -22,6 +22,10 @@ public class OnLoginPageOverLocalhostSsl extends OnLoginPage {
         super.loginAs(user);
     }
 
+    @com.thoughtworks.gauge.Step("On Admin page - Logged in using ssl")
+    public void goToAdminPage() {
+        navigateToURL();
+    }
     @Override
     protected String url() {
         return Urls.localhostSslUrlFor("");

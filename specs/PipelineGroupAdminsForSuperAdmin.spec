@@ -1,7 +1,7 @@
 PipelineGroupAdminsForSuperAdmin
 ================================
 
-Setup of contexts 
+Setup of contexts
 * Group admin security configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline1, pipeline2, pipeline3" - setup
@@ -17,11 +17,12 @@ This scenario tests the system for a Super Admin.
 
 
 Pipeline Visibility
-* PipelineVisibility
-| Pipeline Name | Is Visible? | Can Operate? | 
-| pipeline1 | true | true | 
-| pipeline2 | true | true | 
-| pipeline3 | true | true | 
+* PipelineVisibility 
+     |Pipeline Name|Is Visible?|Can Operate?|
+     |-------------|-----------|------------|
+     |pipeline1    |true       |true        |
+     |pipeline2    |true       |true        |
+     |pipeline3    |true       |true        |
 
 
 * Verify source xml is visible
@@ -44,7 +45,7 @@ Pipeline Visibility
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineGroupAdminsForSuperAdmin" - teardown
 * With "1" live agents in directory "StageDetails" - teardown
 * Using pipeline "pipeline1, pipeline2, pipeline3" - teardown

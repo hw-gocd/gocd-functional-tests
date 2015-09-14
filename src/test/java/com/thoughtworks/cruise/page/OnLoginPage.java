@@ -30,7 +30,7 @@ public class OnLoginPage extends CruisePage {
 
 	private void verifyLoggedInUser(final String username) {
 		Assertions.waitUntil(Timeout.THIRTY_SECONDS, new Predicate() {
-			
+
 			@Override
 			public boolean call() throws Exception {
 				ElementStub currentUser = browser.link(username);
@@ -42,7 +42,7 @@ public class OnLoginPage extends CruisePage {
 	}
 
 	private void login(final String username) {
-			loginWithUsernameAndPassword(username,"badger");
+			loginWithUsernameAndPassword(username, "badger");
 	}
 
     protected String url() {
@@ -53,6 +53,13 @@ public class OnLoginPage extends CruisePage {
 	public void loginAsShouldFailWithMessage(String username, String msg) throws Exception {
 		login(username);
 		assertLoginError(msg);
+	}
+
+
+	@com.thoughtworks.gauge.Step("On Login Page")
+	public void goToLoginPage() throws Exception {
+		navigateToURL();
+
 	}
 
 	@com.thoughtworks.gauge.Step("Assert login error <msg>")

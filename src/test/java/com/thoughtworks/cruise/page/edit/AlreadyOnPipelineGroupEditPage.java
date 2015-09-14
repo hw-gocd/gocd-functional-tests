@@ -7,6 +7,8 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import junit.framework.Assert;
 
+import org.apache.ecs.xhtml.table;
+
 import net.sf.sahi.client.Browser;
 import net.sf.sahi.client.ElementStub;
 

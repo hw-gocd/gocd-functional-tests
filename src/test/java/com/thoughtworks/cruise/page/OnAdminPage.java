@@ -7,6 +7,7 @@ import static org.junit.Assert.assertThat;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.thoughtworks.gauge.ClassInstanceManager;
 import junit.framework.Assert;
 
 import net.sf.sahi.client.Browser;
@@ -52,6 +53,11 @@ public class OnAdminPage extends CruisePage {
     @Override
     public void verifyCruiseFooter() throws Exception {
         super.verifyCruiseFooter();
+    }
+
+    @com.thoughtworks.gauge.Step("On Admin page")
+    public void goToAdminPage() throws Exception {
+        navigateToURL();
     }
 
     @com.thoughtworks.gauge.Step("Verify source xml is not visible")
@@ -186,6 +192,7 @@ public class OnAdminPage extends CruisePage {
     
     @com.thoughtworks.gauge.Step("Open <tabName> tab")
 	public void openTab(String tabName) throws Exception {
+
         browser.link(tabName).in(browser.div(Regex.wholeWord("sub_tabs_container"))).click();
         if (tabName.equals("OAuth Clients")) {
             currentPageState.currentPageIs(CurrentPageState.Page.ADMIN_OAUTH_TAB);

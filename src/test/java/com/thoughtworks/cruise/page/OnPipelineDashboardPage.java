@@ -72,6 +72,11 @@ public class OnPipelineDashboardPage extends CruisePage {
         open();
     }
 
+    @com.thoughtworks.gauge.Step("On Pipeline Dashboard Page")
+    public void goToPipelineDashboradPage() throws Exception {
+        navigateToURL();
+    }
+
     protected void reloadPage() {
         if (!autoRefresh) {
             // browser.navigateTo(Urls.urlFor(OnServerDetailPage.URL));

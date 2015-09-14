@@ -23,6 +23,7 @@ public class ScenarioState implements Replacer, CurrentUsernameProvider {
 	private Map<String, String> pipelineInstanceUrls = new HashMap<String, String>();
 	private Map<String, String> agentsByAlias= new HashMap<String, String>();
 	private Map<String, String> packageRepositoryURIMappings = new HashMap<String, String>();
+    private Map<String, String> packageRepositoryHttpRepoNames = new HashMap<String, String>();
 
 	private String currentPipeline;
 	private String currentUserName;
@@ -78,11 +79,10 @@ public class ScenarioState implements Replacer, CurrentUsernameProvider {
 		if(packageRepositoryURIMappings.values().contains(packageRepositoryName)){
 			return packageRepositoryName;
 		}
-		
+
 		throw bomb("No Package Repository found with name: " + packageRepositoryName);
-		
 	}
-	
+
 	public void pushPipeline(String key, String value) {
 		pipelineNameMappings.put(key, value);
 	}
@@ -152,10 +152,13 @@ public class ScenarioState implements Replacer, CurrentUsernameProvider {
 
 	@Override
 	public String replacementFor(String variable) {
-		return variable.startsWith("runtime_package_repo_uri") ? packageRepositoryNamed(variable.substring("runtime_package_repo_uri:".length()).trim()) : variable.startsWith("runtime_name:") ? pipelineNamed(variable.substring("runtime_name:".length()).trim()) : null;
+        if (variable.startsWith("runtime_package_repo_uri:")) return packageRepositoryNamed(getVariableValueRemovingPrefix(variable, "runtime_package_repo_uri:"));
+        if (variable.startsWith("runtime_package_http_repo_name:")) return packageRepositoryHttpRepoNamed(getVariableValueRemovingPrefix(variable, "runtime_package_http_repo_name:"));
+        else if (variable.startsWith("runtime_name:")) return pipelineNamed(variable.substring("runtime_name:".length()).trim());
+        else return null;
 	}
-	
-	public String expand(String stageLocator) {	
+
+    public String expand(String stageLocator) {	
 		return new RuntimeVariableSubstituter(this).replaceRuntimeVariables(stageLocator);
 	}
 
@@ -193,6 +196,28 @@ public class ScenarioState implements Replacer, CurrentUsernameProvider {
 
 	public void pushPackageRepositoryURI(String key, String value) {
 		packageRepositoryURIMappings.put(key, value);
-		
 	}
+
+    public void pushPackageRepositoryHttpRepoName(String key, String value) {
+        packageRepositoryHttpRepoNames.put(key, value);
+    }
+
+    public String packageRepositoryHttpRepoNamed(String key) {
+        if (packageRepositoryHttpRepoNames.containsKey(key)) {
+            return packageRepositoryHttpRepoNames.get(key);
+        }
+        throw bomb("No package repository name found for http repo: " + key);
+    }
+
+    public Map<String, String> currentlyKnownPackageRepositoryRepoNames() {
+        return packageRepositoryHttpRepoNames;
+    }
+
+    public boolean hasPackageRepositoryHttpRepoNamed(String key) {
+        return packageRepositoryHttpRepoNames.containsKey(key);
+    }
+
+    private String getVariableValueRemovingPrefix(String variable, String s) {
+        return variable.substring(s.length()).trim();
+    }
 }

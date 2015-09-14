@@ -9,7 +9,7 @@
 	      <configuration>
 	        <property>
 	          <key>REPO_URL</key>
-	          <value>http://localhost:8081/yumrepo</value>
+	          <value>http://localhost:8081/${http_repo1}</value>
 	        </property>
 	        <property>
 	          <key>USERNAME</key>
@@ -36,7 +36,7 @@
 	      <configuration>
 	        <property>
 	          <key>REPO_URL</key>
-	          <value>http://localhost:8081/yumrepo</value>
+	          <value>http://localhost:8081/${http_repo1}</value>
 	        </property>
 	        <property>
 	          <key>USERNAME</key>

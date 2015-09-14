@@ -1,7 +1,7 @@
 PipelineDashboardAndPipelineActivitySecurityAtStageLevel
 ========================================================
 
-Setup of contexts 
+Setup of contexts
 * Permissions configuration - setup
 * Login as "admin" - setup
 * Using pipeline "P5, p6,P7" - setup
@@ -23,11 +23,12 @@ tags: 6786, Permissions
 * Login as "raghu"
 
 Pipeline Visibility
-* PipelineVisibility
-| pipeline name | is visible? | can operate using ui? | can operate? | can pause using ui? | can pause using api? | 
-| P5 | true | true | true | true | true | 
-| P6 | true | true | true | true | true | 
-| P7 | true | false | false | true | true | 
+* PipelineVisibility 
+     |pipeline name|is visible?|can operate using ui?|can operate?|can pause using ui?|can pause using api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P5           |true       |true                 |true        |true               |true                |
+     |P6           |true       |true                 |true        |true               |true                |
+     |P7           |true       |false                |false       |true               |true                |
 
 
 
@@ -50,10 +51,11 @@ Pipeline Visibility
 
 Behavior of P7 is similar for user 'pavan' and 'raghu', hence not verified
 Pipeline Visibility
-* PipelineVisibility
-| pipeline name | is visible? | can operate using ui? | can operate? | can pause using ui? | can pause using api? | 
-| P5 | true | false | false | true | true | 
-| P6 | true | true | true | true | true | 
+* PipelineVisibility 
+     |pipeline name|is visible?|can operate using ui?|can operate?|can pause using ui?|can pause using api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P5           |true       |false                |false       |true               |true                |
+     |P6           |true       |true                 |true        |true               |true                |
 
 
 
@@ -86,11 +88,12 @@ Pipeline Visibility
 * Login as "group1view"
 
 Pipeline Visibility
-* PipelineVisibility
-| pipeline name | is visible? | can operate using ui? | can operate? | can pause using ui? | can pause using api? | 
-| P5 | true | true | true | true | true | 
-| P6 | true | true | true | true | true | 
-| P7 | true | true | true | true | true | 
+* PipelineVisibility 
+     |pipeline name|is visible?|can operate using ui?|can operate?|can pause using ui?|can pause using api?|
+     |-------------|-----------|---------------------|------------|-------------------|--------------------|
+     |P5           |true       |true                 |true        |true               |true                |
+     |P6           |true       |true                 |true        |true               |true                |
+     |P7           |true       |true                 |true        |true               |true                |
 
 
 * verify user has operate permissions on "defaultStage" for pipeline "P5" on Pipeline Activity Page
@@ -114,7 +117,7 @@ Pipeline Visibility
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "PipelineDashboardAndPipelineActivitySecurityAtStageLevel" - teardown
 * With "2" live agents in directory "PipelineDashboardSecurity" - teardown
 * Using pipeline "P5, p6,P7" - teardown

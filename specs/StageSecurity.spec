@@ -1,10 +1,11 @@
 StageSecurity
 =============
 
-|userName|
-|operate|
-|operatorUser|
-Setup of contexts 
+     |userName    |
+     |------------|
+     |operate     |
+     |operatorUser|
+Setup of contexts
 * Secure configuration - setup
 * Login as "admin" - setup
 * Using pipeline "pipeline-with-stage-security" - setup
@@ -40,9 +41,9 @@ tags: 2400, passwordfile support, authorisation, authentication, svn support, 15
 
 * Logout - On Any Page
 
-* Login as "userName"
+* Login as <userName>
 
-* Logged in as "userName"
+* Logged in as <userName>
 
 * Looking at pipeline "pipeline-with-stage-security"
 * Verify can trigger pipeline
@@ -57,7 +58,7 @@ tags: 2400, passwordfile support, authorisation, authentication, svn support, 15
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "StageSecurity" - teardown
 * With "1" live agents in directory "StageSecurity" - teardown
 * Using pipeline "pipeline-with-stage-security" - teardown

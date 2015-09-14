@@ -1,11 +1,12 @@
 TaskViewerAndEditor-EditFlow
 ============================
 
-|TaskIndex|Old BuildFile|New BuildFile|Old Target|New Target|Old Working Dir|New Working Dir|TaskType|OnCancel Build File|OnCancel Target|OnCancel Working Dir|Properties-View|OnCancel-TaskType|
-|1||new file name|longsleep|new target|hg/dev|blah/pwd|Ant|build.xml|on cancel|blah/on/cancel|Build File: new file name, Target: new target, Working Directory: blah/pwd|Ant|
-|2||rakeFile|all|metric-fu|hg/dev|boooo|Rake|rakeFile|target|clean/up/dir|Build File: rakeFile, Target: metric-fu, Working Directory: boooo|Rake|
-|3||default.build|all|build|hg/dev|blahaaa|NAnt|someotherfile.build|clean|blahaaa|Build File: default.build, Target: build, Working Directory: blahaaa|NAnt|
-Setup of contexts 
+     |TaskIndex|Old BuildFile|New BuildFile|Old Target|New Target|Old Working Dir|New Working Dir|TaskType|OnCancel Build File|OnCancel Target|OnCancel Working Dir|Properties-View                                                           |OnCancel-TaskType|
+     |---------|-------------|-------------|----------|----------|---------------|---------------|--------|-------------------|---------------|--------------------|--------------------------------------------------------------------------|-----------------|
+     |1        |             |new file name|longsleep |new target|hg/dev         |blah/pwd       |Ant     |build.xml          |on cancel      |blah/on/cancel      |Build File: new file name, Target: new target, Working Directory: blah/pwd|Ant              |
+     |2        |             |rakeFile     |all       |metric-fu |hg/dev         |boooo          |Rake    |rakeFile           |target         |clean/up/dir        |Build File: rakeFile, Target: metric-fu, Working Directory: boooo         |Rake             |
+     |3        |             |default.build|all       |build     |hg/dev         |blahaaa        |NAnt    |someotherfile.build|clean          |blahaaa             |Build File: default.build, Target: build, Working Directory: blahaaa      |NAnt             |
+Setup of contexts
 * Basic configuration - setup
 * Using pipeline "edit-pipeline-with-tasks" - setup
 * Capture go state "TaskViewerAndEditor-EditFlow" - setup
@@ -29,7 +30,7 @@ tags: 4700, 4702, Clicky Admin
 Edit preconfigured task and add the same task type as an oncancel task
 * Open tasks
 
-* Open task "TaskIndex"
+* Open task <TaskIndex>
 
 * Verify build file is <Old BuildFile>
 * Enter build file as <New BuildFile>
@@ -49,7 +50,7 @@ Edit preconfigured task and add the same task type as an oncancel task
 
 
 
-Teardown of contexts 
+Teardown of contexts
 * Capture go state "TaskViewerAndEditor-EditFlow" - teardown
 * Using pipeline "edit-pipeline-with-tasks" - teardown
 * Basic configuration - teardown
