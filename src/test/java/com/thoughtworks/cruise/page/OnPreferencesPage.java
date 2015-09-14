@@ -19,6 +19,12 @@ public class OnPreferencesPage extends CruisePage {
 	public void verifyPageTitleIs(String expectedTitle) {
 		super.verifyPageTitleIs(expectedTitle);
 	}
+
+
+	@com.thoughtworks.gauge.Step("On Preferences page")
+	public void goToPreferencePage() {
+		navigateToURL();
+	}
 	
 	@com.thoughtworks.gauge.Step("Verify cruise footer - On preferences page")
 	@Override
