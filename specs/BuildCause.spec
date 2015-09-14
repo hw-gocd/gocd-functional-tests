@@ -20,6 +20,7 @@ tags: 3915, pipeline, automate, failing, stage1
 * Verify modification "0" has latest revision
 * Verify material has changed - Already On Build Cause Section
 
+* On Pipeline Dashboard Page
 * Trigger pipelines "down" and wait for labels "1" to pass
 * Navigate to materials for "down" "1" "defaultStage" "1"
 
@@ -27,6 +28,7 @@ tags: 3915, pipeline, automate, failing, stage1
 * Verify modification "0" has revision "${runtime_name:up}/1/defaultStage/1" - Already On Build Cause Section
 * Verify material has changed - Already On Build Cause Section
 
+* On Pipeline Dashboard Page
 * Looking at pipeline "down"
 * Open changes section for counter "1"
 
@@ -38,6 +40,7 @@ tags: 3915, pipeline, automate, failing, stage1
 * Checkin file "foo.txt" as user "user" with message "Comment user"
 * Checkin file "bar.txt" as user "loser" with message "Comment loser"
 
+* On Pipeline Dashboard Page
 * Trigger pipelines "up" and wait for labels "2" to pass
 * Navigate to materials for "up" "2" "defaultStage" "1"
 
@@ -46,6 +49,7 @@ tags: 3915, pipeline, automate, failing, stage1
 * Verify modification "1" is checked in by "user" with comment "Comment user"
 * Verify material has changed - Already On Build Cause Section
 
+* On Pipeline Dashboard Page
 * Trigger pipelines "up" and wait for labels "3" to pass
 * Navigate to materials for "up" "3" "defaultStage" "1"
 
@@ -53,6 +57,7 @@ tags: 3915, pipeline, automate, failing, stage1
 * Verify modification "0" is checked in by "loser" with comment "Comment loser"
 * Verify material has not changed - Already On Build Cause Section
 
+* On Pipeline Dashboard Page
 * Trigger pipelines "down" and wait for labels "2" to pass
 * Navigate to materials for "down" "2" "defaultStage" "1"
 
@@ -60,6 +65,7 @@ tags: 3915, pipeline, automate, failing, stage1
 * Verify modification "0" has revision "${runtime_name:up}/3/defaultStage/1" - Already On Build Cause Section
 * Verify material has changed - Already On Build Cause Section
 
+* On Pipeline Dashboard Page
 * Trigger pipelines "down" and wait for labels "3" to pass
 * Navigate to materials for "down" "3" "defaultStage" "1"
 

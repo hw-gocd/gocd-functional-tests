@@ -18,9 +18,11 @@ tags: agent management, svn support, agent auto-discover, 3093, automate
 * Trigger pipeline
 * Verify stage "1" is "Building" on pipeline with label "1"
 
+* On Agents Page
 * Verify none of the agents are building
 * Remove environment "uat" from agents "2"
 
+* On Pipeline Dashboard Page
 * Looking at pipeline "basic-pipeline-fast"
 * Verify stage "1" is "Passed" on pipeline with label "1"
 

@@ -3,7 +3,7 @@ FanInBehaviorStageFailAndCancel
 
 Setup of contexts
 * Fanin configuration - setup
-* Using pipeline "FS1, fS2, fS3" - setup
+* Using pipeline "FS1, FS2, FS3" - setup
 * With "2" live agents in directory "FanInBehaviorStageFailAndCancel" - setup
 * Capture go state "FanInBehaviorStageFailAndCancel" - setup
 

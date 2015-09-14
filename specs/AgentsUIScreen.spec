@@ -51,6 +51,7 @@ Building status check
 * Looking at pipeline "basic-pipeline-run-till-file-exists"
 * Trigger pipeline
 
+* On Agents Page
 * Wait for agent to show status "building"
 * Verify clicking the link "building" navigates to the job detail page
 
@@ -80,6 +81,7 @@ cancelling an agent
 
 * Cancel "defaultStage" - Already On Stage Detail Page
 
+* On Agents Page
 * Wait for agent to show status "building (cancelled)"
 * Verify clicking the link "building (cancelled)" navigates to the job detail page
 
@@ -105,9 +107,11 @@ Able to add a disabled agent to an environment
 
 * Adding pipeline "basic-pipeline-slow" to "a-env" environment
 
+* On Pipeline Dashboard Page
 * Looking at pipeline "basic-pipeline-slow"
 * Trigger pipeline
 
+* On Agents Page
 * Verify none of the agents are building
 * Enable agent "2"
 * Wait for agent to show status "building"

@@ -37,7 +37,10 @@ Story: 4911 - Add a new template
 
 * Verify no tasks exists
 
+
 Story: 5105 -  Create template from an existing pipeline
+
+* On Admin page
 
 * Open "Templates" tab
 
@@ -53,6 +56,8 @@ Story: 5105 -  Create template from an existing pipeline
 
 * Verify "first" stage is present
 
+* On Admin page
+
 * Open "Pipelines" tab
 
 * Edit pipeline "simple-pipeline"
@@ -66,6 +71,8 @@ Story: 5105 -  Create template from an existing pipeline
 * Go to environment variables page
 
 * Verify that "simple-pipeline" has variable named "NAME" with value "hucha_raghuveer"
+
+* On Admin page
 
 * Open "Pipelines" tab
 

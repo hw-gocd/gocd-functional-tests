@@ -3,7 +3,7 @@ FanInBehaviorWithDifferentConfiguration
 
 Setup of contexts
 * Fanin configuration - setup
-* Using pipeline "C1, c2, c3, c4-man, c5, c6-auto-s" - setup
+* Using pipeline "C1, C2, C3, C4-man, C5, C6-auto-s" - setup
 * With "1" live agents in directory "StageDetails" - setup
 * Capture go state "FanInBehaviorWithDifferentConfiguration" - setup
 

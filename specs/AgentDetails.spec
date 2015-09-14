@@ -66,7 +66,7 @@ sort by job
 * Verify row "3" has pipeline "${runtime_name: basic}" stage "secondStage" job "secondJob" for pipeline counter "1" and stage counter "1" with result "Passed"
 * Verify row "4" has pipeline "${runtime_name: normal-pipeline}" stage "a-stage" job "z-job" for pipeline counter "1" and stage counter "1" with result "Passed"
 
-
+* On Pipeline Dashboard Page
 
 * Looking at pipeline "failing-pipeline"
 * Navigate to stage "failingStage" of run "1" having counter "1"
@@ -78,6 +78,7 @@ sort by job
 verify it navigated to agent details page
 * Navigate to job run history
 
+* On Pipeline Dashboard Page
 
 * Looking at pipeline "failing-pipeline"
 * Navigate to stage "failingStage" of run "1" having counter "1"
@@ -92,6 +93,8 @@ verify it navigated to agent details page
 verify that view and operate user cannot see job history tab
 * Logout and login as "group1Admin"
 
+* On Agents Page
+
 * Click on the live agent to go to the details page
 
 * Verify presence of tabs "Details"
@@ -99,6 +102,8 @@ verify that view and operate user cannot see job history tab
 
 verify that a groupadmin cannot see job history tab
 * Logout and login as "group2Admin"
+
+* On Agents Page
 
 * Click on the live agent to go to the details page
 

@@ -3,7 +3,7 @@ FanInBehaviorForTriggerWithOptions
 
 Setup of contexts
 * Fanin configuration - setup
-* Using pipeline "FTO1, fTO2, fTO3, fTO4, fTO5" - setup
+* Using pipeline "FTO1, FTO2, FTO3, FTO4, FTO5" - setup
 * With "2" live agents in directory "FanInBehaviorForTriggerWithOptions" - setup
 * Capture go state "FanInBehaviorForTriggerWithOptions" - setup
 

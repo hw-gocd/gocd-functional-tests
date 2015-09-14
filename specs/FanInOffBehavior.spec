@@ -3,7 +3,7 @@ FanInOffBehavior
 
 Setup of contexts
 * Fanin configuration - setup
-* Using pipeline "C1, c2, c3, c4-auto-new, c5" - setup
+* Using pipeline "C1, C2, C3, C4-auto-new, C5" - setup
 * With "2" live agents in directory "StageDetails" - setup
 * Capture go state "FanInOffBehavior" - setup
 

@@ -3,7 +3,7 @@ FaninMultipleStagesDeepTriangle
 
 Setup of contexts
 * Fanin configuration - setup
-* Using pipeline "DeepC1, deepC2, deepC3, deepC4-auto, deepC5, deepC6" - setup
+* Using pipeline "DeepC1, DeepC2, DeepC3, DeepC4-auto, DeepC5, DeepC6" - setup
 * With "3" live agents in directory "StageDetails" - setup
 * Capture go state "FaninMultipleStagesDeepTriangle" - setup
 

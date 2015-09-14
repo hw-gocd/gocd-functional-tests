@@ -32,6 +32,7 @@ tags: 4248, oAuth, windows
 
 * Login as "admin" - On Login Page Over Localhost Ssl
 
+* On Admin page - Logged in using ssl
 * Open "OAuth Clients" tab
 
 * Delete all client entries
@@ -43,7 +44,7 @@ Populate OAuth Clients
      |------------|------------------------|
      |twist-client|/dummy_not_in_production|
 
-
+* On Admin page
 * Open "OAuth Clients" tab
 
 * Remember client entries for "twist-client"
