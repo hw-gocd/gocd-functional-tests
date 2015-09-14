@@ -45,6 +45,6 @@ Teardown of contexts
 * Capture go state "EnvironmentsScreenPermissions" - teardown
 * Using pipeline "basic-pipeline,admin-pipeline,environment-pipeline,basic-pipeline-slow" - teardown
 * Login as "admin" - teardown
-* SecureConfiguration - teardown
+* Secure configuration - teardown
 
 
