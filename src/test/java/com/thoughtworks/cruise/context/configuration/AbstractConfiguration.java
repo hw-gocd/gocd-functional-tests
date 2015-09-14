@@ -58,19 +58,9 @@ public abstract class AbstractConfiguration {
 		String configXmlContents = FileUtil.readToEnd(getClass().getResourceAsStream(path));
 		CruiseConfigDom dom = new CruiseConfigDom(configXmlContents);
 		replacePipelineNames(dom);
-		replacePackageRepositoryURL(dom);
 		
 		postProcess(dom);
 		config.setDom(dom);
-	}
-
-	private void replacePackageRepositoryURL(CruiseConfigDom dom) throws DocumentException, SAXException, URISyntaxException {
-		Map<String, String> packageRepositoryURIs = dom.replacePackageRepositoryURI();
-		for (Entry<String, String> packageRepositoryURI : packageRepositoryURIs.entrySet()) {
-			state.pushPackageRepositoryURI(packageRepositoryURI.getKey(), packageRepositoryURI.getValue());
-		}
-		
-		
 	}
 
 	protected void postProcess(CruiseConfigDom dom) throws Exception {
