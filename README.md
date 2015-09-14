@@ -10,7 +10,6 @@
 * ```$ brew cask install firefox```
 * ```$ gauge --install java```
 * ```$ gauge --install html-report```
-* ```$ mvn validate```
 
 ## Prepare
 * cd to ```gocd``` codebase, run : ```$ ./bn clean
