@@ -8,7 +8,7 @@ Setup of contexts
 NewCruiseInvalidLicense
 -----------------------
 
-tags: licensing, restful api
+tags: licensing, restful api, manual
 
 
 NO IDEA WHAT THIS MEANS! (Sachin)

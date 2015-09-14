@@ -7,7 +7,7 @@ Setup of contexts
 NewAdminRoles
 -------------
 
-tags: 1952, authentication, passwordfile support, security
+tags: 1952, authentication, passwordfile support, security, manual
 
 Happy Path
 

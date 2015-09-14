@@ -10,7 +10,7 @@ Setup of contexts
 EnvironmentsScreenAutoRefresh
 -----------------------------
 
-tags: environment, ajax, 3505, automate, deployment lightbox
+tags: environment, ajax, 3505, automate, deployment lightbox, manual
 
 Verify that the Environments screen automatically refreshes using Ajax. By default a page opens without autorefresh. We need to explicitly turn it on when we want it during open.
 

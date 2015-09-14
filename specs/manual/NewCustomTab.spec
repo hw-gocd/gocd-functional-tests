@@ -8,7 +8,7 @@ Setup of contexts
 NewCustomTab
 ------------
 
-tags: svn support, customizable reports, scheduling
+tags: svn support, customizable reports, scheduling, manual
 
 
 * open job detail

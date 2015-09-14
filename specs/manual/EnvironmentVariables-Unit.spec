@@ -7,7 +7,7 @@ Setup of contexts
 EnvironmentVariables-Unit
 -------------------------
 
-tags: 3314, environment, environment variables, unit
+tags: 3314, environment, environment variables, unit, manual
 
 * verify user can not add a "variables" tag outside environment tag
 * validate name validations for "variables" tag

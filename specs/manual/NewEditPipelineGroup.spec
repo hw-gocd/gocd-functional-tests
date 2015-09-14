@@ -9,7 +9,7 @@ Setup of contexts
 NewEditPipelineGroup
 --------------------
 
-tags: admin-page, #2724, pipeline-group, administration
+tags: admin-page, #2724, pipeline-group, administration, manual
 
 * login as "user-admin"
 * open admin configration wizard page

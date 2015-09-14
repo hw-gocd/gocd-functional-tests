@@ -8,7 +8,7 @@ Setup of contexts
 NewPipelineHistoryPage
 ----------------------
 
-tags: 1256, svn support, dashboard
+tags: 1256, svn support, dashboard, manual
 
 Can't be automated.
 

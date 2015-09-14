@@ -4,7 +4,7 @@ HungJobManualScenarios
 HungJobManualScenarios
 ----------------------
 
-tags: 4584, Hung Job
+tags: 4584, Hung Job, manual
 
 Scenario:  Job runs normally and produces console output
 

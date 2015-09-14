@@ -8,7 +8,7 @@ Setup of contexts
 NewMultipleMaterials
 --------------------
 
-tags: 1120, dashboard, configuration, in-progress, svn support, mingle integration
+tags: 1120, dashboard, configuration, in-progress, svn support, mingle integration, manual
 
 
 to finish multiple materials (feature for non-free license)

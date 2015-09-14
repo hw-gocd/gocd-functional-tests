@@ -10,7 +10,7 @@ Setup of contexts
 ApiAndFeedSecurity
 ------------------
 
-tags: 3351, 3365, feeds, shine
+tags: 3351, 3365, feeds, shine, manual
 
 * looking at pipeline "basic-pipeline-fast"
 * trigger pipeline

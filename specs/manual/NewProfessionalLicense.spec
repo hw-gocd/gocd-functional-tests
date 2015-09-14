@@ -10,7 +10,7 @@ Setup of contexts
 NewProfessionalLicense
 ----------------------
 
-tags: #2777, licensing, security, professional license
+tags: #2777, licensing, security, professional license, manual
 
 Old twist test - AllowProfessionalLicenseUseFeatures.scn
 

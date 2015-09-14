@@ -4,7 +4,7 @@ LicenseViolationCheck-Manual
 LicenseViolationCheck-Manual
 ----------------------------
 
-tags: 5187, timer, manual, license, expiry
+tags: 5187, timer, manual, license, expiry, manual
 
 * given license is about to expire in "1" minute from now
 * the server is running with "1" remote agent

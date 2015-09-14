@@ -7,7 +7,7 @@ Setup of contexts
 JobsOnMatchingAgents-Unit
 -------------------------
 
-tags: 3102, job template, unit
+tags: 3102, job template, unit, manual
 
 * verify that a stage can contain jobs with run-on tag along with a job with no run-on tag
 * verify that tasks and resources are not mandatory for a job run-on

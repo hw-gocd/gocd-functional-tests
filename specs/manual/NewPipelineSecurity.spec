@@ -11,7 +11,7 @@ Setup of contexts
 NewPipelineSecurity
 -------------------
 
-tags: #2400, #2786, security, passwordfile support, authorisation, authentication, svn support, #2514, exploratory
+tags: #2400, #2786, security, passwordfile support, authorisation, authentication, svn support, #2514, exploratory, manual
 
 Old twist test - AnyUserCanOperateWhenNoAuthorizationDefined.scn
 

@@ -3,7 +3,7 @@ DuplicatePipelineManual
 
 DuplicatePipelineManual
 -----------------------
-
+tags: manual
 
 Scenario: user should be able to clone a pipeline that has been created from the scratch
 * Pipeline that has been created from the scratch

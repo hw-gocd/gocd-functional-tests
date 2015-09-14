@@ -7,7 +7,7 @@ Setup of contexts
 CleanUpArtifacts-Manual
 -----------------------
 
-tags: 1920, Clicky Admin, administration
+tags: 1920, Clicky Admin, administration, manual
 
 Scenario : Migration related scenario
 

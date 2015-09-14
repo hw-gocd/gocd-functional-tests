@@ -9,7 +9,7 @@ Setup of contexts
 MaterialUpdateHungStatusMessage
 -------------------------------
 
-tags: 6667
+tags: 6667, manual
 
 Start the server with setting -Dmaterial.update.idle.timeout=60000 to see the warning message within 1 min.
 The default is 15 mins.

@@ -8,7 +8,7 @@ Setup of contexts
 NewJsonpSupport
 ---------------
 
-tags: svn support, customizable reports, scheduling
+tags: svn support, customizable reports, scheduling, manual
 
 
 to support JSONP, then user can write a Go macro for Mingle

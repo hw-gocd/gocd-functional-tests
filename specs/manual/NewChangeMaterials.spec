@@ -10,7 +10,7 @@ Setup of contexts
 NewChangeMaterials
 ------------------
 
-tags: git support, rake support, 1995, gui config
+tags: git support, rake support, 1995, gui config, manual
 
 * looking at pipeline "basic-auto-pipeline"
 * wait for first stage to pass with pipeline label "1"

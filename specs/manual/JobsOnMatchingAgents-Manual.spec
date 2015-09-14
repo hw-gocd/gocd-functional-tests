@@ -7,7 +7,7 @@ Setup of contexts
 JobsOnMatchingAgents-Manual
 ---------------------------
 
-tags: 3102, job template, manual, 3307
+tags: 3102, job template, manual, 3307, manual
 
 * verify a stage that contains jobs and job run-ons run both these
 * verify that the configuration file does not convert job run-ons into jobs to show in the config file

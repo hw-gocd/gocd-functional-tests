@@ -7,7 +7,7 @@ Setup of contexts
 NewEnvironments
 ---------------
 
-tags: 2808, environment, UI
+tags: 2808, environment, UI, manual
 
 
 * verify that multiple instances of the same pipeline can run and they use agents from the environment

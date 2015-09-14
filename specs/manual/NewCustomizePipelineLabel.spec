@@ -7,7 +7,7 @@ Setup of contexts
 NewCustomizePipelineLabel
 -------------------------
 
-tags: admin
+tags: admin, manual
 
 
 * configure label with a template "hello world" for pipeline "abc"

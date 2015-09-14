@@ -8,7 +8,7 @@ Setup of contexts
 NewFreeLicense
 --------------
 
-tags: #2760, licensing, free license, #2403, #2514
+tags: #2760, licensing, free license, #2403, #2514, manual
 
 Old Twist test - AgentLicensing.scn
 

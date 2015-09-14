@@ -7,7 +7,7 @@ Setup of contexts
 JobPropertiesManualTests
 ------------------------
 
-tags: 2251, 2512, job properties, 3081
+tags: 2251, 2512, job properties, 3081, manual
 
 Job Properties manual testing cases
 

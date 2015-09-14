@@ -8,7 +8,7 @@ Setup of contexts
 NewCannotAutomateNowSceanrios
 -----------------------------
 
-tags: agent management, svn support, scheduling, agent auto-discover
+tags: agent management, svn support, scheduling, agent auto-discover, manual
 
 
 

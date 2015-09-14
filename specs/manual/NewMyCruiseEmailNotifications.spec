@@ -10,7 +10,7 @@ Setup of contexts
 NewMyCruiseEmailNotifications
 -----------------------------
 
-tags: #2271, project filtering, passwordfile support, svn support, diagnostics messages, #1458, personal notification, #2708
+tags: #2271, project filtering, passwordfile support, svn support, diagnostics messages, #1458, personal notification, #2708, manual
 
 test case - add a filter
 
